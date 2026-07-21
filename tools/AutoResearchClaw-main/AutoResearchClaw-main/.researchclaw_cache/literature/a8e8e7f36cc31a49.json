@@ -1,0 +1,1257 @@
+{
+  "query": "test-driven science",
+  "source": "openalex",
+  "limit": 15,
+  "timestamp": 1783733501.1741066,
+  "papers": [
+    {
+      "paper_id": "oalex-W2774486220",
+      "title": "<b>lmerTest</b> Package: Tests in Linear Mixed Effects Models",
+      "authors": [
+        {
+          "name": "Alexandra Kuznetsova",
+          "affiliation": "Technical University of Denmark"
+        },
+        {
+          "name": "Per B. Brockhoff",
+          "affiliation": "Technical University of Denmark"
+        },
+        {
+          "name": "Rune Haubo Bojesen Christensen",
+          "affiliation": "Technical University of Denmark"
+        }
+      ],
+      "year": 2017,
+      "abstract": "One of the frequent questions by users of the mixed model function lmer of the lme4 package has been: How can I get p values for the F and t tests for objects returned by lmer? The lmerTest package extends the 'lmerMod' class of the lme4 package, by overloading the anova and summary functions by providing p values for tests for fixed effects. We have implemented the Satterthwaite's method for approximating degrees of freedom for the t and F tests. We have also implemented the construction of Type I - III ANOVA tables. Furthermore, one may also obtain the summary as well as the anova table using the Kenward-Roger approximation for denominator degrees of freedom (based on the KRmodcomp function from the pbkrtest package). Some other convenient mixed model analysis tools such as a step method, that performs backward elimination of nonsignificant effects - both random and fixed, calculation of population means and multiple comparison tests together with plot facilities are provided by the package as well.",
+      "venue": "Journal of Statistical Software",
+      "citation_count": 23641,
+      "doi": "10.18637/jss.v082.i13",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.18637/jss.v082.i13",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2127526402",
+      "title": "Management Research Based on the Paradigm of the Design Sciences: The Quest for Field\u2010Tested and Grounded Technological Rules",
+      "authors": [
+        {
+          "name": "Joan E. van Aken",
+          "affiliation": "Eindhoven University of Technology"
+        }
+      ],
+      "year": 2004,
+      "abstract": "ABSTRACT Academic management research has a serious utilization problem. In this field mainstream research tends to be description\u2010driven, based on the paradigm of the \u2018explanatory sciences\u2019, like physics and sociology, and resulting in what may be called Organization Theory. This article argues that the relevance problem can be mitigated if such research were to be complemented with prescription\u2010driven research, based on the paradigm of the \u2018design sciences\u2019, like Medicine and Engineering, and resulting in what may be called Management Theory. The typical research products in Management Theory would be \u2018field\u2010tested and grounded technological rules\u2019. The nature of such rules is discussed as well as the research strategies producing them.",
+      "venue": "Journal of Management Studies",
+      "citation_count": 1289,
+      "doi": "10.1111/j.1467-6486.2004.00430.x",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1111/j.1467-6486.2004.00430.x",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3123625288",
+      "title": "Management Research Based on the Paradigm of the Design Sciences: The Quest for Field-Tested and Grounded Technological Rules",
+      "authors": [
+        {
+          "name": "van Je Joan Aken",
+          "affiliation": "Eindhoven University of Technology"
+        },
+        {
+          "name": "E Joan",
+          "affiliation": ""
+        }
+      ],
+      "year": 2004,
+      "abstract": "Academic management research has a serious utilization problem. In this field, mainstream research tends to be description-driven, based on the paradigm of the 'explanatory sciences', like physics and sociology, and resulting in what may be called Organization Theory. This article argues that the relevance problem can be mitigated if such research were to be complemented with prescription-driven research, based on the paradigm of the 'design sciences', like Medicine and Engineering, and resulting in what may be called Management Theory. The typical research products in Management Theory would be 'field-tested and grounded technological rules'. The nature of such rules is discussed as well as the research strategies producing them.",
+      "venue": "SSRN Electronic Journal",
+      "citation_count": 872,
+      "doi": "",
+      "arxiv_id": "",
+      "url": "https://openalex.org/W3123625288",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2123879591",
+      "title": "Systematic RNA interference reveals that oncogenic KRAS-driven cancers require TBK1",
+      "authors": [
+        {
+          "name": "David A. Barbie",
+          "affiliation": "Dana-Farber Cancer Institute"
+        },
+        {
+          "name": "Pablo Tamayo",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Jesse S. Boehm",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "So Young Kim",
+          "affiliation": "Dana-Farber Cancer Institute"
+        },
+        {
+          "name": "Susan E. Moody",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Ian F. Dunn",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Anna C. Schinzel",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "P\u00e9ter Sandy",
+          "affiliation": "Allen Institute"
+        },
+        {
+          "name": "Etienne Meylan",
+          "affiliation": "Allen Institute"
+        },
+        {
+          "name": "Claudia Scholl",
+          "affiliation": "Brigham and Women's Hospital"
+        },
+        {
+          "name": "Stefan Fr\u00f6hling",
+          "affiliation": "Brigham and Women's Hospital"
+        },
+        {
+          "name": "Edmond M. Chan",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Martin L. Sos",
+          "affiliation": "Max Planck Society"
+        },
+        {
+          "name": "Kathrin Michel",
+          "affiliation": "Max Planck Society"
+        },
+        {
+          "name": "Craig H. Mermel",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Serena J. Silver",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Barbara A. Weir",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Jan H. Reiling",
+          "affiliation": "Whitehead Institute for Biomedical Research"
+        },
+        {
+          "name": "Qing Sheng",
+          "affiliation": ""
+        },
+        {
+          "name": "Piyush B. Gupta",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Raymond Wadlow",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Hanh Le",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Sebastian Hoersch",
+          "affiliation": "Allen Institute"
+        },
+        {
+          "name": "Ben S. Wittner",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Sridhar Ramaswamy",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "David M. Livingston",
+          "affiliation": ""
+        },
+        {
+          "name": "David M. Sabatini",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Matthew Meyerson",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Roman K. Thomas",
+          "affiliation": "Max Planck Society"
+        },
+        {
+          "name": "Eric S. Lander",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Jill P. Mesirov",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "David E. Root",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "D. Gary Gilliland",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Tyler Jacks",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "William C. Hahn",
+          "affiliation": "Broad Institute"
+        }
+      ],
+      "year": 2009,
+      "abstract": "",
+      "venue": "Nature",
+      "citation_count": 4218,
+      "doi": "10.1038/nature08460",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/nature08460",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2884430236",
+      "title": "Machine learning for molecular and materials science",
+      "authors": [
+        {
+          "name": "Keith T. Butler",
+          "affiliation": "Research Complex at Harwell"
+        },
+        {
+          "name": "Daniel W. Davies",
+          "affiliation": "University of Bath"
+        },
+        {
+          "name": "Hugh Cartwright",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Olexandr Isayev",
+          "affiliation": "University of North Carolina at Chapel Hill"
+        },
+        {
+          "name": "Aron Walsh",
+          "affiliation": "Yonsei University"
+        }
+      ],
+      "year": 2018,
+      "abstract": "",
+      "venue": "Nature",
+      "citation_count": 4600,
+      "doi": "10.1038/s41586-018-0337-2",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41586-018-0337-2",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3015197879",
+      "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+      "authors": [
+        {
+          "name": "Emily A. Holmes",
+          "affiliation": "Uppsala University"
+        },
+        {
+          "name": "Rory C. O\u2019Connor",
+          "affiliation": "University of Glasgow"
+        },
+        {
+          "name": "V. Hugh Perry",
+          "affiliation": "UK Dementia Research Institute"
+        },
+        {
+          "name": "Irene Tracey",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Simon Wessely",
+          "affiliation": "King's College London"
+        },
+        {
+          "name": "Louise Arseneault",
+          "affiliation": "King's College London"
+        },
+        {
+          "name": "Clive Ballard",
+          "affiliation": "University of Exeter"
+        },
+        {
+          "name": "Helen Christensen",
+          "affiliation": "Black Dog Institute"
+        },
+        {
+          "name": "Roxane Cohen Silver",
+          "affiliation": "University of California, Irvine"
+        },
+        {
+          "name": "Ian Everall",
+          "affiliation": "King's College London"
+        },
+        {
+          "name": "Tamsin Ford",
+          "affiliation": "University of Cambridge"
+        },
+        {
+          "name": "Ann John",
+          "affiliation": "Swansea University"
+        },
+        {
+          "name": "Thomas Kabir",
+          "affiliation": "McPin Foundation"
+        },
+        {
+          "name": "Kate King",
+          "affiliation": ""
+        },
+        {
+          "name": "Ira Madan",
+          "affiliation": "Guy's and St Thomas' NHS Foundation Trust"
+        },
+        {
+          "name": "Susan Michie",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Andrew K Przybylski",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Roz Shafran",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Angela Sweeney",
+          "affiliation": "St George's, University of London"
+        },
+        {
+          "name": "Carol M. Worthman",
+          "affiliation": "Emory University"
+        },
+        {
+          "name": "Lucy Yardley",
+          "affiliation": "University of Bristol"
+        },
+        {
+          "name": "Katherine Cowan",
+          "affiliation": ""
+        },
+        {
+          "name": "Claire Cope",
+          "affiliation": "Academy of Medical Sciences"
+        },
+        {
+          "name": "Matthew Hotopf",
+          "affiliation": "King's College London"
+        },
+        {
+          "name": "Edward T. Bullmore",
+          "affiliation": "University of Cambridge"
+        }
+      ],
+      "year": 2020,
+      "abstract": "",
+      "venue": "The Lancet Psychiatry",
+      "citation_count": 6058,
+      "doi": "10.1016/s2215-0366(20)30168-1",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1016/s2215-0366(20)30168-1",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2924382816",
+      "title": "Data-driven prediction of battery cycle life before capacity degradation",
+      "authors": [
+        {
+          "name": "Kristen Severson",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Peter M. Attia",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Norman Jin",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Nicholas Perkins",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Benben Jiang",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Zi Yang",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Michael H. Chen",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Muratahan Aykol",
+          "affiliation": "Toyota Research Institute"
+        },
+        {
+          "name": "Patrick K. Herring",
+          "affiliation": "Toyota Research Institute"
+        },
+        {
+          "name": "Dimitrios Fraggedakis",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Martin Z. Bazant",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Stephen J. Harris",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "William C. Chueh",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Richard D. Braatz",
+          "affiliation": "Massachusetts Institute of Technology"
+        }
+      ],
+      "year": 2019,
+      "abstract": "",
+      "venue": "Nature Energy",
+      "citation_count": 2890,
+      "doi": "10.1038/s41560-019-0356-8",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41560-019-0356-8",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3123529374",
+      "title": "Stock market driven acquisitions",
+      "authors": [
+        {
+          "name": "Andrei Shleifer",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Robert W. Vishny",
+          "affiliation": "University of Chicago"
+        }
+      ],
+      "year": 2003,
+      "abstract": "",
+      "venue": "Journal of Financial Economics",
+      "citation_count": 2192,
+      "doi": "10.1016/s0304-405x(03)00211-3",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1016/s0304-405x(03)00211-3",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2570760970",
+      "title": "A manifesto for reproducible science",
+      "authors": [
+        {
+          "name": "Marcus R. Munaf\u00f2",
+          "affiliation": "University of Bristol"
+        },
+        {
+          "name": "Brian A. Nosek",
+          "affiliation": "Center for Open Science"
+        },
+        {
+          "name": "Dorothy Bishop",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Katherine S. Button",
+          "affiliation": "University of Bath"
+        },
+        {
+          "name": "Chris Chambers",
+          "affiliation": "Cardiff University"
+        },
+        {
+          "name": "Nathalie Percie du Sert",
+          "affiliation": "National Centre for the Replacement Refinement and Reduction of Animals in Research"
+        },
+        {
+          "name": "Uri Simonsohn",
+          "affiliation": "University of Pennsylvania"
+        },
+        {
+          "name": "Eric\u2010Jan Wagenmakers",
+          "affiliation": "Amsterdam University of Applied Sciences"
+        },
+        {
+          "name": "Jennifer J. Ware",
+          "affiliation": "CHDI Foundation"
+        },
+        {
+          "name": "John P. A. Ioannidis",
+          "affiliation": "Stanford Health Care"
+        }
+      ],
+      "year": 2017,
+      "abstract": "Improving the reliability and efficiency of scientific research will increase the credibility of the published scientific literature and accelerate discovery. Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives. There is some evidence from both simulations and empirical studies supporting the likely effectiveness of these measures, but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement. We discuss the goals of these measures, and how they can be implemented, in the hope that this will facilitate action toward improving the transparency, reproducibility and efficiency of scientific research.",
+      "venue": "Nature Human Behaviour",
+      "citation_count": 3513,
+      "doi": "10.1038/s41562-016-0021",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41562-016-0021",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2888532099",
+      "title": "The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package<sup>*</sup>",
+      "authors": [
+        {
+          "name": "Adrian M. Price-Whelan",
+          "affiliation": "Princeton University"
+        },
+        {
+          "name": "Brigitta Sip\u0151cz",
+          "affiliation": "University of Cambridge"
+        },
+        {
+          "name": "Hans Moritz G\u00fcnther",
+          "affiliation": "Vassar College"
+        },
+        {
+          "name": "Pey Lian Lim",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Steven M. Crawford",
+          "affiliation": "South African Radio Astronomy Observatory"
+        },
+        {
+          "name": "Simon Conseil",
+          "affiliation": "Universit\u00e9 Claude Bernard Lyon 1"
+        },
+        {
+          "name": "D. L. Shupe",
+          "affiliation": "California Institute of Technology"
+        },
+        {
+          "name": "Matthew Craig",
+          "affiliation": "Minnesota State University Moorhead"
+        },
+        {
+          "name": "Nadia Dencheva",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Adam Ginsburg",
+          "affiliation": "National Radio Astronomy Observatory"
+        },
+        {
+          "name": "Jake Vanderplas",
+          "affiliation": "University of Washington"
+        },
+        {
+          "name": "Larry Bradley",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "David P\u00e9rez\u2013Su\u00e1rez",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "M. de Val-Borro",
+          "affiliation": "Goddard Space Flight Center"
+        },
+        {
+          "name": "(Primary Paper Contributors)",
+          "affiliation": "Center for Astrophysics Harvard & Smithsonian"
+        },
+        {
+          "name": "Thomas L. Aldcroft",
+          "affiliation": "The Graduate Center, CUNY"
+        },
+        {
+          "name": "Kelle L. Cruz",
+          "affiliation": "The Graduate Center, CUNY"
+        },
+        {
+          "name": "Thomas Robitaille",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Erik Tollerud",
+          "affiliation": "Western University"
+        },
+        {
+          "name": "C. Ardelean",
+          "affiliation": "Western University"
+        },
+        {
+          "name": "Tom\u00e1\u0161 Babej",
+          "affiliation": "Seoul National University"
+        },
+        {
+          "name": "Yoonsoo P. Bach",
+          "affiliation": "Seoul National University"
+        },
+        {
+          "name": "Matteo Bachetti",
+          "affiliation": "Osservatorio Astronomico di Cagliari"
+        },
+        {
+          "name": "A. V. Bakanov",
+          "affiliation": "University of Nottingham"
+        },
+        {
+          "name": "S. P. Bamford",
+          "affiliation": "Ames Research Center"
+        },
+        {
+          "name": "Geert Barentsen",
+          "affiliation": "Western University"
+        },
+        {
+          "name": "P. Barmby",
+          "affiliation": "Western University"
+        },
+        {
+          "name": "A. Baumbach",
+          "affiliation": "Heidelberg University"
+        },
+        {
+          "name": "Katherine Berry",
+          "affiliation": "Max Planck Institute for Astronomy"
+        },
+        {
+          "name": "Francesco Biscani",
+          "affiliation": "Universidad de Antofagasta"
+        },
+        {
+          "name": "M. Boquien",
+          "affiliation": "Universidad de Antofagasta"
+        },
+        {
+          "name": "K. Azalee Bostroem",
+          "affiliation": "Princeton University"
+        },
+        {
+          "name": "Luke G. Bouma",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Gabriel Brammer",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "E. M. Bray",
+          "affiliation": "University of Cape Town"
+        },
+        {
+          "name": "H. Breytenbach",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "Hugo Buddelmeijer",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "D. J. Burke",
+          "affiliation": "Trieste Astronomical Observatory"
+        },
+        {
+          "name": "Giorgio Calderone",
+          "affiliation": "Trieste Astronomical Observatory"
+        },
+        {
+          "name": "J. L. Cano Rodr\u00edguez",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Mihai Cara",
+          "affiliation": "Ames Research Center"
+        },
+        {
+          "name": "J. V. M. Cardoso",
+          "affiliation": "Ames Research Center"
+        },
+        {
+          "name": "S. Cheedella",
+          "affiliation": "Universit\u00e9 Claude Bernard Lyon 1"
+        },
+        {
+          "name": "Y. Copin",
+          "affiliation": "Universit\u00e9 Claude Bernard Lyon 1"
+        },
+        {
+          "name": "L\u00eda Corrales",
+          "affiliation": "University of Wisconsin\u2013Madison"
+        },
+        {
+          "name": "Devin Crichton",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Daniel D\u2019Avella",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Christoph Deil",
+          "affiliation": "South African Radio Astronomy Observatory"
+        },
+        {
+          "name": "\u00c9. Depagne",
+          "affiliation": "South African Radio Astronomy Observatory"
+        },
+        {
+          "name": "J. P. Dietrich",
+          "affiliation": "Excellence Cluster Universe"
+        },
+        {
+          "name": "Axel Donath",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Michael Droettboom",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "N. Earl",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "T. Erben",
+          "affiliation": "Herzberg Institute of Astrophysics"
+        },
+        {
+          "name": "S. Fabbro",
+          "affiliation": "Herzberg Institute of Astrophysics"
+        },
+        {
+          "name": "L.A. Ferreira",
+          "affiliation": "Universidade Federal do Rio Grande"
+        },
+        {
+          "name": "T. Finethy",
+          "affiliation": ""
+        },
+        {
+          "name": "Robert Fox",
+          "affiliation": "Center for Astrophysics Harvard & Smithsonian"
+        },
+        {
+          "name": "Lehman H. Garrison",
+          "affiliation": "University of Cambridge"
+        },
+        {
+          "name": "S. L. J. Gibbons",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "D. A. Goldstein",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "Ralf Gommers",
+          "affiliation": "Scion"
+        },
+        {
+          "name": "Johnny P. Greco",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "P. Greenfield",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Austen Groener",
+          "affiliation": "Drexel University"
+        },
+        {
+          "name": "Fr\u00e9d\u00e9ric Grollier",
+          "affiliation": "Pennsylvania State University"
+        },
+        {
+          "name": "Alex Hagen",
+          "affiliation": "Pennsylvania State University"
+        },
+        {
+          "name": "Paul Hirst",
+          "affiliation": "Heidelberg University"
+        },
+        {
+          "name": "D. Homeier",
+          "affiliation": "Heidelberg University"
+        },
+        {
+          "name": "A. J. Horton",
+          "affiliation": "Las Cumbres Observatory Global Telescope Network"
+        },
+        {
+          "name": "G. Hosseinzadeh",
+          "affiliation": "Las Cumbres Observatory Global Telescope Network"
+        },
+        {
+          "name": "Lei Hu",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Joseph S. Hunkeler",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "\u017deljko Ivezi\u0107",
+          "affiliation": "University of Washington"
+        },
+        {
+          "name": "Abhishek Jain",
+          "affiliation": "Large Synoptic Survey Telescope Corporation"
+        },
+        {
+          "name": "Tim Jenness",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "G. Kanarek",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Sarah Kendrew",
+          "affiliation": "Space Telescope Science Institute"
+        },
+        {
+          "name": "Nicholas S. Kern",
+          "affiliation": "European Southern Observatory"
+        },
+        {
+          "name": "Wolfgang Kerzendorf",
+          "affiliation": "European Southern Observatory"
+        },
+        {
+          "name": "A. Khvalko",
+          "affiliation": "Max Planck Institute for Nuclear Physics"
+        },
+        {
+          "name": "James C. King",
+          "affiliation": "University of California, Irvine"
+        },
+        {
+          "name": "D. Kirkby",
+          "affiliation": "University of California, Irvine"
+        },
+        {
+          "name": "A.M. Kulkarni",
+          "affiliation": "Delhi Technological University"
+        },
+        {
+          "name": "Akhil Kumar",
+          "affiliation": "Delhi Technological University"
+        },
+        {
+          "name": "Antony Lee",
+          "affiliation": "Jet Propulsion Laboratory"
+        },
+        {
+          "name": "Daniel Lenz",
+          "affiliation": "Jet Propulsion Laboratory"
+        },
+        {
+          "name": "S. P. Littlefair",
+          "affiliation": "University of Missouri"
+        },
+        {
+          "name": "Zhiyuan Ma",
+          "affiliation": "University of Missouri"
+        },
+        {
+          "name": "D. M. Macleod",
+          "affiliation": "Ghent University"
+        },
+        {
+          "name": "M. Mastropietro",
+          "affiliation": "Las Cumbres Observatory Global Telescope Network"
+        },
+        {
+          "name": "C. McCully",
+          "affiliation": "Las Cumbres Observatory Global Telescope Network"
+        },
+        {
+          "name": "S. Montagnac",
+          "affiliation": "University of Washington"
+        },
+        {
+          "name": "Brett M. Morris",
+          "affiliation": "University of Washington"
+        },
+        {
+          "name": "Michael Mueller",
+          "affiliation": "Brown University"
+        },
+        {
+          "name": "Stuart Mumford",
+          "affiliation": "The Ohio State University"
+        },
+        {
+          "name": "Demitri Muna",
+          "affiliation": "Center for Astrophysics Harvard & Smithsonian"
+        },
+        {
+          "name": "Nicholas A. Murphy",
+          "affiliation": "Minnesota State University Moorhead"
+        },
+        {
+          "name": "Stuart J. Nelson",
+          "affiliation": "Vietnam National University Ho Chi Minh City"
+        },
+        {
+          "name": "Giang Nguyen",
+          "affiliation": "Vietnam National University Ho Chi Minh City"
+        }
+      ],
+      "year": 2018,
+      "abstract": "Abstract The Astropy Project supports and fosters the development of open-source and openly developed Python packages that provide commonly needed functionality to the astronomical community. A key element of the Astropy Project is the core package astropy , which serves as the foundation for more specialized projects and packages. In this article, we provide an overview of the organization of the Astropy project and summarize key features in the core package, as of the recent major release, version 2.0. We then describe the project infrastructure designed to facilitate and support development for a broader ecosystem of interoperable packages. We conclude with a future outlook of planned new features and directions for the broader Astropy Project.",
+      "venue": "The Astronomical Journal",
+      "citation_count": 7406,
+      "doi": "10.3847/1538-3881/aabc4f",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.3847/1538-3881/aabc4f",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2153791616",
+      "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "authors": [
+        {
+          "name": "Andy Clark",
+          "affiliation": "University of Edinburgh"
+        }
+      ],
+      "year": 2013,
+      "abstract": "Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing. Such accounts offer a unifying model of perception and action, illuminate the functional role of attention, and may neatly capture the special contribution of cortical processing to adaptive success. This target article critically examines this \"hierarchical prediction machine\" approach, concluding that it offers the best clue yet to the shape of a unified science of mind and action. Sections 1 and 2 lay out the key elements and implications of the approach. Section 3 explores a variety of pitfalls and challenges, spanning the evidential, the methodological, and the more properly conceptual. The paper ends (sections 4 and 5) by asking how such approaches might impact our more general vision of mind, experience, and agency.",
+      "venue": "Behavioral and Brain Sciences",
+      "citation_count": 5919,
+      "doi": "10.1017/s0140525x12000477",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1017/s0140525x12000477",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2145635192",
+      "title": "Getting the right answers for the right reasons: Linking measurements, analyses, and models to advance the science of hydrology",
+      "authors": [
+        {
+          "name": "James W. Kirchner",
+          "affiliation": "Planetary Science Institute"
+        }
+      ],
+      "year": 2006,
+      "abstract": "The science of hydrology is on the threshold of major advances, driven by new hydrologic measurements, new methods for analyzing hydrologic data, and new approaches to modeling hydrologic systems. Here I suggest several promising directions forward, including (1) designing new data networks, field observations, and field experiments, with explicit recognition of the spatial and temporal heterogeneity of hydrologic processes, (2) replacing linear, additive \u201cblack box\u201d models with \u201cgray box\u201d approaches that better capture the nonlinear and non\u2010additive character of hydrologic systems, (3) developing physically based governing equations for hydrologic behavior at the catchment or hillslope scale, recognizing that they may look different from the equations that describe the small\u2010scale physics, (4) developing models that are minimally parameterized and therefore stand some chance of failing the tests that they are subjected to, and (5) developing ways to test models more comprehensively and incisively. I argue that scientific progress will mostly be achieved through the collision of theory and data, rather than through increasingly elaborate and parameter\u2010rich models that may succeed as mathematical marionettes, dancing to match the calibration data even if their underlying premises are unrealistic. Thus advancing the science of hydrology will require not only developing theories that get the right answers but also testing whether they get the right answers for the right reasons.",
+      "venue": "Water Resources Research",
+      "citation_count": 1381,
+      "doi": "10.1029/2005wr004362",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1029/2005wr004362",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2529996553",
+      "title": "Automatic Chemical Design Using a Data-Driven Continuous Representation of Molecules",
+      "authors": [
+        {
+          "name": "Rafael G\u00f3mez-Bombarelli",
+          "affiliation": ""
+        },
+        {
+          "name": "Jennifer N. Wei",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "David Duvenaud",
+          "affiliation": "University of New Brunswick"
+        },
+        {
+          "name": "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato",
+          "affiliation": "University of Cambridge"
+        },
+        {
+          "name": "Benjam\u00edn S\u00e1nchez-Lengeling",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Dennis Sheberla",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Jorge Aguilera-Iparraguirre",
+          "affiliation": ""
+        },
+        {
+          "name": "Timothy D. Hirzel",
+          "affiliation": ""
+        },
+        {
+          "name": "Ryan P. Adams",
+          "affiliation": "Google (United States)"
+        },
+        {
+          "name": "Al\u00e1n Aspuru-Guzik",
+          "affiliation": "Canadian Institute for Advanced Research"
+        }
+      ],
+      "year": 2018,
+      "abstract": "We report a method to convert discrete representations of molecules to and from a multidimensional continuous representation. This model allows us to generate new molecules for efficient exploration and optimization through open-ended spaces of chemical compounds. A deep neural network was trained on hundreds of thousands of existing chemical structures to construct three coupled functions: an encoder, a decoder, and a predictor. The encoder converts the discrete representation of a molecule into a real-valued continuous vector, and the decoder converts these continuous vectors back to discrete molecular representations. The predictor estimates chemical properties from the latent continuous vector representation of the molecule. Continuous representations of molecules allow us to automatically generate novel chemical structures by performing simple operations in the latent space, such as decoding random vectors, perturbing known chemical structures, or interpolating between molecules. Continuous representations also allow the use of powerful gradient-based optimization to efficiently guide the search for optimized functional compounds. We demonstrate our method in the domain of drug-like molecules and also in a set of molecules with fewer that nine heavy atoms.",
+      "venue": "ACS Central Science",
+      "citation_count": 3058,
+      "doi": "10.1021/acscentsci.7b00572",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1021/acscentsci.7b00572",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W1559264985",
+      "title": "Light-driven monodirectional molecular rotor",
+      "authors": [
+        {
+          "name": "Nagatoshi Koumura",
+          "affiliation": "University of Groningen"
+        },
+        {
+          "name": "Robert W. J. Zijlstra",
+          "affiliation": "University of Groningen"
+        },
+        {
+          "name": "Richard A. van Delden",
+          "affiliation": "University of Groningen"
+        },
+        {
+          "name": "Nobuyuki Harada",
+          "affiliation": "Tohoku University"
+        },
+        {
+          "name": "Ben L. Feringa",
+          "affiliation": "University of Groningen"
+        }
+      ],
+      "year": 1999,
+      "abstract": "",
+      "venue": "Nature",
+      "citation_count": 1920,
+      "doi": "10.1038/43646",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/43646",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3016902371",
+      "title": "Using social and behavioural science to support COVID-19 pandemic response",
+      "authors": [
+        {
+          "name": "Jay Joseph Van Bavel",
+          "affiliation": "New York University"
+        },
+        {
+          "name": "Katherine Baicker",
+          "affiliation": "University of Chicago"
+        },
+        {
+          "name": "Paulo S. Boggio",
+          "affiliation": "Universidade Presbiteriana Mackenzie"
+        },
+        {
+          "name": "Valerio Capraro",
+          "affiliation": "Middlesex University"
+        },
+        {
+          "name": "Aleksandra Cichocka",
+          "affiliation": "University of Kent"
+        },
+        {
+          "name": "Mina Cikara",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Molly J. Crockett",
+          "affiliation": "Yale University"
+        },
+        {
+          "name": "Alia J. Crum",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Karen M. Douglas",
+          "affiliation": "University of Kent"
+        },
+        {
+          "name": "James Druckman",
+          "affiliation": "Northwestern University"
+        },
+        {
+          "name": "John Drury",
+          "affiliation": "University of Sussex"
+        },
+        {
+          "name": "Oeindrila Dube",
+          "affiliation": "University of Chicago"
+        },
+        {
+          "name": "Naomi Ellemers",
+          "affiliation": "Utrecht University"
+        },
+        {
+          "name": "Eli J. Finkel",
+          "affiliation": "Northwestern University"
+        },
+        {
+          "name": "James H. Fowler",
+          "affiliation": "University of California San Diego"
+        },
+        {
+          "name": "Michele J. Gelfand",
+          "affiliation": "University of Maryland, College Park"
+        },
+        {
+          "name": "Shihui Han",
+          "affiliation": "Peking University"
+        },
+        {
+          "name": "S. Alexander Haslam",
+          "affiliation": "The University of Queensland"
+        },
+        {
+          "name": "Jolanda Jetten",
+          "affiliation": "The University of Queensland"
+        },
+        {
+          "name": "Shinobu Kitayama",
+          "affiliation": "University of Michigan"
+        },
+        {
+          "name": "Dean Mobbs",
+          "affiliation": "California Institute of Technology"
+        },
+        {
+          "name": "Lucy E. Napper",
+          "affiliation": "Lehigh University"
+        },
+        {
+          "name": "Dominic J. Packer",
+          "affiliation": "Lehigh University"
+        },
+        {
+          "name": "Gordon Pennycook",
+          "affiliation": "University of Regina"
+        },
+        {
+          "name": "Ellen Peters",
+          "affiliation": "University of Oregon"
+        },
+        {
+          "name": "Richard E. Petty",
+          "affiliation": "The Ohio State University"
+        },
+        {
+          "name": "David G. Rand",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Stephen Reicher",
+          "affiliation": "University of St Andrews"
+        },
+        {
+          "name": "Simone Schnall",
+          "affiliation": "University of Cambridge"
+        },
+        {
+          "name": "Azim Shariff",
+          "affiliation": "University of British Columbia"
+        },
+        {
+          "name": "Linda J. Skitka",
+          "affiliation": "University of Illinois Chicago"
+        },
+        {
+          "name": "Sandra Susan Smith",
+          "affiliation": "University of California, Berkeley"
+        },
+        {
+          "name": "Cass R. Sunstein",
+          "affiliation": "Harvard University Press"
+        },
+        {
+          "name": "Nassim Tabri",
+          "affiliation": "Carleton University"
+        },
+        {
+          "name": "Joshua A. Tucker",
+          "affiliation": "New York University"
+        },
+        {
+          "name": "Sander van der Linden",
+          "affiliation": "University of Cambridge"
+        },
+        {
+          "name": "Paul A. M. Van Lange",
+          "affiliation": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Kim A. Weeden",
+          "affiliation": "Cornell University"
+        },
+        {
+          "name": "Michael J. A. Wohl",
+          "affiliation": "Carleton University"
+        },
+        {
+          "name": "Jamil Zaki",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Sean R. Zion",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Robb Willer",
+          "affiliation": "Stanford Medicine"
+        }
+      ],
+      "year": 2020,
+      "abstract": "",
+      "venue": "Nature Human Behaviour",
+      "citation_count": 5068,
+      "doi": "10.1038/s41562-020-0884-z",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41562-020-0884-z",
+      "source": "openalex",
+      "_bibtex_override": ""
+    }
+  ]
+}
