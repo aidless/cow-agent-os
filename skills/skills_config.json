@@ -1,0 +1,79 @@
+{
+    "image-generation": {
+        "name": "image-generation",
+        "description": "Generate or edit images from text prompts. Use when the user asks to create, draw, design, or edit an image, illustration, photo, icon, poster, or any visual content.",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "knowledge-wiki": {
+        "name": "knowledge-wiki",
+        "description": "Manage the personal knowledge wiki. Use when the user shares articles, documents, or asks to organize knowledge; when a conversation produces insights worth preserving as structured knowledge; or when the user asks about the knowledge base.",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "skill-creator": {
+        "name": "skill-creator",
+        "description": "Create, install, or update skills in the workspace. Use when (1) installing a skill from a URL or remote source, (2) creating a new skill from scratch, (3) updating or restructuring existing skills. Always use this skill for any skill installation or creation task.",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "arxiv-tracker": {
+        "name": "arxiv-tracker",
+        "description": "监控 arxiv 上与刘泽文研究主线(多 agent 协作 / 校准 / 偏好耦合)相关的\n新论文。每日/每周抓取 → LLM 中文摘要 + relevance 评分 → 写入 knowledge/\n下的 arxiv-watch 目录。\n",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "cross-session-handoff": {
+        "name": "cross-session-handoff",
+        "description": "多窗口/多 session 并行任务的撞车检查与接力公告工作流。Use when the user asks to check whether another window/session/task overlaps, says \"别和他们撞车\", \"接力\", \"通知 w3/w7\", \"把这个给另一个窗口\", \"多窗口状态\", \"兄弟窗口\", \"handoff\", or when editing tmp/windows/*/STATUS.md across sessions.",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "experiment-tracker": {
+        "name": "experiment-tracker",
+        "description": "把 git log(或 .bak_* 文件)转成结构化 CHANGELOG。\n触发场景:用户说\"我的研究状态如何\"、\"论文整体盘点\"、\"5 月 deadline 进度\"、\n\"PAPER1 现在状态\"、\"research dashboard\"、\"paper audit 进度看板\"时启动。\n\n双源支持:\n- **Git 源**: `F:\\Research\\TEMPLATE` 等进 git 的项目 → `parse_log.py` + `aggregate_to_notes.py`\n- **.bak_* 源**: `F:\\Research\\PAPER5_CONSOLIDATED` 等用文件级 backup 的 paper 目录\n                   → `parse_bak.py` + `render_bak_changelog.py` + `scan_all_baks.py`\n(7/11 重定位:F:\\Research\\ 下 38 个 paper_dir **都没 git**,但 2 个用 .bak_* 备份)",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "paper-changelog": {
+        "name": "paper-changelog",
+        "description": "把 F:\\Research\\ 下所有论文目录扫描成一份研究级 CHANGELOG。\n触发场景:用户说\"我的研究状态如何\"、\"论文整体盘点\"、\"5 月 deadline 进度\"、\n\"PAPER1 现在状态\"、\"research dashboard\"、\"paper audit 进度看板\"时启动。\n\n与 experiment-tracker 的区别:experiment-tracker 是 git commit 级(代码)、\npaper-changelog 是论文目录级(LaTeX),正交不重叠。",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "paper-review-toolkit": {
+        "name": "paper-review-toolkit",
+        "description": "统一入口调起 paper-writing-agent + tmlr-review-simulator + tmlr_pipeline 三个工具。当用户说\"审稿 / 模拟审稿人 / 投稿前自检 / 跑 review / 出 reviewer 报告 / 用对抗视角看 paper / 多 reviewer 并行 / TMLR format / 给 rebuttal\"时启动。8 个子命令: doctor / quick / standard / full / rebuttal / audit / all / tool。已修复 7 个上游 bug(A:CLI import 失败 / B:paper_profile.py 写死 PDF / C:verify_p*.py 退出码误判 / D:verify severity 显示错位 / E:env_config 不传给子进程 / F:C2 regex 兼容性 + verify-after-patch 强 gate / G:verify 实测 ≠ audit 报告)+ 7/11 w5 self-evolve 加 1 个(H:跨 paper ablation 时 None verify_py 崩溃)。**v0.4.1(7/11 19:50):Bug D 真修复落地 5 个 verify_p[1-5].py,加 effective_severity() 函数 + 5 处调用点;实测 PAPER5 从 0H/3M 变为真 3H/0M,PAPER4 从 0H/10M 变 1H/9M**。",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "pes2o-kb-maintenance": {
+        "name": "pes2o-kb-maintenance",
+        "description": "Maintain and release the local peS2o / FAISS paper knowledge base in aidless/obsidian. Use when the user asks about KB health, pes2o, FAISS index, papers.db, kb_search --bibtex, generating citation bundles, VACUUM/freeing SQLite space, staging cleanup, or committing/pushing KB scripts/state to GitHub.",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "rr-responder": {
+        "name": "rr-responder",
+        "description": "把审稿人意见转换为 R&R(rebuttal)回应草稿。4 段 pipeline:\n1. review2queries.py — 把段落级意见拆成原子子问题\n2. deep_critique.py — 对每条子问题做 reviewer-side 刁难(A+B 的 \"+B\" 部分)\n3. draft_response.py — author-side 综合输出 R&R draft,可选融入 author notes\n4. render_latex.py — draft → Markdown 或 LaTeX 可粘贴片段\n",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    },
+    "wechat-mp-validation": {
+        "name": "wechat-mp-validation",
+        "description": "微信小程序「泰玄小站」项目的标准验证流水线(2026-07-11 升级到 v2.1.0)。每次代码改动后跑一次,覆盖 5 步验证(JS 语法 / JSON 语法 / 7 核心测试 + spec 自洽 / 5 个 scanner 含 cost+permission / 主包体积)。推荐入口 `validate.ps1`(PowerShell,无 cmd.exe 假报错);Windows cmd 用户用 `validate.bat` v2.1.0(禁用 FAIL/ERR/BAD/PASS 等关键字)。适用于 v2.0 商业化合规发版前全量回归,v1.5-v1.9.x 历史 patch 同样适用。",
+        "source": "custom",
+        "enabled": true,
+        "category": "skill"
+    }
+}
