@@ -1,0 +1,1481 @@
+{
+  "query": "Increasing protocol control for test-driven science improves metric stability across random seeds.",
+  "source": "openalex",
+  "limit": 15,
+  "timestamp": 1783733505.7894027,
+  "papers": [
+    {
+      "paper_id": "oalex-W2607804943",
+      "title": "Image processing and Quality Control for the first 10,000 brain imaging datasets from UK Biobank",
+      "authors": [
+        {
+          "name": "Fidel Alfaro\u2010Almagro",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Mark Jenkinson",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Neal K. Bangerter",
+          "affiliation": "Brigham Young University"
+        },
+        {
+          "name": "Jesper Andersson",
+          "affiliation": "Wellcome Centre for Integrative Neuroimaging"
+        },
+        {
+          "name": "Ludovica Griffanti",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Gwena\u00eblle Douaud",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Stamatios N. Sotiropoulos",
+          "affiliation": "Wellcome Centre for Integrative Neuroimaging"
+        },
+        {
+          "name": "Sa\u00e2d Jbabdi",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Mois\u00e9s Hern\u00e1ndez-Fern\u00e1ndez",
+          "affiliation": "Wellcome Centre for Integrative Neuroimaging"
+        },
+        {
+          "name": "Emmanuel Vall\u00e9e",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Diego Vidaurre",
+          "affiliation": "Wellcome Centre for Integrative Neuroimaging"
+        },
+        {
+          "name": "Matthew Webster",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Paul J. McCarthy",
+          "affiliation": "Wellcome Centre for Integrative Neuroimaging"
+        },
+        {
+          "name": "Chris Rorden",
+          "affiliation": "University of South Carolina"
+        },
+        {
+          "name": "Alessandro Daducci",
+          "affiliation": "University of Verona"
+        },
+        {
+          "name": "Daniel C. Alexander",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Hui Zhang",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Iulius Dragonu",
+          "affiliation": "Siemens (United Kingdom)"
+        },
+        {
+          "name": "Paul M. Matthews",
+          "affiliation": "Imperial College London"
+        },
+        {
+          "name": "Karla L. Miller",
+          "affiliation": "Wellcome Centre for Integrative Neuroimaging"
+        },
+        {
+          "name": "Stephen M. Smith",
+          "affiliation": "University of Oxford"
+        }
+      ],
+      "year": 2017,
+      "abstract": "UK Biobank is a large-scale prospective epidemiological study with all data accessible to researchers worldwide. It is currently in the process of bringing back 100,000 of the original participants for brain, heart and body MRI, carotid ultrasound and low-dose bone/fat x-ray. The brain imaging component covers 6 modalities (T1, T2 FLAIR, susceptibility weighted MRI, Resting fMRI, Task fMRI and Diffusion MRI). Raw and processed data from the first 10,000 imaged subjects has recently been released for general research access. To help convert this data into useful summary information we have developed an automated processing and QC (Quality Control) pipeline that is available for use by other researchers. In this paper we describe the pipeline in detail, following a brief overview of UK Biobank brain imaging and the acquisition protocol. We also describe several quantitative investigations carried out as part of the development of both the imaging protocol and the processing pipeline.",
+      "venue": "NeuroImage",
+      "citation_count": 1767,
+      "doi": "10.1016/j.neuroimage.2017.10.034",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1016/j.neuroimage.2017.10.034",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3005127469",
+      "title": "Eleven grand challenges in single-cell data science",
+      "authors": [
+        {
+          "name": "David L\u00e4hnemann",
+          "affiliation": "D\u00fcsseldorf University Hospital"
+        },
+        {
+          "name": "Johannes K\u00f6ster",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Ewa Szczurek",
+          "affiliation": "University of Warsaw"
+        },
+        {
+          "name": "Davis J. McCarthy",
+          "affiliation": "The University of Melbourne"
+        },
+        {
+          "name": "Stephanie C. Hicks",
+          "affiliation": "Johns Hopkins University"
+        },
+        {
+          "name": "Mark D. Robinson",
+          "affiliation": "SIB Swiss Institute of Bioinformatics"
+        },
+        {
+          "name": "Catalina A. Vallejos",
+          "affiliation": "Turing Institute"
+        },
+        {
+          "name": "Kieran R. Campbell",
+          "affiliation": "BC Cancer Agency"
+        },
+        {
+          "name": "Niko Beerenwinkel",
+          "affiliation": "SIB Swiss Institute of Bioinformatics"
+        },
+        {
+          "name": "Ahmed Mahfouz",
+          "affiliation": "Leiden University Medical Center"
+        },
+        {
+          "name": "Luca Pinello",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Pavel Skums",
+          "affiliation": "Georgia State University"
+        },
+        {
+          "name": "Alexandros Stamatakis",
+          "affiliation": "Karlsruhe Institute of Technology"
+        },
+        {
+          "name": "Camille Stephan\u2010Otto Attolini",
+          "affiliation": "Institute for Research in Biomedicine"
+        },
+        {
+          "name": "Samuel Apar\u00edcio",
+          "affiliation": "BC Cancer Agency"
+        },
+        {
+          "name": "Jasmijn A. Baaijens",
+          "affiliation": "Centrum Wiskunde & Informatica"
+        },
+        {
+          "name": "Marleen Balvert",
+          "affiliation": "Centrum Wiskunde & Informatica"
+        },
+        {
+          "name": "Buys de Barbanson",
+          "affiliation": "University Medical Center Utrecht"
+        },
+        {
+          "name": "Antonio Cappuccio",
+          "affiliation": "Netherlands Institute for Advanced Study in the Humanities and Social Sciences"
+        },
+        {
+          "name": "Giacomo Corleone",
+          "affiliation": "Imperial College London"
+        },
+        {
+          "name": "Bas E. Dutilh",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "Maria Florescu",
+          "affiliation": "University Medical Center Utrecht"
+        },
+        {
+          "name": "Victor Guryev",
+          "affiliation": "University Medical Center Groningen"
+        },
+        {
+          "name": "Rens Holmer",
+          "affiliation": "Wageningen University & Research"
+        },
+        {
+          "name": "Katharina Jahn",
+          "affiliation": "SIB Swiss Institute of Bioinformatics"
+        },
+        {
+          "name": "Thamar Jessurun Lobo",
+          "affiliation": "University Medical Center Groningen"
+        },
+        {
+          "name": "Emma M Keizer",
+          "affiliation": "Wageningen University & Research"
+        },
+        {
+          "name": "Indu Khatri",
+          "affiliation": "Leiden University Medical Center"
+        },
+        {
+          "name": "Szymon M. Kie\u0142basa",
+          "affiliation": "Leiden University Medical Center"
+        },
+        {
+          "name": "Jan O. Korbel",
+          "affiliation": "European Molecular Biology Laboratory"
+        },
+        {
+          "name": "Alexey M. Kozlov",
+          "affiliation": "Heidelberg Institute for Theoretical Studies"
+        },
+        {
+          "name": "Tzu-Hao Kuo",
+          "affiliation": "Helmholtz Centre for Infection Research"
+        },
+        {
+          "name": "Boudewijn P. F. Lelieveldt",
+          "affiliation": "Leiden University Medical Center"
+        },
+        {
+          "name": "Ion M\u0103ndoiu",
+          "affiliation": "University of Connecticut"
+        },
+        {
+          "name": "John C. Marioni",
+          "affiliation": "European Bioinformatics Institute"
+        },
+        {
+          "name": "Tobias Marschall",
+          "affiliation": "Max Planck Institute for Informatics"
+        },
+        {
+          "name": "Felix M\u00f6lder",
+          "affiliation": "University of Duisburg-Essen"
+        },
+        {
+          "name": "Amir Niknejad",
+          "affiliation": "Mount Saint Vincent University"
+        },
+        {
+          "name": "Alicja R\u0105czkowska",
+          "affiliation": "University of Warsaw"
+        },
+        {
+          "name": "Marcel Reinders",
+          "affiliation": "Leiden University Medical Center"
+        },
+        {
+          "name": "Jeroen de Ridder",
+          "affiliation": "University Medical Center Utrecht"
+        },
+        {
+          "name": "Antoine-Emmanuel Saliba",
+          "affiliation": "Helmholtz Institute for RNA-based Infection Research"
+        },
+        {
+          "name": "Antonios Somarakis",
+          "affiliation": "Leiden University Medical Center"
+        },
+        {
+          "name": "Oliver Stegle",
+          "affiliation": "European Bioinformatics Institute"
+        },
+        {
+          "name": "Fabian J. Theis",
+          "affiliation": "Helmholtz Zentrum M\u00fcnchen"
+        },
+        {
+          "name": "Huan Yang",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "Alex Zelikovsky",
+          "affiliation": "Sechenov University"
+        },
+        {
+          "name": "Alice C. McHardy",
+          "affiliation": "Helmholtz Centre for Infection Research"
+        },
+        {
+          "name": "Benjamin J. Raphael",
+          "affiliation": "Princeton University"
+        },
+        {
+          "name": "Sohrab P. Shah",
+          "affiliation": "Memorial Sloan Kettering Cancer Center"
+        },
+        {
+          "name": "Alexander Sch\u00f6nhuth",
+          "affiliation": "Centrum Wiskunde & Informatica"
+        }
+      ],
+      "year": 2020,
+      "abstract": "The recent boom in microfluidics and combinatorial indexing strategies, combined with low sequencing costs, has empowered single-cell sequencing technology. Thousands-or even millions-of cells analyzed in a single experiment amount to a data revolution in single-cell biology and pose unique data science problems. Here, we outline eleven challenges that will be central to bringing this emerging field of single-cell data science forward. For each challenge, we highlight motivating research questions, review prior work, and formulate open problems. This compendium is for established researchers, newcomers, and students alike, highlighting interesting and rewarding problems for the coming years.",
+      "venue": "Genome biology",
+      "citation_count": 1440,
+      "doi": "10.1186/s13059-020-1926-6",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1186/s13059-020-1926-6",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W314366901",
+      "title": "Improving diets with wild and cultivated biodiversity from across the landscape",
+      "authors": [
+        {
+          "name": "Bronwen Powell",
+          "affiliation": "Center for International Forestry Research"
+        },
+        {
+          "name": "Shakuntala H. Thilsted",
+          "affiliation": "WorldFish"
+        },
+        {
+          "name": "Amy Ickowitz",
+          "affiliation": "Center for International Forestry Research"
+        },
+        {
+          "name": "C\u00e9line Termote",
+          "affiliation": "Alliance Bioversity International - CIAT"
+        },
+        {
+          "name": "Trey Sunderland",
+          "affiliation": "Center for International Forestry Research"
+        },
+        {
+          "name": "Anna Herforth",
+          "affiliation": ""
+        }
+      ],
+      "year": 2015,
+      "abstract": "This paper examines the literature on how biodiversity contributes to improved and diversified diets in developing countries. We assess the current state of evidence on how wild and cultivated biodiversity in all forms is related to healthy diets and nutrition, and examine how economic factors, knowledge and social norms interact with availability of biodiversity to influence both production and consumption choices. The paper identifies areas where evidence is lacking and ways to build synergies between nutrition-sensitive approaches and efforts to ensure sustainability of food systems and the natural environment.",
+      "venue": "Food Security",
+      "citation_count": 383,
+      "doi": "10.1007/s12571-015-0466-5",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1007/s12571-015-0466-5",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3128426563",
+      "title": "Data-Driven Strategies for Accelerated Materials Design",
+      "authors": [
+        {
+          "name": "Robert Pollice",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Gabriel dos Passos Gomes",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Matteo Aldeghi",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Riley J. Hickman",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Mario Krenn",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Cyrille Lavigne",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Michael Lindner-D\u2019Addario",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "AkshatKumar Nigam",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Cher Tian Ser",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Zhenpeng Yao",
+          "affiliation": "University of Toronto"
+        },
+        {
+          "name": "Al\u00e1n Aspuru\u2010Guzik",
+          "affiliation": "Canadian Institute for Advanced Research"
+        }
+      ],
+      "year": 2021,
+      "abstract": "The ongoing revolution of the natural sciences by the advent of machine learning and artificial intelligence sparked significant interest in the material science community in recent years. The intrinsically high dimensionality of the space of realizable materials makes traditional approaches ineffective for large-scale explorations. Modern data science and machine learning tools developed for increasingly complicated problems are an attractive alternative. An imminent climate catastrophe calls for a clean energy transformation by overhauling current technologies within only several years of possible action available. Tackling this crisis requires the development of new materials at an unprecedented pace and scale. For example, organic photovoltaics have the potential to replace existing silicon-based materials to a large extent and open up new fields of application. In recent years, organic light-emitting diodes have emerged as state-of-the-art technology for digital screens and portable devices and are enabling new applications with flexible displays. Reticular frameworks allow the atom-precise synthesis of nanomaterials and promise to revolutionize the field by the potential to realize multifunctional nanoparticles with applications from gas storage, gas separation, and electrochemical energy storage to nanomedicine. In the recent decade, significant advances in all these fields have been facilitated by the comprehensive application of simulation and machine learning for property prediction, property optimization, and chemical space exploration enabled by considerable advances in computing power and algorithmic efficiency.In this Account, we review the most recent contributions of our group in this thriving field of machine learning for material science. We start with a summary of the most important material classes our group has been involved in, focusing on small molecules as organic electronic materials and crystalline materials. Specifically, we highlight the data-driven approaches we employed to speed up discovery and derive material design strategies. Subsequently, our focus lies on the data-driven methodologies our group has developed and employed, elaborating on high-throughput virtual screening, inverse molecular design, Bayesian optimization, and supervised learning. We discuss the general ideas, their working principles, and their use cases with examples of successful implementations in data-driven material discovery and design efforts. Furthermore, we elaborate on potential pitfalls and remaining challenges of these methods. Finally, we provide a brief outlook for the field as we foresee increasing adaptation and implementation of large scale data-driven approaches in material discovery and design campaigns.",
+      "venue": "Accounts of Chemical Research",
+      "citation_count": 478,
+      "doi": "10.1021/acs.accounts.0c00785",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1021/acs.accounts.0c00785",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2512290190",
+      "title": "Wettability control on multiphase flow in patterned microfluidics",
+      "authors": [
+        {
+          "name": "Benzhong Zhao",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Christopher W. MacMinn",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Rub\u00e9n Juanes",
+          "affiliation": "Massachusetts Institute of Technology"
+        }
+      ],
+      "year": 2016,
+      "abstract": "Multiphase flow in porous media is important in many natural and industrial processes, including geologic CO2 sequestration, enhanced oil recovery, and water infiltration into soil. Although it is well known that the wetting properties of porous media can vary drastically depending on the type of media and pore fluids, the effect of wettability on multiphase flow continues to challenge our microscopic and macroscopic descriptions. Here, we study the impact of wettability on viscously unfavorable fluid-fluid displacement in disordered media by means of high-resolution imaging in microfluidic flow cells patterned with vertical posts. By systematically varying the wettability of the flow cell over a wide range of contact angles, we find that increasing the substrate's affinity to the invading fluid results in more efficient displacement of the defending fluid up to a critical wetting transition, beyond which the trend is reversed. We identify the pore-scale mechanisms-cooperative pore filling (increasing displacement efficiency) and corner flow (decreasing displacement efficiency)-responsible for this macroscale behavior, and show that they rely on the inherent 3D nature of interfacial flows, even in quasi-2D media. Our results demonstrate the powerful control of wettability on multiphase flow in porous media, and show that the markedly different invasion protocols that emerge-from pore filling to postbridging-are determined by physical mechanisms that are missing from current pore-scale and continuum-scale descriptions.",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "citation_count": 615,
+      "doi": "10.1073/pnas.1603387113",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1073/pnas.1603387113",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2758107681",
+      "title": "A perception\u2010driven autonomous urban vehicle",
+      "authors": [
+        {
+          "name": "John J. Leonard",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Jonathan P. How",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Seth Teller",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Mitch Berger",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Stefan Campbell",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Gaston Fiore",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Luke Fletcher",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Emilio Frazzoli",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Albert S. Huang",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Serta\u00e7 Karaman",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Olivier Koch",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Yoshiaki Kuwata",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "David C. Moore",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Edwin Olson",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Steve Peters",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Justin Teo",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Robert Truax",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Matthew R. Walter",
+          "affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "David Barrett",
+          "affiliation": "Franklin W. Olin College of Engineering"
+        },
+        {
+          "name": "Alexander Epstein",
+          "affiliation": "Franklin W. Olin College of Engineering"
+        },
+        {
+          "name": "Keoni Maheloni",
+          "affiliation": "Franklin W. Olin College of Engineering"
+        },
+        {
+          "name": "Katy Moyer",
+          "affiliation": "Franklin W. Olin College of Engineering"
+        },
+        {
+          "name": "Troy Jones",
+          "affiliation": "Draper Laboratory"
+        },
+        {
+          "name": "Ryan Buckley",
+          "affiliation": "Draper Laboratory"
+        },
+        {
+          "name": "Matthew Antone",
+          "affiliation": "BAE Systems (United States)"
+        },
+        {
+          "name": "Robert Galejs",
+          "affiliation": "MIT Lincoln Laboratory"
+        },
+        {
+          "name": "Siddhartha Krishnamurthy",
+          "affiliation": "MIT Lincoln Laboratory"
+        },
+        {
+          "name": "Jonathan P. Williams",
+          "affiliation": "MIT Lincoln Laboratory"
+        }
+      ],
+      "year": 2008,
+      "abstract": "Abstract This paper describes the architecture and implementation of an autonomous passenger vehicle designed to navigate using locally perceived information in preference to potentially inaccurate or incomplete map data. The vehicle architecture was designed to handle the original DARPA Urban Challenge requirements of perceiving and navigating a road network with segments defined by sparse waypoints. The vehicle implementation includes many heterogeneous sensors with significant communications and computation bandwidth to capture and process high\u2010resolution, high\u2010rate sensor data. The output of the comprehensive environmental sensing subsystem is fed into a kinodynamic motion planning algorithm to generate all vehicle motion. The requirements of driving in lanes, three\u2010point turns, parking, and maneuvering through obstacle fields are all generated with a unified planner. A key aspect of the planner is its use of closed\u2010loop simulation in a rapidly exploring randomized trees algorithm, which can randomly explore the space while efficiently generating smooth trajectories in a dynamic and uncertain environment. The overall system was realized through the creation of a powerful new suite of software tools for message passing, logging, and visualization. These innovations provide a strong platform for future research in autonomous driving in global positioning system\u2013denied and highly dynamic environments with poor a priori information. \u00a9 2008 Wiley Periodicals, Inc.",
+      "venue": "Journal of Field Robotics",
+      "citation_count": 409,
+      "doi": "10.1002/rob.20262",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1002/rob.20262",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2101020813",
+      "title": "New handbook for standardised measurement of plant functional traits worldwide",
+      "authors": [
+        {
+          "name": "Natalia P\u00e9rez Harguindeguy",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "Sandra D\u0131\u0301az",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "\u00c9ric Garnier",
+          "affiliation": "Centre National de la Recherche Scientifique"
+        },
+        {
+          "name": "Sandra Lavorel",
+          "affiliation": "Centre National de la Recherche Scientifique"
+        },
+        {
+          "name": "Hendrik Poorter",
+          "affiliation": "Forschungszentrum J\u00fclich"
+        },
+        {
+          "name": "Pedro Jaureguiberry",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "M. Syndonia Bret\u2010Harte",
+          "affiliation": "University of Alaska Fairbanks"
+        },
+        {
+          "name": "William K. Cornwell",
+          "affiliation": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Joseph M. Craine",
+          "affiliation": "Kansas State University"
+        },
+        {
+          "name": "Diego E. Gurvich",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "Carlos Urcelay",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "Erik J. Veneklaas",
+          "affiliation": "The University of Western Australia"
+        },
+        {
+          "name": "Peter B. Reich",
+          "affiliation": "University of Minnesota"
+        },
+        {
+          "name": "Lourens Poorter",
+          "affiliation": "Institute of Forest Ecology of the Slovak Academy of Sciences"
+        },
+        {
+          "name": "Ian J. Wright",
+          "affiliation": "Macquarie University"
+        },
+        {
+          "name": "Peter M. Ray",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Lucas Enrico",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "Juli G. Pausas",
+          "affiliation": "Centre d'Investigacions sobre Desertificaci\u00f3"
+        },
+        {
+          "name": "Arjen C. de Vos",
+          "affiliation": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Nina Buchmann",
+          "affiliation": "ETH Zurich"
+        },
+        {
+          "name": "Guillermo Funes",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "Fabien Qu\u00e9tier",
+          "affiliation": "Centre National de la Recherche Scientifique"
+        },
+        {
+          "name": "John Hodgson",
+          "affiliation": "Department of the Environment"
+        },
+        {
+          "name": "K. Thompson",
+          "affiliation": "University of Sheffield"
+        },
+        {
+          "name": "Huw D. Morgan",
+          "affiliation": "New South Wales Department of Primary Industries"
+        },
+        {
+          "name": "Hans ter Steege",
+          "affiliation": "Naturalis Biodiversity Center"
+        },
+        {
+          "name": "Marcel G. A. van der Heijden",
+          "affiliation": "Utrecht University"
+        },
+        {
+          "name": "Lawren Sack",
+          "affiliation": "University of California, Los Angeles"
+        },
+        {
+          "name": "B. Blonder",
+          "affiliation": "University of Arizona"
+        },
+        {
+          "name": "Peter Poschlod",
+          "affiliation": "University of Regensburg"
+        },
+        {
+          "name": "Mar\u00eda V. Vaieretti",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "Georgina Conti",
+          "affiliation": "Universidad Nacional de C\u00f3rdoba"
+        },
+        {
+          "name": "A. Carla Staver",
+          "affiliation": "Princeton University"
+        },
+        {
+          "name": "S\u00e2mia Aquino",
+          "affiliation": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie"
+        },
+        {
+          "name": "J. H. C. Cornelissen",
+          "affiliation": "Vrije Universiteit Amsterdam"
+        }
+      ],
+      "year": 2013,
+      "abstract": "Plant functional traits are the features (morphological, physiological, phenological) that represent ecological strategies and determine how plants respond to environmental factors, affect other trophic levels and influence ecosystem properties. Variation in plant functional traits, and trait syndromes, has proven useful for tackling many important ecological questions at a range of scales, giving rise to a demand for standardised ways to measure ecologically meaningful plant traits. This line of research has been among the most fruitful avenues for understanding ecological and evolutionary patterns and processes. It also has the potential both to build a predictive set of local, regional and global relationships between plants and environment and to quantify a wide range of natural and human-driven processes, including changes in biodiversity, the impacts of species invasions, alterations in biogeochemical processes and vegetation\u2013atmosphere interactions. The importance of these topics dictates the urgent need for more and better data, and increases the value of standardised protocols for quantifying trait variation of different species, in particular for traits with power to predict plant- and ecosystem-level processes, and for traits that can be measured relatively easily. Updated and expanded from the widely used previous version, this handbook retains the focus on clearly presented, widely applicable, step-by-step recipes, with a minimum of text on theory, and not only includes updated methods for the traits previously covered, but also introduces many new protocols for further traits. This new handbook has a better balance between whole-plant traits, leaf traits, root and stem traits and regenerative traits, and puts particular emphasis on traits important for predicting species\u2019 effects on key ecosystem properties. We hope this new handbook becomes a standard companion in local and global efforts to learn about the responses and impacts of different plant species with respect to environmental changes in the present, past and future.",
+      "venue": "Australian Journal of Botany",
+      "citation_count": 4160,
+      "doi": "10.1071/bt12225",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1071/bt12225",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2751743037",
+      "title": "Role of Biocatalysis in Sustainable Chemistry",
+      "authors": [
+        {
+          "name": "Roger A. Sheldon",
+          "affiliation": "University of the Witwatersrand"
+        },
+        {
+          "name": "John M. Woodley",
+          "affiliation": "Technical University of Denmark"
+        }
+      ],
+      "year": 2017,
+      "abstract": "Based on the principles and metrics of green chemistry and sustainable development, biocatalysis is both a green and sustainable technology. This is largely a result of the spectacular advances in molecular biology and biotechnology achieved in the past two decades. Protein engineering has enabled the optimization of existing enzymes and the invention of entirely new biocatalytic reactions that were previously unknown in Nature. It is now eminently feasible to develop enzymatic transformations to fit predefined parameters, resulting in processes that are truly sustainable by design. This approach has successfully been applied, for example, in the industrial synthesis of active pharmaceutical ingredients. In addition to the use of protein engineering, other aspects of biocatalysis engineering, such as substrate, medium, and reactor engineering, can be utilized to improve the efficiency and cost-effectiveness and, hence, the sustainability of biocatalytic reactions. Furthermore, immobilization of an enzyme can improve its stability and enable its reuse multiple times, resulting in better performance and commercial viability. Consequently, biocatalysis is being widely applied in the production of pharmaceuticals and some commodity chemicals. Moreover, its broader application will be further stimulated in the future by the emerging biobased economy.",
+      "venue": "Chemical Reviews",
+      "citation_count": 1721,
+      "doi": "10.1021/acs.chemrev.7b00203",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1021/acs.chemrev.7b00203",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2147626801",
+      "title": "LOFAR: The LOw-Frequency ARray",
+      "authors": [
+        {
+          "name": "M. P. van Haarlem",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "M. W. Wise",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "A. W. Gunst",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "G. Heald",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J. P. McKean",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J. W. T. Hessels",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "A. G. de Bruyn",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "R. Nijboer",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J. Swinbank",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "R. A. Fallows",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "M. A. Brentjens",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. Nelles",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "R. Beck",
+          "affiliation": "Max Planck Institute for Radio Astronomy"
+        },
+        {
+          "name": "H. Falcke",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "R. P. Fender",
+          "affiliation": "University of Southampton"
+        },
+        {
+          "name": "J.R. H\u00f6randel",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "L. V. E. Koopmans",
+          "affiliation": ""
+        },
+        {
+          "name": "G. Mann",
+          "affiliation": "Leibniz Institute for Astrophysics Potsdam"
+        },
+        {
+          "name": "G. K. Miley",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "H. J. A. R\u00f6ttgering",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "B. W. Stappers",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "R. A. M. J. Wijers",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "Saleem Zaroubi",
+          "affiliation": ""
+        },
+        {
+          "name": "M. van den Akker",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "A. Alexov",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "J. M. Anderson",
+          "affiliation": "Max Planck Institute for Radio Astronomy"
+        },
+        {
+          "name": "Kevin D. Anderson",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "A. van Ardenne",
+          "affiliation": "Chalmers University of Technology"
+        },
+        {
+          "name": "M. Arts",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. Asgekar",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "I. M. Avruch",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "F. Batejat",
+          "affiliation": "Chalmers University of Technology"
+        },
+        {
+          "name": "L. B\u00e4hren",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "M. E. Bell",
+          "affiliation": "Max Planck Institute for Astrophysics"
+        },
+        {
+          "name": "M. R. Bell",
+          "affiliation": "Max Planck Institute for Astrophysics"
+        },
+        {
+          "name": "Ilse van Bemmel",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "P. Bennema",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "Mark Bentum",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "G. Bernardi",
+          "affiliation": ""
+        },
+        {
+          "name": "P. N. Best",
+          "affiliation": "Royal Observatory"
+        },
+        {
+          "name": "L. B\u0131rzan",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "A. Bonafede",
+          "affiliation": "Constructor University"
+        },
+        {
+          "name": "Albert\u2010Jan Boonstra",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "R\u00f3bert Braun",
+          "affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+        },
+        {
+          "name": "Joel N. Bregman",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "F. Breitling",
+          "affiliation": "Leibniz Institute for Astrophysics Potsdam"
+        },
+        {
+          "name": "R. H. van de Brink",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J. W. Broderick",
+          "affiliation": "University of Southampton"
+        },
+        {
+          "name": "P. Chris Broekema",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "W. N. Brouw",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "M. Br\u00fcggen",
+          "affiliation": "Universit\u00e4t Hamburg"
+        },
+        {
+          "name": "H. R. Butcher",
+          "affiliation": "Australian National University"
+        },
+        {
+          "name": "W. van Cappellen",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "B. Ciardi",
+          "affiliation": "Max Planck Institute for Astrophysics"
+        },
+        {
+          "name": "Thijs Coenen",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "J. E. Conway",
+          "affiliation": "Chalmers University of Technology"
+        },
+        {
+          "name": "A. H. W. M. Coolen",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. Corstanje",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "S. Damstra",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "O.T. Davies",
+          "affiliation": "Rutherford Appleton Laboratory"
+        },
+        {
+          "name": "Adam T. Deller",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "R.\u2010J. Dettmar",
+          "affiliation": "Ruhr University Bochum"
+        },
+        {
+          "name": "Ger van Diepen",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "K. Dijkstra",
+          "affiliation": "University of Groningen"
+        },
+        {
+          "name": "P. Donker",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. Doorduin",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J. Dromer",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "M. Drost",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. van Duin",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J. Eisl\u00f6ffel",
+          "affiliation": "Th\u00fcringer Landessternwarte Tautenburg"
+        },
+        {
+          "name": "J. van Enst",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "C. Ferrari",
+          "affiliation": "Observatoire de la C\u00f4te d\u2019Azur"
+        },
+        {
+          "name": "W. Frieswijk",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "Henk S. GANKEMA",
+          "affiliation": ""
+        },
+        {
+          "name": "M. A. Garrett",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "F. de Gasperin",
+          "affiliation": "Max Planck Institute for Astrophysics"
+        },
+        {
+          "name": "M. Gerbers",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "E. de Geus",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J.\u2010M. Grie\u00dfmeier",
+          "affiliation": "Universit\u00e9 d'Orl\u00e9ans"
+        },
+        {
+          "name": "T. Grit",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "P. Gruppen",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "J. P. Hamaker",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "T. E. Hassall",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "M. Hoeft",
+          "affiliation": "Th\u00fcringer Landessternwarte Tautenburg"
+        },
+        {
+          "name": "H. A. Holties",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. Horneffer",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "A. J. van der Horst",
+          "affiliation": "University of Amsterdam"
+        },
+        {
+          "name": "A. van Houwelingen",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. Huijgen",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "M. Iacobelli",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "H. T. Intema",
+          "affiliation": "Leiden University"
+        },
+        {
+          "name": "N. Jackson",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Vibor Jeli\u0107",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. de Jong",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "E. Juette",
+          "affiliation": "Ruhr University Bochum"
+        },
+        {
+          "name": "D. Kant",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "A. Karastergiou",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "A. Koers",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "H. Kollen",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        },
+        {
+          "name": "V. I. Kondratiev",
+          "affiliation": "Netherlands Institute for Radio Astronomy"
+        }
+      ],
+      "year": 2013,
+      "abstract": "LOFAR, the LOw-Frequency ARray, is a new-generation radio interferometer constructed in the north of the Netherlands and across europe. Utilizing a novel phased-array design, LOFAR covers the largely unexplored low-frequency range from 10\u2013240 MHz and provides a number of unique observing capabilities. Spreading out from a core located near the village of Exloo in the northeast of the Netherlands, a total of 40 LOFAR stations are nearing completion. A further five stations have been deployed throughout Germany, and one station has been built in each of France, Sweden, and the UK. Digital beam-forming techniques make the LOFAR system agile and allow for rapid repointing of the telescope as well as the potential for multiple simultaneous observations. With its dense core array and long interferometric baselines, LOFAR achieves unparalleled sensitivity and angular resolution in the low-frequency radio regime. The LOFAR facilities are jointly operated by the International LOFAR Telescope (ILT) foundation, as an observatory open to the global astronomical community. LOFAR is one of the first radio observatories to feature automated processing pipelines to deliver fully calibrated science products to its user community. LOFAR\u2019s new capabilities, techniques and modus operandi make it an important pathfinder for the Square Kilometre Array (SKA). We give an overview of the LOFAR instrument, its major hardware and software components, and the core science objectives that have driven its design. In addition, we present a selection of new results from the commissioning phase of this new radio observatory.",
+      "venue": "Astronomy and Astrophysics",
+      "citation_count": 2693,
+      "doi": "10.1051/0004-6361/201220873",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1051/0004-6361/201220873",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3115677442",
+      "title": "Data-driven materials research enabled by natural language processing and information extraction",
+      "authors": [
+        {
+          "name": "Elsa Olivetti",
+          "affiliation": "IIT@MIT"
+        },
+        {
+          "name": "Jacqueline M. Cole",
+          "affiliation": "Rutherford Appleton Laboratory"
+        },
+        {
+          "name": "Edward Kim",
+          "affiliation": "Xerox (Canada)"
+        },
+        {
+          "name": "Olga Kononova",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "Gerbrand Ceder",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "T. Yong-Jin Han",
+          "affiliation": "Lawrence Livermore National Laboratory"
+        },
+        {
+          "name": "Anna M. Hiszpanski",
+          "affiliation": "Lawrence Livermore National Laboratory"
+        }
+      ],
+      "year": 2020,
+      "abstract": "Given the emergence of data science and machine learning throughout all aspects of society, but particularly in the scientific domain, there is increased importance placed on obtaining data. Data in materials science are particularly heterogeneous, based on the significant range in materials classes that are explored and the variety of materials properties that are of interest. This leads to data that range many orders of magnitude, and these data may manifest as numerical text or image-based information, which requires quantitative interpretation. The ability to automatically consume and codify the scientific literature across domains\u2014enabled by techniques adapted from the field of natural language processing\u2014therefore has immense potential to unlock and generate the rich datasets necessary for data science and machine learning. This review focuses on the progress and practices of natural language processing and text mining of materials science literature and highlights opportunities for extracting additional information beyond text contained in figures and tables in articles. We discuss and provide examples for several reasons for the pursuit of natural language processing for materials, including data compilation, hypothesis development, and understanding the trends within and across fields. Current and emerging natural language processing methods along with their applications to materials science are detailed. We, then, discuss natural language processing and data challenges within the materials science domain where future directions may prove valuable.",
+      "venue": "Applied Physics Reviews",
+      "citation_count": 299,
+      "doi": "10.1063/5.0021106",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1063/5.0021106",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W4220991830",
+      "title": "Combinatorial optimization of mRNA structure, stability, and translation for RNA-based therapeutics",
+      "authors": [
+        {
+          "name": "Kathrin Leppek",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Gun Woo Byeon",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Wipapat Kladwang",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Hannah K. Wayment-Steele",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Craig H. Kerr",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Adele Xu",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Do Soon Kim",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Ved V. Topkar",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Christian A. Choe",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Daphna Rothschild",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Gerald C. Tiu",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Roger Wellington-Oguri",
+          "affiliation": "Eterna Massive Open Laboratory"
+        },
+        {
+          "name": "Kotaro Fujii",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Eesha Sharma",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Andrew M. Watkins",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "John J. Nicol",
+          "affiliation": "Eterna Massive Open Laboratory"
+        },
+        {
+          "name": "Jonathan Romano",
+          "affiliation": "Eterna Massive Open Laboratory"
+        },
+        {
+          "name": "Bojan Tunguz",
+          "affiliation": "Nvidia (United States)"
+        },
+        {
+          "name": "Fernando D\u0131\u0301az",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Hui Cai",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Pengbo Guo",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Jiewei Wu",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Fanyu Meng",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Shuai Shi",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Eterna Participants",
+          "affiliation": "Eterna Massive Open Laboratory"
+        },
+        {
+          "name": "Philip R. Dormitzer",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Alicia Sol\u00f3rzano",
+          "affiliation": "Pfizer (United States)"
+        },
+        {
+          "name": "Maria Barna",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Rhiju Das",
+          "affiliation": "Eterna Massive Open Laboratory"
+        }
+      ],
+      "year": 2022,
+      "abstract": "Therapeutic mRNAs and vaccines are being developed for a broad range of human diseases, including COVID-19. However, their optimization is hindered by mRNA instability and inefficient protein expression. Here, we describe design principles that overcome these barriers. We develop an RNA sequencing-based platform called PERSIST-seq to systematically delineate in-cell mRNA stability, ribosome load, as well as in-solution stability of a library of diverse mRNAs. We find that, surprisingly, in-cell stability is a greater driver of protein output than high ribosome load. We further introduce a method called In-line-seq, applied to thousands of diverse RNAs, that reveals sequence and structure-based rules for mitigating hydrolytic degradation. Our findings show that highly structured \"superfolder\" mRNAs can be designed to improve both stability and expression with further enhancement through pseudouridine nucleoside modification. Together, our study demonstrates simultaneous improvement of mRNA stability and protein expression and provides a computational-experimental platform for the enhancement of mRNA medicines.",
+      "venue": "Nature Communications",
+      "citation_count": 390,
+      "doi": "10.1038/s41467-022-28776-w",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41467-022-28776-w",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2038036959",
+      "title": "Temporal variability in soil microbial communities across land-use types",
+      "authors": [
+        {
+          "name": "Christian L. Lauber",
+          "affiliation": "Cooperative Institute for Research in Environmental Sciences"
+        },
+        {
+          "name": "Kelly S. Ramirez",
+          "affiliation": "Colorado State University"
+        },
+        {
+          "name": "Zach Aanderud",
+          "affiliation": "Brigham Young University"
+        },
+        {
+          "name": "Jay T. Lennon",
+          "affiliation": "Indiana University Bloomington"
+        },
+        {
+          "name": "Noah Fierer",
+          "affiliation": "Cooperative Institute for Research in Environmental Sciences"
+        }
+      ],
+      "year": 2013,
+      "abstract": "Although numerous studies have investigated changes in soil microbial communities across space, questions about the temporal variability in these communities and how this variability compares across soils have received far less attention. We collected soils on a monthly basis (May to November) from replicated plots representing three land-use types (conventional and reduced-input row crop agricultural plots and early successional grasslands) maintained at a research site in Michigan, USA. Using barcoded pyrosequencing of the 16S rRNA gene, we found that the agricultural and early successional land uses harbored unique soil bacterial communities that exhibited distinct temporal patterns. \u03b1-Diversity, the numbers of taxa or lineages, was significantly influenced by the sampling month with the temporal variability in \u03b1-diversity exceeding the variability between land-use types. In contrast, differences in community composition across land-use types were reasonably constant across the 7-month period, suggesting that the time of sampling is less important when assessing \u03b2-diversity patterns. Communities in the agricultural soils were most variable over time and the changes were significantly correlated with soil moisture and temperature. Temporal shifts in bacterial community composition within the successional grassland plots were less predictable and are likely a product of complex interactions between the soil environment and the more diverse plant community. Temporal variability needs to be carefully assessed when comparing microbial diversity across soil types and the temporal patterns in microbial community structure can not necessarily be generalized across land uses, even if those soils are exposed to the same climatic conditions.",
+      "venue": "The ISME Journal",
+      "citation_count": 559,
+      "doi": "10.1038/ismej.2013.50",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/ismej.2013.50",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W4360849792",
+      "title": "The protein corona from nanomedicine to environmental science",
+      "authors": [
+        {
+          "name": "Morteza Mahmoudi",
+          "affiliation": "Michigan State University"
+        },
+        {
+          "name": "Markita P. Landry",
+          "affiliation": "QB3"
+        },
+        {
+          "name": "Anna Moore",
+          "affiliation": "Michigan State University"
+        },
+        {
+          "name": "Roxana Coreas",
+          "affiliation": "University of California, Berkeley"
+        }
+      ],
+      "year": 2023,
+      "abstract": "",
+      "venue": "Nature Reviews Materials",
+      "citation_count": 561,
+      "doi": "10.1038/s41578-023-00552-2",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41578-023-00552-2",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2018105531",
+      "title": "Crops that feed the world 6. Past successes and future challenges to the role played by maize in global food security",
+      "authors": [
+        {
+          "name": "Bekele Shiferaw",
+          "affiliation": "Centro Internacional de Mejoramiento de Ma\u00edz Y Trigo"
+        },
+        {
+          "name": "B. M. Prasanna",
+          "affiliation": "Centro Internacional de Mejoramiento de Ma\u00edz Y Trigo"
+        },
+        {
+          "name": "Jon Hellin",
+          "affiliation": "Centro Internacional de Mejoramiento de Ma\u00edz Y Trigo"
+        },
+        {
+          "name": "Marianne B\u00e4nziger",
+          "affiliation": "Centro Internacional de Mejoramiento de Ma\u00edz Y Trigo"
+        }
+      ],
+      "year": 2011,
+      "abstract": "Maize is one of the most important food crops in the world and, together with rice and wheat, provides at least 30% of the food calories to more than 4.5 billion people in 94 developing countries. In parts of Africa and Mesoamerica, maize alone contributes over 20% of food calories. Maize is also a key ingredient in animal feed and is used extensively in industrial products, including the production of biofuels. Increasing demand and production shortfalls in global maize supplies have worsened market volatility and contributed to surging global maize prices. Climatic variability and change, and the consequent rise in abiotic and biotic stresses, further confound the problem. Unless concerted and vigorous measures are taken to address these challenges and accelerate yield growth, the outcome will be hunger and food insecurity for millions of poor consumers. We review the research challenges of ensuring global food security in maize, particularly in the context of climate change. The paper summarizes the importance of maize for food, nutrition and livelihood security and details the historical productivity of maize, consumption patterns and future trends. We show how crop breeding to overcome biotic and abiotic stresses will play a key role in meeting future maize demand. Attention needs to be directed at the generation of high yielding, stress-tolerant and widely-adapted maize varieties through judicious combination of conventional and molecular breeding approaches. The use of improved germplasm per se will not, however, be enough to raise yields and enhance adaptation to climate change, and will need to be complemented by improved crop and agronomic practices. Faced with emasculated state extension provision and imperfect markets, new extension approaches and institutional innovations are required that enhance farmers\u2019 access to information, seeds, other inputs, finance and output markets. Over the long-term, large public and private sector investment and sustained political commitment and policy support for technology generation and delivery are needed to overcome hunger, raise the incomes of smallholder farmers and meet the challenges of growing demand for maize at the global level.",
+      "venue": "Food Security",
+      "citation_count": 1579,
+      "doi": "10.1007/s12571-011-0140-5",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1007/s12571-011-0140-5",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2895337931",
+      "title": "Tomato Seeds Preferably Transmit Plant Beneficial Endophytes",
+      "authors": [
+        {
+          "name": "Alessandro Bergna",
+          "affiliation": "Graz University of Technology"
+        },
+        {
+          "name": "Tomislav Cernava",
+          "affiliation": "Graz University of Technology"
+        },
+        {
+          "name": "Manuela R\u00e4ndler",
+          "affiliation": "Graz University of Technology"
+        },
+        {
+          "name": "Rita Grosch",
+          "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops"
+        },
+        {
+          "name": "Christin Zachow",
+          "affiliation": "Austrian Centre of Industrial Biotechnology (Austria)"
+        },
+        {
+          "name": "Gabriele Berg",
+          "affiliation": "Graz University of Technology"
+        }
+      ],
+      "year": 2018,
+      "abstract": "Endophytes with plant growth-promoting activity can improve the health and development of plants during all life stages. However, less is known about their stability and transmission across plant genotypes, habitats, and generations. By combining community and isolate analyses, we found that each plant habitat and genotype harbored distinct bacterial communities and plant growth-promoting bacteria (PGPB). Soil, root endosphere, and rhizosphere were the habitats with the highest bacterial diversity, while seeds hosted more selective communities. Seeds generated under field conditions showed traces of a bacterial community composition connected to the suppression of plant pathogens. In contrast, seeds of the successive generation grown in a pathogen-free and low-nutrient environment showed a predominance of bacteria that facilitate the uptake of nutrients. These modifications of the microbiome can be explained by an adaptation to prevalent environmental conditions. Cultivation approaches revealed microhabitat-specific PGPB that were assigned to various species of Bacillus, Stenotrophomonas, and Ralstonia. Tracking down these bacteria among the whole tomato plant allowed us to identify the seed as a primary vehicle of PGPB transmission. This previously undescribed vertical transmission of PGPB represents a strategy to maintain plant beneficial bacteria over generations and has an impact for the design of seed treatments.",
+      "venue": "Phytobiomes Journal",
+      "citation_count": 181,
+      "doi": "10.1094/pbiomes-06-18-0029-r",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1094/pbiomes-06-18-0029-r",
+      "source": "openalex",
+      "_bibtex_override": ""
+    }
+  ]
+}
