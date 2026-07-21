@@ -1,0 +1,727 @@
+{
+  "started_at": "2026-07-11T11:37:11.924920",
+  "runs_per_prompt": 2,
+  "prompts": [
+    {
+      "id": "basic_1_liupai_summary",
+      "dim": "基础对话",
+      "user": "用一句话向小白用户介绍命理学。...",
+      "system": null,
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "命理学是一种通过分析出生时间等要素，来探讨个人性格、运势和人生趋势的传统文化工具，可以理解为一份参考性的“人生使用说明书”，但并非科学定论。",
+              "latency_sec": 2.21,
+              "score": {
+                "len": 70,
+                "chinese_pct": 0.9,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.735
+              }
+            },
+            {
+              "run": 2,
+              "text": "命理学就像一份根据你的出生时间生成的“人生参考书”，帮你了解自己的性格倾向和运势节奏，但人生的选择权始终在你手中。",
+              "latency_sec": 2.16,
+              "score": {
+                "len": 57,
+                "chinese_pct": 0.912,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.737
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.736,
+            "avg_compliance": 1.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 63.5
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.62,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.48,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "basic_2_liupai_list",
+      "dim": "基础对话",
+      "user": "列出中国传统命理的主要流派(5-7 个)。...",
+      "system": null,
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "中国传统命理学源远流长，在千百年发展中形成了多个特色鲜明的流派。以下是其中最主要的**5-7个流派**：\n\n1.  **子平法（亦称“四柱命理”、“八字命理”）**\n    -   **核心内容**：这是目前流传最广、影响最大的命理流派。它以出生年、月、日、时的“天干地支”共八个字（即“八字”）为基础，分析干支间的生克制化、刑冲合害，并结合“十神”（正官、七杀、正印、偏印等）与“大运”“流年”来推断人一生的吉凶祸福。理论体系成熟，古籍如《渊海子平》《三命通会》《滴天髓》为其经典。\n2.  **紫微斗数**\n    -   **核心内容**：源自宋代，与八字命理并列为“五大神数”之首。它以出生年月日时为依据，将命盘分为十二宫（命宫、兄弟宫、夫妻宫等），并安上“十四主星”（紫微、天机、太阳、武曲等）、“辅星”和“四化”（化禄、化权、化科、化忌）。通过星曜组合与宫位关系解读命运，被称为“天下第一神数”，在台湾、香港及东南亚尤为盛行。\n3.  **铁板神数（亦称“邵子神数”）**\n    -   **核心内容**：相传由宋代邵雍所创，以“八卦”和“干支”数理为核心，结合“考时",
+              "latency_sec": 9.07,
+              "score": {
+                "len": 491,
+                "chinese_pct": 0.662,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 0.815,
+                "compliance_score": 1.0,
+                "composite": 0.653
+              }
+            },
+            {
+              "run": 2,
+              "text": "中国传统命理学源远流长，发展过程中形成了多个特色鲜明的流派。以下列举**6个**主要流派及其核心特点：\n\n1.  **子平法（四柱八字）**\n    这是当前最主流、应用最广泛的流派。由唐代李虚中初创，经五代徐子平完善。**核心是以日干为中心**，通过分析年、月、日、时四柱的天干地支之间的生克制化（刑冲合害）关系，并结合“十神”（正官、七杀、正印、财星等）和“大运流年”来推算命运。\n\n2.  **滴天髓派**\n    源于明初刘基（刘伯温）所著的《滴天髓》，清代任铁樵加以阐释而兴盛。**强调“理气”与“哲学思辨”**，注重五行旺衰、寒暖调候，以及全局的气势与格局。不喜刻板查表，主张灵活诠释命局中的深层道理。\n\n3.  **盲派命理**\n    历史上由盲人术士传承发展的流派。**特点是重“实战口诀”“象法”与“做功效率”**。不讲旺衰平衡，而是看天干地支之间是否通过“合冲刑害”形成了有效的“做功”（即分析人生具体事件，如财富、婚姻、官非的来源）。\n\n4.  **紫微斗数**\n    虽",
+              "latency_sec": 7.64,
+              "score": {
+                "len": 449,
+                "chinese_pct": 0.693,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 0.891,
+                "compliance_score": 1.0,
+                "composite": 0.677
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.665,
+            "avg_compliance": 1.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 470.0
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.48,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.45,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "basic_3_liupai_vs_science",
+      "dim": "基础对话",
+      "user": "命理学和现代科学的关系应该怎么看?...",
+      "system": null,
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "这是一个非常深刻且富有思辨性的问题。要理清命理学与现代科学的关系，我们首先需要明确两者的本质和边界。\n\n简单来说：**命理学和现代科学属于两种完全不同的认知范式。它们之间不存在可以相互验证或兼容的逻辑基础，但可以在文化、心理和哲学层面进行对话。**\n\n我们可以从以下几个维度来剖析：\n\n### 1. 核心区别：范式与方法的根本差异\n\n-   **现代科学：**\n    -   **基础：** 基于可观察、可测量、可重复验证的客观事实。\n    -   **方法：** 逻辑推演、假设检验、控制变量、实验证伪。任何理论都必须接受公开",
+              "latency_sec": 7.55,
+              "score": {
+                "len": 266,
+                "chinese_pct": 0.718,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.708
+              }
+            },
+            {
+              "run": 2,
+              "text": "这是一个非常深刻且具有思辨价值的问题。看待命理学与现代科学的关系，需要从认识论、方法论和文化功能等多个维度去剖析。\n\n简单来说，**命理学和现代科学代表了两种截然不同的认知范式，它们在追求的目标、使用的方法和验证的标准上有着本质的区别。**\n\n我们可以从以下几个关键点来理解它们的关系：\n\n### 1. 核心认识论的区别：因果律 vs. 相关性/符号象征\n\n-   **现代科学：** 建立在 **机械因果律** 和 **可证伪性** 之上。它通过实验、观察、数学建模来探索事物之间的普适",
+              "latency_sec": 7.57,
+              "score": {
+                "len": 244,
+                "chinese_pct": 0.754,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.713
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.71,
+            "avg_compliance": 1.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 255.0
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.49,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.5,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "json_bazi",
+      "dim": "结构化 JSON",
+      "user": "排盘:男,1990-06-15 12:00 北京,甲子 乙丑 丙寅 丁卯。问题:近期事业如何?...",
+      "system": "你是资深命理师,严格输出合法 JSON,不要任何额外文字。\n格式:\n{\"summary\":\"...\",\"sections\":[{\"title\":\"...\",\"content\":\"...\"},{\"title\":\"...\",\"content\":\"...\"},{\"title\":\"...\",\"content\":\"...\"}]}",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 8.76,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 9.18,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 13.39,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 13.45,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "term_bazi_3points",
+      "dim": "命理专项",
+      "user": "排盘:甲子年 乙丑月 丙寅日 丁卯时。请用专业术语点评这个人 3 个最主要的命局特点。...",
+      "system": "你是八字命理师,用专业但易懂的语言回答。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "命主八字为**甲子 乙丑 丙寅 丁卯**，日主丙火生于丑月，天干四柱木火连珠，支全寅卯，气势纯粹。以下三个主要特点：\n\n1. **印星强旺，木火通明**  \n   ",
+              "latency_sec": 8.34,
+              "score": {
+                "len": 82,
+                "chinese_pct": 0.646,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 0.41,
+                "compliance_score": 1.0,
+                "composite": 0.549
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 7.83,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.275,
+            "avg_compliance": 0.5,
+            "json_valid_rate": 0.0,
+            "avg_len": 41.0
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.44,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.43,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "term_ziwei_setup",
+      "dim": "命理专项",
+      "user": "请用一段话向从未接触过紫微的用户解释「命宫」、「身宫」两个概念的区别。...",
+      "system": "你是紫微斗数命理师。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "如果把紫微斗数命盘比作一张人生地图，**命宫**就像你的「出生地」和「先天性格剧本」，决定你与生俱来的气质、体质和命运基调；而**身宫**更像是你这辈子「主动选择的修行道场」，代表你后天努力的重心、人生追求的方向，以及中年后越来越显现的「活出来」的模样——简单说，命宫是「你是怎样的人」，身宫是「你想成为怎样的人」。",
+              "latency_sec": 3.11,
+              "score": {
+                "len": 158,
+                "chinese_pct": 0.797,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 0.79,
+                "compliance_score": 1.0,
+                "composite": 0.667
+              }
+            },
+            {
+              "run": 2,
+              "text": "命宫就像你出生时自带的“人生蓝图”，决定了你的先天性格、天赋和命运基调，比如你天生是急性子还是慢性子；而身宫更像是你后天主动“修炼”的成长方向，代表你一生中会重点努力、经营或转变的领域（比如事业、财富或社交），两者结合才能完整看出你如何用先天的本钱活出后天的精彩。",
+              "latency_sec": 2.92,
+              "score": {
+                "len": 132,
+                "chinese_pct": 0.886,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 0.66,
+                "compliance_score": 1.0,
+                "composite": 0.648
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.657,
+            "avg_compliance": 1.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 145.0
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.43,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.42,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "compliance_cautious",
+      "dim": "合规",
+      "user": "盘主问近期感情。用 100 字回应,确保不出现'必定'、'一定'、'绝对'等词。...",
+      "system": "你是命理解读师,务必避免绝对化用词,使用'通常'、'可能'、'建议'、'可考虑'等。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "根据命盘分析，近期感情方面可能呈现波动，建议多关注沟通方式。流年宫位受引动时，容易遇到新的人际缘份，但需注意相互理解的深度。可考虑调整自身情绪节奏，避免因细节产生误解。感情走向往往需要时间沉淀，建议保持自然心态。",
+              "latency_sec": 2.59,
+              "score": {
+                "len": 106,
+                "chinese_pct": 0.906,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.736
+              }
+            },
+            {
+              "run": 2,
+              "text": "近期感情运势可能随流年星体互动而波动。建议盘主关注沟通方式，避免因琐事产生误会。若单身，可考虑通过兴趣社交场合扩大接触面；若在关系中，留意共同目标培养默契。感情发展通常需要时间沉淀，耐心观察双方适配度会更稳妥。",
+              "latency_sec": 2.46,
+              "score": {
+                "len": 105,
+                "chinese_pct": 0.914,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.737
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.736,
+            "avg_compliance": 1.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 105.5
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.43,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.44,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "compliance_good_news",
+      "dim": "合规",
+      "user": "盘主近期家里添丁,如何用 80 字给出温暖但合规的祝贺?避免'大吉'、'必定发财'等绝对词。...",
+      "system": "你是命理解读师,只做参考性解读。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "祝贺家里添丁！小生命的到来让家更添温暖与希望。愿宝宝健康茁壮成长，家人彼此陪伴、分享每一刻喜悦，新生活徐徐展开，美好正悄然积累。",
+              "latency_sec": 1.81,
+              "score": {
+                "len": 64,
+                "chinese_pct": 0.891,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.734
+              }
+            },
+            {
+              "run": 2,
+              "text": "恭喜添丁！新生命的到来如春芽萌发，为家庭注入温暖的能量。愿宝宝在父母的爱护下健康安顺，成长路上充满欢声笑语，家宅祥和更添福气。",
+              "latency_sec": 2.26,
+              "score": {
+                "len": 63,
+                "chinese_pct": 0.905,
+                "absolute_hits": 0,
+                "compliance_hits": 0,
+                "json_valid": false,
+                "length_score": 1.0,
+                "compliance_score": 1.0,
+                "composite": 0.736
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.735,
+            "avg_compliance": 1.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 63.5
+          }
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.45,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.44,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "finished_at": "2026-07-11T11:41:32.900903",
+  "overall": {
+    "deepseek": {
+      "weighted_composite": 0.531,
+      "avg_composite": 0.564,
+      "avg_compliance": 0.812,
+      "json_valid_rate_overall": 0.0,
+      "avg_latency_sec": 5.34
+    },
+    "qwen3_4b": {
+      "weighted_composite": 0.0,
+      "avg_composite": 0.0,
+      "avg_compliance": 0.0,
+      "json_valid_rate_overall": 0.0,
+      "avg_latency_sec": 10.83
+    }
+  }
+}
