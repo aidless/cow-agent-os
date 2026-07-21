@@ -1,0 +1,761 @@
+{
+  "query": "The combined approach outperforms either component under fixed compute budget.",
+  "source": "openalex",
+  "limit": 15,
+  "timestamp": 1783733521.2592177,
+  "papers": [
+    {
+      "paper_id": "oalex-W4385245566",
+      "title": "Inline Hardware KV-Cache Compression for Long-Context Transformer Inference: An Architectural Case for a Memory-Path Compression Engine",
+      "authors": [
+        {
+          "name": "Novickis, Alexander",
+          "affiliation": "Czech Technical University in Prague"
+        }
+      ],
+      "year": 2023,
+      "abstract": "As a present to Mizar on its 50th anniversary, we develop an AI/TP system that automatically proves about 60% of the Mizar theorems in the hammer setting. We also automatically prove 75% of the Mizar theorems when the automated provers are helped by using only the premises used in the human-written Mizar proofs. We describe the methods and large-scale experiments leading to these results. This includes in particular the E and Vampire provers, their ENIGMA and Deepire learning modifications, a number of learning-based premise selection methods, and the incremental loop that interleaves growing a corpus of millions of ATP proofs with training increasingly strong AI/TP systems on them. We also present a selection of Mizar problems that were proved automatically.",
+      "venue": "DROPS (Schloss Dagstuhl \u2013 Leibniz Center for Informatics)",
+      "citation_count": 76372,
+      "doi": "10.4230/lipics.itp.2023.19",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.4230/lipics.itp.2023.19",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2950865323",
+      "title": "Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing",
+      "authors": [
+        {
+          "name": "Zhi Zhou",
+          "affiliation": "Sun Yat-sen University"
+        },
+        {
+          "name": "Xu Chen",
+          "affiliation": "Sun Yat-sen University"
+        },
+        {
+          "name": "En Li",
+          "affiliation": "Sun Yat-sen University"
+        },
+        {
+          "name": "Liekang Zeng",
+          "affiliation": "Sun Yat-sen University"
+        },
+        {
+          "name": "Ke Luo",
+          "affiliation": "Sun Yat-sen University"
+        },
+        {
+          "name": "Junshan Zhang",
+          "affiliation": "Arizona State University"
+        }
+      ],
+      "year": 2019,
+      "abstract": "With the breakthroughs in deep learning, the recent years have witnessed a booming of artificial intelligence (AI) applications and services, spanning from personal assistant to recommendation systems to video/audio surveillance. More recently, with the proliferation of mobile computing and Internet of Things (IoT), billions of mobile and IoT devices are connected to the Internet, generating zillions bytes of data at the network edge. Driving by this trend, there is an urgent need to push the AI frontiers to the network edge so as to fully unleash the potential of the edge big data. To meet this demand, edge computing, an emerging paradigm that pushes computing tasks and services from the network core to the network edge, has been widely recognized as a promising solution. The resulted new interdiscipline, edge AI or edge intelligence (EI), is beginning to receive a tremendous amount of interest. However, research on EI is still in its infancy stage, and a dedicated venue for exchanging the recent advances of EI is highly desired by both the computer system and AI communities. To this end, we conduct a comprehensive survey of the recent research efforts on EI. Specifically, we first review the background and motivation for AI running at the network edge. We then provide an overview of the overarching architectures, frameworks, and emerging key technologies for deep learning model toward training/inference at the network edge. Finally, we discuss future research opportunities on EI. We believe that this survey will elicit escalating attentions, stimulate fruitful discussions, and inspire further research ideas on EI.",
+      "venue": "Proceedings of the IEEE",
+      "citation_count": 2188,
+      "doi": "10.1109/jproc.2019.2918951",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/jproc.2019.2918951",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2128225313",
+      "title": "A Revised Approach to Ice Microphysical Processes for the Bulk Parameterization of Clouds and Precipitation",
+      "authors": [
+        {
+          "name": "Song-You Hong",
+          "affiliation": "Yonsei University"
+        },
+        {
+          "name": "Jimy Dudhia",
+          "affiliation": "NSF National Center for Atmospheric Research"
+        },
+        {
+          "name": "Shu\u2010Hua Chen",
+          "affiliation": "University of California, Davis"
+        }
+      ],
+      "year": 2004,
+      "abstract": "A revised approach to cloud microphysical processes in a commonly used bulk microphysics parameterization and the importance of correctly representing properties of cloud ice are discussed. Several modifications are introduced to more realistically simulate some of the ice microphysical processes. In addition to the assumption that ice nuclei number concentration is a function of temperature, a new and separate assumption is developed in which ice crystal number concentration is a function of ice amount. Related changes in ice microphysics are introduced, and the impact of sedimentation of ice crystals is also investigated.",
+      "venue": "Monthly Weather Review",
+      "citation_count": 2665,
+      "doi": "10.1175/1520-0493(2004)132<0103:aratim>2.0.co;2",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1175/1520-0493(2004)132<0103:aratim>2.0.co;2",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2962814013",
+      "title": "Convergence of Edge Computing and Deep Learning: A Comprehensive Survey",
+      "authors": [
+        {
+          "name": "Xiaofei Wang",
+          "affiliation": "Tianjin University"
+        },
+        {
+          "name": "Yiwen Han",
+          "affiliation": "Tianjin University"
+        },
+        {
+          "name": "Victor C. M. Leung",
+          "affiliation": "University of British Columbia"
+        },
+        {
+          "name": "Dusit Niyato",
+          "affiliation": "Nanyang Technological University"
+        },
+        {
+          "name": "Xueqiang Yan",
+          "affiliation": "Huawei Technologies (China)"
+        },
+        {
+          "name": "Xu Chen",
+          "affiliation": "Sun Yat-sen University"
+        }
+      ],
+      "year": 2020,
+      "abstract": "Ubiquitous sensors and smart devices from factories and communities are generating massive amounts of data, and ever-increasing computing power is driving the core of computation and services from the cloud to the edge of the network. As an important enabler broadly changing people's lives, from face recognition to ambitious smart factories and cities, developments of artificial intelligence (especially deep learning, DL) based applications and services are thriving. However, due to efficiency and latency issues, the current cloud computing service architecture hinders the vision of \u201cproviding artificial intelligence for every person and every organization at everywhere\u201d. Thus, unleashing DL services using resources at the network edge near the data sources has emerged as a desirable solution. Therefore, edge intelligence, aiming to facilitate the deployment of DL services by edge computing, has received significant attention. In addition, DL, as the representative technique of artificial intelligence, can be integrated into edge computing frameworks to build intelligent edge for dynamic, adaptive edge maintenance and management. With regard to mutually beneficial edge intelligence and intelligent edge, this paper introduces and discusses: 1) the application scenarios of both; 2) the practical implementation methods and enabling technologies, namely DL training and inference in the customized edge computing framework; 3) challenges and future trends of more pervasive and fine-grained intelligence. We believe that by consolidating information scattered across the communication, networking, and DL areas, this survey can help readers to understand the connections between enabling technologies while promoting further discussions on the fusion of edge intelligence and intelligent edge, i.e., Edge DL.",
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "citation_count": 1441,
+      "doi": "10.1109/comst.2020.2970550",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/comst.2020.2970550",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2591882872",
+      "title": "Deep Models Under the GAN",
+      "authors": [
+        {
+          "name": "Briland Hitaj",
+          "affiliation": "Stevens Institute of Technology"
+        },
+        {
+          "name": "Giuseppe Ateniese",
+          "affiliation": "Stevens Institute of Technology"
+        },
+        {
+          "name": "Fernando P\u00e9rez\u2010Cruz",
+          "affiliation": "Stevens Institute of Technology"
+        }
+      ],
+      "year": 2017,
+      "abstract": "Deep Learning has recently become hugely popular in machine learning for its ability to solve end-to-end learning systems, in which the features and the classifiers are learned simultaneously, providing significant improvements in classification accuracy in the presence of highly-structured and large databases.",
+      "venue": "",
+      "citation_count": 1291,
+      "doi": "10.1145/3133956.3134012",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1145/3133956.3134012",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2995022099",
+      "title": "Advances and Open Problems in Federated Learning",
+      "authors": [
+        {
+          "name": "Peter Kairouz",
+          "affiliation": ""
+        },
+        {
+          "name": "H. Brendan McMahan",
+          "affiliation": "Google (United States)"
+        },
+        {
+          "name": "Brendan Avent",
+          "affiliation": ""
+        },
+        {
+          "name": "Aur\u00e9lien Bellet",
+          "affiliation": ""
+        },
+        {
+          "name": "Mehdi Bennis",
+          "affiliation": ""
+        },
+        {
+          "name": "Arjun Nitin Bhagoji",
+          "affiliation": ""
+        },
+        {
+          "name": "Kallista Bonawitz",
+          "affiliation": ""
+        },
+        {
+          "name": "Zachary Charles",
+          "affiliation": ""
+        },
+        {
+          "name": "Graham Cormode",
+          "affiliation": ""
+        },
+        {
+          "name": "Rachel Cummings",
+          "affiliation": ""
+        },
+        {
+          "name": "Rafael G. L. D\u2019Oliveira",
+          "affiliation": ""
+        },
+        {
+          "name": "Hubert Eichner",
+          "affiliation": ""
+        },
+        {
+          "name": "Salim El Rouayheb",
+          "affiliation": ""
+        },
+        {
+          "name": "David Evans",
+          "affiliation": ""
+        },
+        {
+          "name": "Joshua Gardner",
+          "affiliation": ""
+        },
+        {
+          "name": "Zachary Garrett",
+          "affiliation": ""
+        },
+        {
+          "name": "Adri\u00e0 Gasc\u00f3n",
+          "affiliation": ""
+        },
+        {
+          "name": "Badih Ghazi",
+          "affiliation": ""
+        },
+        {
+          "name": "Phillip B. Gibbons",
+          "affiliation": ""
+        },
+        {
+          "name": "Marco Gruteser",
+          "affiliation": ""
+        },
+        {
+          "name": "Za\u00efd Harchaoui",
+          "affiliation": ""
+        },
+        {
+          "name": "Chaoyang He",
+          "affiliation": ""
+        },
+        {
+          "name": "Lingxiao He",
+          "affiliation": ""
+        },
+        {
+          "name": "Zhouyuan Huo",
+          "affiliation": ""
+        },
+        {
+          "name": "Ben Hutchinson",
+          "affiliation": ""
+        },
+        {
+          "name": "Justin Hsu",
+          "affiliation": ""
+        },
+        {
+          "name": "Martin Jaggi",
+          "affiliation": ""
+        },
+        {
+          "name": "Tara Javidi",
+          "affiliation": ""
+        },
+        {
+          "name": "Gauri Joshi",
+          "affiliation": ""
+        },
+        {
+          "name": "Mikhail Khodak",
+          "affiliation": ""
+        },
+        {
+          "name": "Jakub Kone\u010dn\u00fd",
+          "affiliation": ""
+        },
+        {
+          "name": "Aleksandra Korolova",
+          "affiliation": ""
+        },
+        {
+          "name": "Farinaz Koushanfar",
+          "affiliation": ""
+        },
+        {
+          "name": "Sanmi Koyejo",
+          "affiliation": ""
+        },
+        {
+          "name": "Tancr\u00e8de Lepoint",
+          "affiliation": ""
+        },
+        {
+          "name": "Yang Liu",
+          "affiliation": ""
+        },
+        {
+          "name": "Prateek Mittal",
+          "affiliation": ""
+        },
+        {
+          "name": "Mehryar Mohri",
+          "affiliation": ""
+        },
+        {
+          "name": "Richard Nock",
+          "affiliation": ""
+        },
+        {
+          "name": "Ayfer \u00d6zg\u00fcr",
+          "affiliation": ""
+        },
+        {
+          "name": "Rasmus Pagh",
+          "affiliation": ""
+        },
+        {
+          "name": "Hang Qi",
+          "affiliation": ""
+        },
+        {
+          "name": "Daniel Ramage",
+          "affiliation": ""
+        },
+        {
+          "name": "Ramesh Raskar",
+          "affiliation": ""
+        },
+        {
+          "name": "Mariana Raykova",
+          "affiliation": ""
+        },
+        {
+          "name": "Dawn Song",
+          "affiliation": ""
+        },
+        {
+          "name": "Weikang Song",
+          "affiliation": ""
+        },
+        {
+          "name": "Sebastian U. Stich",
+          "affiliation": ""
+        },
+        {
+          "name": "Ziteng Sun",
+          "affiliation": ""
+        },
+        {
+          "name": "Ananda Theertha Suresh",
+          "affiliation": ""
+        },
+        {
+          "name": "Florian Tram\u00e8r",
+          "affiliation": ""
+        },
+        {
+          "name": "Praneeth Vepakomma",
+          "affiliation": ""
+        },
+        {
+          "name": "Jianyu Wang",
+          "affiliation": ""
+        },
+        {
+          "name": "Li Xiong",
+          "affiliation": ""
+        },
+        {
+          "name": "Zheng Xu",
+          "affiliation": ""
+        },
+        {
+          "name": "Qiang Yang",
+          "affiliation": ""
+        },
+        {
+          "name": "Felix X. Yu",
+          "affiliation": ""
+        },
+        {
+          "name": "Han Yu",
+          "affiliation": ""
+        },
+        {
+          "name": "Sen Zhao",
+          "affiliation": ""
+        }
+      ],
+      "year": 2020,
+      "abstract": "Federated learning (FL) is a machine learning setting where many clients (e.g., mobile devices or whole organizations) collaboratively train a model under the orchestration of a central server (e.g., service provider), while keeping the training data decentralized. FL embodies the principles of focused data collection and minimization, and can mitigate many of the systemic privacy risks and costs resulting from traditional, centralized machine learning and data science approaches. Motivated by the explosive growth in FL research, this monograph discusses recent advances and presents an extensive collection of open problems and challenges.",
+      "venue": "Foundations and Trends\u00ae in Machine Learning",
+      "citation_count": 4804,
+      "doi": "10.1561/2200000083",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1561/2200000083",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3034606981",
+      "title": "A Survey of Multi-Access Edge Computing in 5G and Beyond: Fundamentals, Technology Integration, and State-of-the-Art",
+      "authors": [
+        {
+          "name": "Quoc\u2010Viet Pham",
+          "affiliation": "Pusan National University"
+        },
+        {
+          "name": "Fang Fang",
+          "affiliation": "Durham University"
+        },
+        {
+          "name": "Vu Nguyen Ha",
+          "affiliation": "Polytechnique Montr\u00e9al"
+        },
+        {
+          "name": "Md. Jalil Piran",
+          "affiliation": "Sejong University"
+        },
+        {
+          "name": "Mai Le",
+          "affiliation": "Inje University"
+        },
+        {
+          "name": "Long Bao Le",
+          "affiliation": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al"
+        },
+        {
+          "name": "Won\u2013Joo Hwang",
+          "affiliation": "Pusan National University"
+        },
+        {
+          "name": "Zhiguo Ding",
+          "affiliation": "University of Manchester"
+        }
+      ],
+      "year": 2020,
+      "abstract": "Driven by the emergence of new compute-intensive applications and the vision of the Internet of Things (IoT), it is foreseen that the emerging 5G network will face an unprecedented increase in traffic volume and computation demands. However, end users mostly have limited storage capacities and finite processing capabilities, thus how to run compute-intensive applications on resource-constrained users has recently become a natural concern. Mobile edge computing (MEC), a key technology in the emerging fifth generation (5G) network, can optimize mobile resources by hosting compute-intensive applications, process large data before sending to the cloud, provide the cloud-computing capabilities within the radio access network (RAN) in close proximity to mobile users, and offer context-aware services with the help of RAN information. Therefore, MEC enables a wide variety of applications, where the real-time response is strictly required, e.g., driverless vehicles, augmented reality, robotics, and immerse media. Indeed, the paradigm shift from 4G to 5G could become a reality with the advent of new technological concepts. The successful realization of MEC in the 5G network is still in its infancy and demands for constant efforts from both academic and industry communities. In this survey, we first provide a holistic overview of MEC technology and its potential use cases and applications. Then, we outline up-to-date researches on the integration of MEC with the new technologies that will be deployed in 5G and beyond. We also summarize testbeds and experimental evaluations, and open source activities, for edge computing. We further summarize lessons learned from state-of-the-art research works as well as discuss challenges and potential future directions for MEC research.",
+      "venue": "IEEE Access",
+      "citation_count": 851,
+      "doi": "10.1109/access.2020.3001277",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/access.2020.3001277",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2270470215",
+      "title": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition",
+      "authors": [
+        {
+          "name": "Francisco Ord\u00f3\u00f1ez",
+          "affiliation": "University of Sussex"
+        },
+        {
+          "name": "Daniel Roggen",
+          "affiliation": "University of Sussex"
+        }
+      ],
+      "year": 2016,
+      "abstract": "Human activity recognition (HAR) tasks have traditionally been solved using engineered features obtained by heuristic processes. Current research suggests that deep convolutional neural networks are suited to automate feature extraction from raw sensor inputs. However, human activities are made of complex sequences of motor movements, and capturing this temporal dynamics is fundamental for successful HAR. Based on the recent success of recurrent neural networks for time series domains, we propose a generic deep framework for activity recognition based on convolutional and LSTM recurrent units, which: (i) is suitable for multimodal wearable sensors; (ii) can perform sensor fusion naturally; (iii) does not require expert knowledge in designing features; and (iv) explicitly models the temporal dynamics of feature activations. We evaluate our framework on two datasets, one of which has been used in a public activity recognition challenge. Our results show that our framework outperforms competing deep non-recurrent networks on the challenge dataset by 4% on average; outperforming some of the previous reported results by up to 9%. Our results show that the framework can be applied to homogeneous sensor modalities, but can also fuse multimodal sensors to improve performance. We characterise key architectural hyperparameters' influence on performance to provide insights about their optimisation.",
+      "venue": "Sensors",
+      "citation_count": 2655,
+      "doi": "10.3390/s16010115",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.3390/s16010115",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2955639361",
+      "title": "Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-Shot Cross-Dataset Transfer",
+      "authors": [
+        {
+          "name": "Rene Ranftl",
+          "affiliation": "Intel (Germany)"
+        },
+        {
+          "name": "Katrin Lasinger",
+          "affiliation": ""
+        },
+        {
+          "name": "David Hafner",
+          "affiliation": "Intel (Germany)"
+        },
+        {
+          "name": "Konrad Schindler",
+          "affiliation": ""
+        },
+        {
+          "name": "Vladlen Koltun",
+          "affiliation": "Intel (United States)"
+        }
+      ],
+      "year": 2020,
+      "abstract": "The success of monocular depth estimation relies on large and diverse training sets. Due to the challenges associated with acquiring dense ground-truth depth across different environments at scale, a number of datasets with distinct characteristics and biases have emerged. We develop tools that enable mixing multiple datasets during training, even if their annotations are incompatible. In particular, we propose a robust training objective that is invariant to changes in depth range and scale, advocate the use of principled multi-objective learning to combine data from different sources, and highlight the importance of pretraining encoders on auxiliary tasks. Armed with these tools, we experiment with five diverse training datasets, including a new, massive data source: 3D films. To demonstrate the generalization power of our approach we use zero-shot cross-dataset transfer, i.e. we evaluate on datasets that were not seen during training. The experiments confirm that mixing data from complementary sources greatly improves monocular depth estimation. Our approach clearly outperforms competing methods across diverse datasets, setting a new state of the art for monocular depth estimation.",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "citation_count": 1398,
+      "doi": "10.1109/tpami.2020.3019967",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/tpami.2020.3019967",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W4225405705",
+      "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+      "authors": [
+        {
+          "name": "Simon Batzner",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Albert Musaelian",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Lixin Sun",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Mario Geiger",
+          "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne"
+        },
+        {
+          "name": "Jonathan P. Mailoa",
+          "affiliation": "Robert Bosch (United States)"
+        },
+        {
+          "name": "Mordechai Kornbluth",
+          "affiliation": "Robert Bosch (United States)"
+        },
+        {
+          "name": "Nicola Molinari",
+          "affiliation": "Harvard University"
+        },
+        {
+          "name": "Tess Smidt",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "Boris Kozinsky",
+          "affiliation": "Harvard University"
+        }
+      ],
+      "year": 2022,
+      "abstract": "This work presents Neural Equivariant Interatomic Potentials (NequIP), an E(3)-equivariant neural network approach for learning interatomic potentials from ab-initio calculations for molecular dynamics simulations. While most contemporary symmetry-aware models use invariant convolutions and only act on scalars, NequIP employs E(3)-equivariant convolutions for interactions of geometric tensors, resulting in a more information-rich and faithful representation of atomic environments. The method achieves state-of-the-art accuracy on a challenging and diverse set of molecules and materials while exhibiting remarkable data efficiency. NequIP outperforms existing models with up to three orders of magnitude fewer training data, challenging the widely held belief that deep neural networks require massive training sets. The high data efficiency of the method allows for the construction of accurate potentials using high-order quantum chemical level of theory as reference and enables high-fidelity molecular dynamics simulations over long time scales.",
+      "venue": "Nature Communications",
+      "citation_count": 1702,
+      "doi": "10.1038/s41467-022-29939-5",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41467-022-29939-5",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W4213117259",
+      "title": "A Survey on Mobile Edge Computing Infrastructure: Design, Resource Management, and Optimization Approaches",
+      "authors": [
+        {
+          "name": "Lina Abou Haibeh",
+          "affiliation": "University of Ottawa"
+        },
+        {
+          "name": "M.C.E. Yagoub",
+          "affiliation": "University of Ottawa"
+        },
+        {
+          "name": "Abdallah Jarray",
+          "affiliation": "University of Ottawa"
+        }
+      ],
+      "year": 2022,
+      "abstract": "Emerging 5G cellular networks are expected to face a dramatic increase in the volume of mobile traffic and IoT user requests due to the massive growth in mobile devices and the emergence of new compute-intensive applications. Running high-intensive compute applications on resource-constrained mobile devices has recently become a major concern, given the constraints of finite computation and limited storage capacities. Mobile Edge Computing (MEC) has recently become the key technology to overcome these issues by providing cloud computing capabilities and placing IT infrastructures at the mobile network edge. In this survey, we present a list of relevant research papers for the MEC infrastructure implementation phases, including (1) MEC infrastructure designing and dimensioning, (2) MEC infrastructure virtualization using Network Function Virtualization (NFV) concept, and the use of virtualized service placement and auto-scaling methods to deploy an agile system framework, (3) MEC resource management frameworks, and (4) approaches used to optimize the MEC resources on the physical infrastructure. The main focus of this survey is to determine the required aspects to implement an auto-scaled and proactive MEC-NFV infrastructure to support a dynamic and heterogenous mobile users\u2019 demand at mobile network operators.",
+      "venue": "IEEE Access",
+      "citation_count": 178,
+      "doi": "10.1109/access.2022.3152787",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/access.2022.3152787",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2996943723",
+      "title": "Sensing, Computing, and Communications for Energy Harvesting IoTs: A Survey",
+      "authors": [
+        {
+          "name": "Dong Ma",
+          "affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+        },
+        {
+          "name": "Guohao Lan",
+          "affiliation": "Duke University"
+        },
+        {
+          "name": "Mahbub Hassan",
+          "affiliation": "UNSW Sydney"
+        },
+        {
+          "name": "Wen Hu",
+          "affiliation": "UNSW Sydney"
+        },
+        {
+          "name": "Sajal K. Das",
+          "affiliation": "Indian Institute of Technology Kharagpur"
+        }
+      ],
+      "year": 2019,
+      "abstract": "With the growing number of deployments of Internet of Things (IoT) infrastructure for a wide variety of applications, the battery maintenance has become a major limitation for the sustainability of such infrastructure. To overcome this problem, energy harvesting offers a viable alternative to autonomously power IoT devices, resulting in a number of battery-less energy harvesting IoTs (or EH-IoTs) appearing in the market in recent years. Standards activities are also underway, which involve wireless protocol design suitable for EH-IoTs as well as testing procedures for various energy harvesting methods. Despite the early commercial and standards activities, IoT sensing, computing and communications under unpredictable power supply still face significant research challenges. This paper systematically surveys recent advances in EH-IoTs from several perspectives. First, it reviews the recent commercial developments for EH-IoT in terms of both products and services, followed by initial standards activities in this space. Then it surveys methods that enable the use of energy harvesting hardware as a proxy for conventional sensors to detect contexts in energy efficient manner. Next it reviews the advancements in efficient checkpointing and timekeeping for intermittently powered IoT devices. We also survey recent research in novel wireless communication techniques for EH-IoTs, such as the applications of reinforcement learning to optimize power allocations on-the-fly under unpredictable energy productions, and packet-less IoT communications and backscatter communication techniques for energy impoverished environments. The paper is concluded with a discussion of future research directions.",
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "citation_count": 316,
+      "doi": "10.1109/comst.2019.2962526",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/comst.2019.2962526",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3037022125",
+      "title": "Quantum Computing for Finance: State-of-the-Art and Future Prospects",
+      "authors": [
+        {
+          "name": "Daniel J. Egger",
+          "affiliation": "IBM Research - Zurich"
+        },
+        {
+          "name": "Claudio Gambella",
+          "affiliation": "IBM Research - Ireland"
+        },
+        {
+          "name": "Jakub Marecek",
+          "affiliation": "IBM Research - Ireland"
+        },
+        {
+          "name": "Scott McFaddin",
+          "affiliation": "IBM (United States)"
+        },
+        {
+          "name": "Martin Mevissen",
+          "affiliation": "IBM Research - Ireland"
+        },
+        {
+          "name": "Rudy Raymond",
+          "affiliation": "IBM Research - Tokyo"
+        },
+        {
+          "name": "Andrea Simonetto",
+          "affiliation": "IBM Research - Ireland"
+        },
+        {
+          "name": "Stefan Woerner",
+          "affiliation": "IBM Research - Zurich"
+        },
+        {
+          "name": "Elena Yndurain",
+          "affiliation": "IBM (United States)"
+        }
+      ],
+      "year": 2020,
+      "abstract": "This article outlines our point of view regarding the applicability, state-of-the-art, and potential of quantum computing for problems in finance. We provide an introduction to quantum computing as well as a survey on problem classes in finance that are computationally challenging classically and for which quantum computing algorithms are promising. In the main part, we describe in detail quantum algorithms for specific applications arising in financial services, such as those involving simulation, optimization, and machine learning problems. In addition, we include demonstrations of quantum algorithms on IBM Quantum back-ends and discuss the potential benefits of quantum algorithms for problems in financial services. We conclude with a summary of technical challenges and future prospects.",
+      "venue": "IEEE Transactions on Quantum Engineering",
+      "citation_count": 332,
+      "doi": "10.1109/tqe.2020.3030314",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/tqe.2020.3030314",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3111162498",
+      "title": "Variational quantum algorithms",
+      "authors": [
+        {
+          "name": "M. Cerezo",
+          "affiliation": "Los Alamos National Laboratory"
+        },
+        {
+          "name": "Andrew Arrasmith",
+          "affiliation": "Los Alamos National Laboratory"
+        },
+        {
+          "name": "Ryan Babbush",
+          "affiliation": "Google (United States)"
+        },
+        {
+          "name": "Simon C. Benjamin",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Suguru Endo",
+          "affiliation": "NTT (Japan)"
+        },
+        {
+          "name": "Keisuke Fujii",
+          "affiliation": "RIKEN Center for Emergent Matter Science"
+        },
+        {
+          "name": "Jarrod R. McClean",
+          "affiliation": "Google (United States)"
+        },
+        {
+          "name": "Kosuke Mitarai",
+          "affiliation": "Japan Science and Technology Agency"
+        },
+        {
+          "name": "Xiao Yuan",
+          "affiliation": "Peking University"
+        },
+        {
+          "name": "Lukasz Cincio",
+          "affiliation": "Los Alamos National Laboratory"
+        },
+        {
+          "name": "Patrick J. Coles",
+          "affiliation": "Los Alamos National Laboratory"
+        }
+      ],
+      "year": 2021,
+      "abstract": "",
+      "venue": "Nature Reviews Physics",
+      "citation_count": 3011,
+      "doi": "10.1038/s42254-021-00348-9",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s42254-021-00348-9",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2114968414",
+      "title": "Learning When Training Data are Costly: The Effect of Class Distribution on Tree Induction",
+      "authors": [
+        {
+          "name": "Gary M. Weiss",
+          "affiliation": "AT&T (United States)"
+        },
+        {
+          "name": "Foster Provost",
+          "affiliation": "New York University"
+        }
+      ],
+      "year": 2003,
+      "abstract": "For large, real-world inductive learning problems, the number of training examples often must be limited due to the costs associated with procuring, preparing, and storing the training examples and/or the computational costs associated with learning from them. In such circumstances, one question of practical importance is: if only n training examples can be selected, in what proportion should the classes be represented? In this article we help to answer this question by analyzing, for a fixed training-set size, the relationship between the class distribution of the training data and the performance of classification trees induced from these data. We study twenty-six data sets and, for each, determine the best class distribution for learning. The naturally occurring class distribution is shown to generally perform well when classifier performance is evaluated using undifferentiated error rate (0/1 loss). However, when the area under the ROC curve is used to evaluate classifier performance, a balanced distribution is shown to perform well. Since neither of these choices for class distribution always generates the best-performing classifier, we introduce a budget-sensitive progressive sampling algorithm for selecting training examples based on the class associated with each example. An empirical analysis of this algorithm shows that the class distribution of the resulting training set yields classifiers with good (nearly-optimal) classification performance.",
+      "venue": "Journal of Artificial Intelligence Research",
+      "citation_count": 929,
+      "doi": "10.1613/jair.1199",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1613/jair.1199",
+      "source": "openalex",
+      "_bibtex_override": ""
+    }
+  ]
+}
