@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-11T00:00:30.975745",
+  "tasks": {
+    "8cd22a7d": {
+      "id": "8cd22a7d",
+      "name": "tmp/ 7 天清理决策日",
+      "enabled": true,
+      "created_at": "2026-07-11T00:00:30.975745",
+      "updated_at": "2026-07-11T00:00:30.975745",
+      "schedule": {
+        "type": "once",
+        "run_at": "2026-07-17T23:58:00"
+      },
+      "action": {
+        "type": "agent_task",
+        "task_description": "今天是 2026-07-17,tmp/ 的 7 天回滚窗口已到期。提醒我:\n1. 读 `tmp/_quarantine.md` 中\"🟡 7/17 后大概率可删\"清单\n2. 交叉检查 `tmp/_apply_layout.ps1` 看 11 zip 解压归档未变\n3. 给我列一份\"还活着的 🟡 项 + 各自大小\"的清单,等我逐项说删/留\n4. 对 🔴 的两个 web_*.exe 重新询问刘泽文来源,默认不动\n5. 删除前必须用 MoveTo(不用 Remove),移到 `tmp/7d-quarantine-2026-07-17/` 再停一天",
+        "receiver": "session_mrf3oonun0o6",
+        "receiver_name": "用户",
+        "is_group": false,
+        "channel_type": "web",
+        "notify_session_id": "session_mrf3oonun0o6"
+      },
+      "next_run_at": "2026-07-17T23:58:00"
+    }
+  }
+}
