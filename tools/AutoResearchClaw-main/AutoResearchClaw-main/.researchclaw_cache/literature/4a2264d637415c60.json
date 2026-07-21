@@ -1,0 +1,1721 @@
+{
+  "query": "hypotheses increasing protocol control test-driven",
+  "source": "openalex",
+  "limit": 15,
+  "timestamp": 1783733527.9350238,
+  "papers": [
+    {
+      "paper_id": "oalex-W2123879591",
+      "title": "Systematic RNA interference reveals that oncogenic KRAS-driven cancers require TBK1",
+      "authors": [
+        {
+          "name": "David A. Barbie",
+          "affiliation": "Dana-Farber Cancer Institute"
+        },
+        {
+          "name": "Pablo Tamayo",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Jesse S. Boehm",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "So Young Kim",
+          "affiliation": "Dana-Farber Cancer Institute"
+        },
+        {
+          "name": "Susan E. Moody",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Ian F. Dunn",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Anna C. Schinzel",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "P\u00e9ter Sandy",
+          "affiliation": "Allen Institute"
+        },
+        {
+          "name": "Etienne Meylan",
+          "affiliation": "Allen Institute"
+        },
+        {
+          "name": "Claudia Scholl",
+          "affiliation": "Brigham and Women's Hospital"
+        },
+        {
+          "name": "Stefan Fr\u00f6hling",
+          "affiliation": "Brigham and Women's Hospital"
+        },
+        {
+          "name": "Edmond M. Chan",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Martin L. Sos",
+          "affiliation": "Max Planck Society"
+        },
+        {
+          "name": "Kathrin Michel",
+          "affiliation": "Max Planck Society"
+        },
+        {
+          "name": "Craig H. Mermel",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Serena J. Silver",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Barbara A. Weir",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Jan H. Reiling",
+          "affiliation": "Whitehead Institute for Biomedical Research"
+        },
+        {
+          "name": "Qing Sheng",
+          "affiliation": ""
+        },
+        {
+          "name": "Piyush B. Gupta",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Raymond Wadlow",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Hanh Le",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Sebastian Hoersch",
+          "affiliation": "Allen Institute"
+        },
+        {
+          "name": "Ben S. Wittner",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Sridhar Ramaswamy",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "David M. Livingston",
+          "affiliation": ""
+        },
+        {
+          "name": "David M. Sabatini",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Matthew Meyerson",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Roman K. Thomas",
+          "affiliation": "Max Planck Society"
+        },
+        {
+          "name": "Eric S. Lander",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Jill P. Mesirov",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "David E. Root",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "D. Gary Gilliland",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "Tyler Jacks",
+          "affiliation": "Broad Institute"
+        },
+        {
+          "name": "William C. Hahn",
+          "affiliation": "Broad Institute"
+        }
+      ],
+      "year": 2009,
+      "abstract": "",
+      "venue": "Nature",
+      "citation_count": 4218,
+      "doi": "10.1038/nature08460",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/nature08460",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2128114769",
+      "title": "Genome sequencing in microfabricated high-density picolitre reactors",
+      "authors": [
+        {
+          "name": "Marcel Margulies",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Michael D. Miller",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "William E. Altman",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Said Attiya",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Joel S. Bader",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Lisa A. Bemben",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Jan Berka",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Michael Braverman",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Yi\u2010Ju Chen",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Zhoutao Chen",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Scott Dewell",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Lei Du",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Joseph M. Fierro",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Xavier V. Gomes",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Bailey Godwin",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Wen He",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Scott Helgesen",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Chun He Ho",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Gerard P. Irzyk",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Szilveszter C. Jando",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Maria L. I. Alenquer",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Thomas Jarvie",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Kshama B. Jirage",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Jong\u2010Bum Kim",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "James R. Knight",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Janna R. Lanza",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "John H. Leamon",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Steven M. Lefkowitz",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Ming Lei",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Jing Li",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Kenton L. Lohman",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Hong L\u00fc",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Vinod B. Makhijani",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Keith E. McDade",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Michael P. McKenna",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Eugene W. Myers",
+          "affiliation": "University of California, Berkeley"
+        },
+        {
+          "name": "Elizabeth Nickerson",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "John R. Nobile",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Ramona Plant",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Bernard P. Puc",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "M. T. Ronan",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "George T. Roth",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Gary J. Sarkis",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Jan Fredrik Simons",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "John Simpson",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Maithreyan Srinivasan",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Karrie Tartaro",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Alexander Tomasz",
+          "affiliation": "Rockefeller University"
+        },
+        {
+          "name": "Kari A. Vogt",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Greg A. Volkmer",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Shally H. Wang",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Yong Wang",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Michael P. Weiner",
+          "affiliation": "Rothberg Institute For Childhood Diseases"
+        },
+        {
+          "name": "Pengguang Yu",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "R. F. Begley",
+          "affiliation": "Enzo Life Sciences (United States)"
+        },
+        {
+          "name": "Jonathan M. Rothberg",
+          "affiliation": "Enzo Life Sciences (United States)"
+        }
+      ],
+      "year": 2005,
+      "abstract": "The proliferation of large-scale DNA-sequencing projects in recent years has driven a search for alternative methods to reduce time and cost. Here we describe a scalable, highly parallel sequencing system with raw throughput significantly greater than that of state-of-the-art capillary electrophoresis instruments. The apparatus uses a novel fibre-optic slide of individual wells and is able to sequence 25 million bases, at 99% or better accuracy, in one four-hour run. To achieve an approximately 100-fold increase in throughput over current Sanger sequencing technology, we have developed an emulsion method for DNA amplification and an instrument for sequencing by synthesis using a pyrosequencing protocol optimized for solid support and picolitre-scale volumes. Here we show the utility, throughput, accuracy and robustness of this system by shotgun sequencing and de novo assembly of the Mycoplasma genitalium genome with 96% coverage at 99.96% accuracy in one run of the machine. The race is on for a big prize: the job of providing the world's DNA sequencing laboratories with the successor to the \u2018Sanger-based\u2019 technology that gave us the first wave of genome sequences. One technology in the frame is that produced by 454 Life Sciences Corporation of Branford, Connecticut. Today's technology reads 67,000 base pairs per hour; this new approach is 100 times faster, reading 6 million base pairs per hour. The improved performance results from using picolitre-sized chemical reactors, enhanced light-emitting sequencing chemistries and complex informatics. Further miniaturization of the system is planned. Such leaps in technology may one day make it possible to analyse an individual's genome before designing therapy: the ultimate in personalized medicine.",
+      "venue": "Nature",
+      "citation_count": 7714,
+      "doi": "10.1038/nature03959",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/nature03959",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2132218677",
+      "title": "A community-driven global reconstruction of human metabolism",
+      "authors": [
+        {
+          "name": "Ines Thiele",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Neil Swainston",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Ronan M. T. Fleming",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Andreas Hoppe",
+          "affiliation": "Charit\u00e9 - Universit\u00e4tsmedizin Berlin"
+        },
+        {
+          "name": "Swagatika Sahoo",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Maike K. Aurich",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Hulda S. Haraldsd\u00f3ttir",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Monica L. Mo",
+          "affiliation": "University of California San Diego"
+        },
+        {
+          "name": "\u00d3ttar Rolfsson",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Miranda D. Stobbe",
+          "affiliation": "Netherlands Bioinformatics Centre"
+        },
+        {
+          "name": "Stefan Gretar Thorleifsson",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Rasmus \u00c5gren",
+          "affiliation": "Chalmers University of Technology"
+        },
+        {
+          "name": "Christian B\u00f6lling",
+          "affiliation": "Charit\u00e9 - Universit\u00e4tsmedizin Berlin"
+        },
+        {
+          "name": "Sergio Bordel",
+          "affiliation": "Chalmers University of Technology"
+        },
+        {
+          "name": "Arvind K. Chavali",
+          "affiliation": "University of Virginia"
+        },
+        {
+          "name": "Paul D. Dobson",
+          "affiliation": "University of Sheffield"
+        },
+        {
+          "name": "Warwick B. Dunn",
+          "affiliation": "Manchester Academic Health Science Centre"
+        },
+        {
+          "name": "Lukas Endler",
+          "affiliation": "University of Vienna"
+        },
+        {
+          "name": "David Hala",
+          "affiliation": "University of North Texas"
+        },
+        {
+          "name": "Michael Hucka",
+          "affiliation": "California Institute of Technology"
+        },
+        {
+          "name": "Duncan Hull",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Daniel Jameson",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Neema Jamshidi",
+          "affiliation": "University of California San Diego"
+        },
+        {
+          "name": "J\u00f3n J. J\u00f3nsson",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Nick Juty",
+          "affiliation": "European Bioinformatics Institute"
+        },
+        {
+          "name": "Sarah Keating",
+          "affiliation": "European Bioinformatics Institute"
+        },
+        {
+          "name": "Intawat Nookaew",
+          "affiliation": "Chalmers University of Technology"
+        },
+        {
+          "name": "Nicolas Le Nov\u00e8re",
+          "affiliation": "Babraham Institute"
+        },
+        {
+          "name": "Naglis Malys",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Alexander Mazein",
+          "affiliation": "University of Edinburgh"
+        },
+        {
+          "name": "Jason A. Papin",
+          "affiliation": "University of Virginia"
+        },
+        {
+          "name": "Nathan D. Price",
+          "affiliation": "Institute for Systems Biology"
+        },
+        {
+          "name": "E Selkov",
+          "affiliation": "Joint Genome Institute"
+        },
+        {
+          "name": "Martin I. Sigur\u00f0sson",
+          "affiliation": "University of Iceland"
+        },
+        {
+          "name": "Evangelos Simeonidis",
+          "affiliation": "University of Luxembourg"
+        },
+        {
+          "name": "Nikolaus Sonnenschein",
+          "affiliation": "Constructor University"
+        },
+        {
+          "name": "Kieran Smallbone",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Anatoly Sorokin",
+          "affiliation": "Institute of Cell Biophysics"
+        },
+        {
+          "name": "Hans van Beek",
+          "affiliation": "Centre for Medical Systems Biology"
+        },
+        {
+          "name": "Dieter Weichart",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Igor Goryanin",
+          "affiliation": "Okinawa Institute of Science and Technology Graduate University"
+        },
+        {
+          "name": "Jens Nielsen",
+          "affiliation": "Chalmers University of Technology"
+        },
+        {
+          "name": "Hans V. Westerhoff",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Douglas B. Kell",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Pedro Mendes",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Bernhard \u00d8. Palsson",
+          "affiliation": "University of Iceland"
+        }
+      ],
+      "year": 2013,
+      "abstract": "",
+      "venue": "Nature Biotechnology",
+      "citation_count": 1073,
+      "doi": "10.1038/nbt.2488",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/nbt.2488",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2041713059",
+      "title": "The Oracle Problem in Software Testing: A Survey",
+      "authors": [
+        {
+          "name": "Earl T. Barr",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Mark Harman",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Phil McMinn",
+          "affiliation": "University of Sheffield"
+        },
+        {
+          "name": "Muzammil Shahbaz",
+          "affiliation": "University of Sheffield"
+        },
+        {
+          "name": "Shin Yoo",
+          "affiliation": "University College London"
+        }
+      ],
+      "year": 2014,
+      "abstract": "Testing involves examining the behaviour of a system in order to discover potential faults. Given an input for a system, the challenge of distinguishing the corresponding desired, correct behaviour from potentially incorrect behavior is called the \u201ctest oracle problem\u201d. Test oracle automation is important to remove a current bottleneck that inhibits greater overall test automation. Without test oracle automation, the human has to determine whether observed behaviour is correct. The literature on test oracles has introduced techniques for oracle automation, including modelling, specifications, contract-driven development and metamorphic testing. When none of these is completely adequate, the final source of test oracle information remains the human, who may be aware of informal specifications, expectations, norms and domain specific information that provide informal oracle guidance. All forms of test oracles, even the humble human, involve challenges of reducing cost and increasing benefit. This paper provides a comprehensive survey of current approaches to the test oracle problem and an analysis of trends in this important area of software testing research and practice.",
+      "venue": "IEEE Transactions on Software Engineering",
+      "citation_count": 1043,
+      "doi": "10.1109/tse.2014.2372785",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/tse.2014.2372785",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2005150099",
+      "title": "Protocol testing",
+      "authors": [
+        {
+          "name": "Gregor von Bochmann",
+          "affiliation": "Coll\u00e8ge Montmorency"
+        },
+        {
+          "name": "Alexandre Petrenko",
+          "affiliation": "Coll\u00e8ge Montmorency"
+        }
+      ],
+      "year": 1994,
+      "abstract": "Communication protocols are the rules that govern the communication between the different components within a distributed computer system. Since protocols are implemented in software and/or hardware, the question arises whether the existing hardware and software testing methods would be adequate for the testing of communication protocols. The purpose of this paper is to explain in which way the problem of testing protocol implementations is different from the usual problem of software testing. We review the major results in the area of protocol testing and discuss in which way these methods may also be relevant in the more general context of software testing.",
+      "venue": "",
+      "citation_count": 227,
+      "doi": "10.1145/186258.187153",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1145/186258.187153",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2410817073",
+      "title": "No evidence for bilingual cognitive advantages: A test of four hypotheses.",
+      "authors": [
+        {
+          "name": "Claudia C. von Bastian",
+          "affiliation": "University of Colorado Boulder"
+        },
+        {
+          "name": "Alessandra S. Souza",
+          "affiliation": "University of Zurich"
+        },
+        {
+          "name": "Miriam Gade",
+          "affiliation": "Catholic University of Eichst\u00e4tt-Ingolstadt"
+        }
+      ],
+      "year": 2015,
+      "abstract": "The question whether being bilingual yields cognitive benefits is highly controversial with prior studies providing inconsistent results. Failures to replicate the bilingual advantage have been attributed to methodological factors such as comparing dichotomous groups and measuring cognitive abilities separately with single tasks. Therefore, the authors evaluated the 4 most prominent hypotheses of bilingual advantages for inhibitory control, conflict monitoring, shifting, and general cognitive performance by assessing bilingualism on 3 continuous dimensions (age of acquisition, proficiency, and usage) in a sample of 118 young adults and relating it to 9 cognitive abilities each measured by multiple tasks. Linear mixed-effects models accounting for multiple sources of variance simultaneously and controlling for parents' education as an index of socioeconomic status revealed no evidence for any of the 4 hypotheses. Hence, the authors' results suggest that bilingual benefits are not as broad and as robust as has been previously claimed. Instead, earlier effects were possibly due to task-specific effects in selective and often small samples.",
+      "venue": "Journal of Experimental Psychology General",
+      "citation_count": 236,
+      "doi": "10.1037/xge0000120",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1037/xge0000120",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2885319825",
+      "title": "From hairballs to hypotheses\u2013biological insights from microbial networks",
+      "authors": [
+        {
+          "name": "Lisa R\u00f6ttjers",
+          "affiliation": "Rega Institute for Medical Research"
+        },
+        {
+          "name": "Karoline Faust",
+          "affiliation": "Rega Institute for Medical Research"
+        }
+      ],
+      "year": 2018,
+      "abstract": "Microbial networks are an increasingly popular tool to investigate microbial community structure, as they integrate multiple types of information and may represent systems-level behaviour. Interpreting these networks is not straightforward, and the biological implications of network properties are unclear. Analysis of microbial networks allows researchers to predict hub species and species interactions. Additionally, such analyses can help identify alternative community states and niches. Here, we review factors that can result in spurious predictions and address emergent properties that may be meaningful in the context of the microbiome. We also give an overview of studies that analyse microbial networks to identify new hypotheses. Moreover, we show in a simulation how network properties are affected by tool choice and environmental factors. For example, hub species are not consistent across tools, and environmental heterogeneity induces modularity. We highlight the need for robust microbial network inference and suggest strategies to infer networks more reliably.",
+      "venue": "FEMS Microbiology Reviews",
+      "citation_count": 747,
+      "doi": "10.1093/femsre/fuy030",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1093/femsre/fuy030",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2057001461",
+      "title": "Human and Rodent Homologies in Action Control: Corticostriatal Determinants of Goal-Directed and Habitual Action",
+      "authors": [
+        {
+          "name": "Bernard W. Balleine",
+          "affiliation": "University of Sydney"
+        },
+        {
+          "name": "John P. O\u2019Doherty",
+          "affiliation": "California Institute of Technology"
+        }
+      ],
+      "year": 2009,
+      "abstract": "",
+      "venue": "Neuropsychopharmacology",
+      "citation_count": 1807,
+      "doi": "10.1038/npp.2009.131",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/npp.2009.131",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2474981734",
+      "title": "Early role of vascular dysregulation on late-onset Alzheimer\u2019s disease based on multifactorial data-driven analysis",
+      "authors": [
+        {
+          "name": "Yasser Iturria\u2010Medina",
+          "affiliation": "Montreal Neurological Institute and Hospital"
+        },
+        {
+          "name": "Roberto C. Sotero",
+          "affiliation": "University of Calgary"
+        },
+        {
+          "name": "P.-J. Toussaint",
+          "affiliation": "Montreal Neurological Institute and Hospital"
+        },
+        {
+          "name": "J.M. Mateos-P\u00e9rez",
+          "affiliation": "Montreal Neurological Institute and Hospital"
+        },
+        {
+          "name": "Alan C. Evans",
+          "affiliation": "Montreal Neurological Institute and Hospital"
+        },
+        {
+          "name": "The Alzheimer\u2019s Disease Neuroimaging Initiative",
+          "affiliation": "University of California, San Francisco"
+        },
+        {
+          "name": "Michael W. Weiner",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Paul Aisen",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Ronald C. Petersen",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Clifford R. Jack",
+          "affiliation": "University of California, Berkeley"
+        },
+        {
+          "name": "William J. Jagust",
+          "affiliation": "University of Pennsylvania"
+        },
+        {
+          "name": "John Q. Trojanowki",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Arthur W. Toga",
+          "affiliation": "University of California, Davis"
+        },
+        {
+          "name": "Laurel Beckett",
+          "affiliation": "Brigham and Women's Hospital"
+        },
+        {
+          "name": "Robert C. Green",
+          "affiliation": "Indiana University Bloomington"
+        },
+        {
+          "name": "Andrew J. Saykin",
+          "affiliation": "Washington University in St. Louis"
+        },
+        {
+          "name": "John C. Morris",
+          "affiliation": "University of Pennsylvania"
+        },
+        {
+          "name": "Leslie M. Shaw",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Zaven S. Khachaturian",
+          "affiliation": "Siemens (Germany)"
+        },
+        {
+          "name": "Greg Sorensen",
+          "affiliation": "Pittsburg State University"
+        },
+        {
+          "name": "Lew Kuller",
+          "affiliation": "Washington University in St. Louis"
+        },
+        {
+          "name": "Marc Raichle",
+          "affiliation": "Cornell University"
+        },
+        {
+          "name": "Steven M. Paul",
+          "affiliation": "Albert Einstein College of Medicine"
+        },
+        {
+          "name": "Peter Davies",
+          "affiliation": "Alzheimer's Drug Discovery Foundation"
+        },
+        {
+          "name": "Howard Fillit",
+          "affiliation": "Acumen Pharmaceuticals (United States)"
+        },
+        {
+          "name": "Franz Hefti",
+          "affiliation": "Washington University in St. Louis"
+        },
+        {
+          "name": "Davie Holtzman",
+          "affiliation": "Northwestern University"
+        },
+        {
+          "name": "M. Marcel Mesulam",
+          "affiliation": "National Institute of Mental Health"
+        },
+        {
+          "name": "William Z. Potter",
+          "affiliation": "Brown University"
+        },
+        {
+          "name": "Peter J. Snyder",
+          "affiliation": "Eli Lilly (United States)"
+        },
+        {
+          "name": "Adam J. Schwartz",
+          "affiliation": "University of Washington"
+        },
+        {
+          "name": "Tom Montine",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Ronald G. Thomas",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Michael Donohue",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Sarah Walter",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Devon Gessert",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Tamie Sather",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Gus Jiminez",
+          "affiliation": "University of California, Davis"
+        },
+        {
+          "name": "Danielle Harvey",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Matt A. Bernstein",
+          "affiliation": "Universidad de Londres"
+        },
+        {
+          "name": "Nick C. Fox",
+          "affiliation": "UCLA Health"
+        },
+        {
+          "name": "Paul M. Thompson",
+          "affiliation": "University of California, San Francisco"
+        },
+        {
+          "name": "Norbert Schuff",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Bret Borowski",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Jeff Gunter",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Matthew L. Senjem",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Prashanthi Vemuri",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "David T. Jones",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Kejal Kantarci",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Chad Ward",
+          "affiliation": "University of Michigan"
+        },
+        {
+          "name": "Robert A. Koeppe",
+          "affiliation": "University of Utah"
+        },
+        {
+          "name": "Norm Foster",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Eric M. Reiman",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Kewei Chen",
+          "affiliation": "Pittsburg State University"
+        },
+        {
+          "name": "Chet Mathis",
+          "affiliation": "University of California, Berkeley"
+        },
+        {
+          "name": "Susan Landau",
+          "affiliation": "Washington University in St. Louis"
+        },
+        {
+          "name": "Nigel J. Cairns",
+          "affiliation": "Washington University in St. Louis"
+        },
+        {
+          "name": "Erin Householder",
+          "affiliation": "Washington University in St. Louis"
+        },
+        {
+          "name": "Lisa Taylor\u2010Reinwald",
+          "affiliation": "University of Pennsylvania"
+        },
+        {
+          "name": "Virginia Lee",
+          "affiliation": "University of Pennsylvania"
+        },
+        {
+          "name": "Magdalena Korecka",
+          "affiliation": "University of Pennsylvania"
+        },
+        {
+          "name": "Michal Figurski",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Karen Crawford",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Scott Neu",
+          "affiliation": "Indiana University Bloomington"
+        },
+        {
+          "name": "Tatiana Foroud",
+          "affiliation": "University of Michigan"
+        },
+        {
+          "name": "Steven Potkin",
+          "affiliation": "Indiana University Bloomington"
+        },
+        {
+          "name": "Li Shen",
+          "affiliation": "Indiana University Bloomington"
+        },
+        {
+          "name": "Kelley Faber",
+          "affiliation": "Indiana University Bloomington"
+        },
+        {
+          "name": "Sungeun Kim",
+          "affiliation": "Indiana University Bloomington"
+        },
+        {
+          "name": "Kwangsik Nho",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Leon J. Thal",
+          "affiliation": "National Institute on Aging"
+        },
+        {
+          "name": "Neil Buckholtz",
+          "affiliation": "Johns Hopkins University"
+        },
+        {
+          "name": "Marylyn Albert",
+          "affiliation": ""
+        },
+        {
+          "name": "Richard Frank",
+          "affiliation": "National Institute on Aging"
+        },
+        {
+          "name": "John Hsiao",
+          "affiliation": "Oregon Health & Science University"
+        },
+        {
+          "name": "Jeffrey Kaye",
+          "affiliation": "Oregon Health & Science University"
+        },
+        {
+          "name": "Joseph F. Quinn",
+          "affiliation": "Oregon Health & Science University"
+        },
+        {
+          "name": "Betty Lind",
+          "affiliation": "Oregon Health & Science University"
+        },
+        {
+          "name": "Raina Carter",
+          "affiliation": "Oregon Health & Science University"
+        },
+        {
+          "name": "Sara Dolen",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Lon S. Schneider",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Sonia Pawluczyk",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Mauricio Beccera",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Liberty Teodoro",
+          "affiliation": "LAC+USC Medical Center"
+        },
+        {
+          "name": "Bryan M. Spann",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "James B. Brewer",
+          "affiliation": "UC San Diego Health System"
+        },
+        {
+          "name": "Helen Vanderswag",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Adam Fleisher",
+          "affiliation": "University of Michigan"
+        },
+        {
+          "name": "Judith L. Heidebrink",
+          "affiliation": "University of Michigan"
+        },
+        {
+          "name": "Joanne Lord",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Sara S. Mason",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Colleen S. Albers",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "David S. Knopman",
+          "affiliation": "Mayo Clinic"
+        },
+        {
+          "name": "Kris Johnson",
+          "affiliation": "Baylor College of Medicine"
+        },
+        {
+          "name": "Rachelle S. Doody",
+          "affiliation": "Baylor College of Medicine"
+        },
+        {
+          "name": "Javier Villanueva\u2010Meyer",
+          "affiliation": "Baylor College of Medicine"
+        },
+        {
+          "name": "Munir Chowdhury",
+          "affiliation": "Baylor College of Medicine"
+        },
+        {
+          "name": "Susan Rountree",
+          "affiliation": "Baylor College of Medicine"
+        },
+        {
+          "name": "Mimi Dang",
+          "affiliation": "Baylor College of Medicine"
+        },
+        {
+          "name": "Yaakov Stern",
+          "affiliation": "Baylor College of Medicine"
+        }
+      ],
+      "year": 2016,
+      "abstract": "Multifactorial mechanisms underlying late-onset Alzheimer's disease (LOAD) are poorly characterized from an integrative perspective. Here spatiotemporal alterations in brain amyloid-\u03b2 deposition, metabolism, vascular, functional activity at rest, structural properties, cognitive integrity and peripheral proteins levels are characterized in relation to LOAD progression. We analyse over 7,700 brain images and tens of plasma and cerebrospinal fluid biomarkers from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Through a multifactorial data-driven analysis, we obtain dynamic LOAD-abnormality indices for all biomarkers, and a tentative temporal ordering of disease progression. Imaging results suggest that intra-brain vascular dysregulation is an early pathological event during disease development. Cognitive decline is noticeable from initial LOAD stages, suggesting early memory deficit associated with the primary disease factors. High abnormality levels are also observed for specific proteins associated with the vascular system's integrity. Although still subjected to the sensitivity of the algorithms and biomarkers employed, our results might contribute to the development of preventive therapeutic interventions.",
+      "venue": "Nature Communications",
+      "citation_count": 1208,
+      "doi": "10.1038/ncomms11934",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/ncomms11934",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2798054687",
+      "title": "NIA\u2010AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "authors": [
+        {
+          "name": "Clifford R. Jack",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "David A. Bennett",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Kaj Blennow",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Mar\u00eda C. Carrillo",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Billy Dunn",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Samantha Budd Haeberlein",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "David M. Holtzman",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "William J. Jagust",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Frank Jessen",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Jason Karlawish",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Enchi Liu",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Jos\u00e9 Lu\u00eds Molinuevo",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Thomas J. Montine",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Creighton H. Phelps",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Katherine P. Rankin",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Christopher C. Rowe",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Philip Scheltens",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Eric Siemers",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Heather M. Snyder",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Reisa A. Sperling",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Contributors",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Cerise Elliott",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Eliezer Masliah",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Laurie Ryan",
+          "affiliation": "Alzheimer's Association"
+        },
+        {
+          "name": "Nina Silverberg",
+          "affiliation": "Alzheimer's Association"
+        }
+      ],
+      "year": 2018,
+      "abstract": "In 2011, the National Institute on Aging and Alzheimer's Association created separate diagnostic recommendations for the preclinical, mild cognitive impairment, and dementia stages of Alzheimer's disease. Scientific progress in the interim led to an initiative by the National Institute on Aging and Alzheimer's Association to update and unify the 2011 guidelines. This unifying update is labeled a \"research framework\" because its intended use is for observational and interventional research, not routine clinical care. In the National Institute on Aging and Alzheimer's Association Research Framework, Alzheimer's disease (AD) is defined by its underlying pathologic processes that can be documented by postmortem examination or in vivo by biomarkers. The diagnosis is not based on the clinical consequences of the disease (i.e., symptoms/signs) in this research framework, which shifts the definition of AD in living people from a syndromal to a biological construct. The research framework focuses on the diagnosis of AD with biomarkers in living persons. Biomarkers are grouped into those of \u03b2 amyloid deposition, pathologic tau, and neurodegeneration [AT(N)]. This ATN classification system groups different biomarkers (imaging and biofluids) by the pathologic process each measures. The AT(N) system is flexible in that new biomarkers can be added to the three existing AT(N) groups, and new biomarker groups beyond AT(N) can be added when they become available. We focus on AD as a continuum, and cognitive staging may be accomplished using continuous measures. However, we also outline two different categorical cognitive schemes for staging the severity of cognitive impairment: a scheme using three traditional syndromal categories and a six-stage numeric scheme. It is important to stress that this framework seeks to create a common language with which investigators can generate and test hypotheses about the interactions among different pathologic processes (denoted by biomarkers) and cognitive symptoms. We appreciate the concern that this biomarker-based research framework has the potential to be misused. Therefore, we emphasize, first, it is premature and inappropriate to use this research framework in general medical practice. Second, this research framework should not be used to restrict alternative approaches to hypothesis testing that do not use biomarkers. There will be situations where biomarkers are not available or requiring them would be counterproductive to the specific research goals (discussed in more detail later in the document). Thus, biomarker-based research should not be considered a template for all research into age-related cognitive impairment and dementia; rather, it should be applied when it is fit for the purpose of the specific research goals of a study. Importantly, this framework should be examined in diverse populations. Although it is possible that \u03b2-amyloid plaques and neurofibrillary tau deposits are not causal in AD pathogenesis, it is these abnormal protein deposits that define AD as a unique neurodegenerative disease among different disorders that can lead to dementia. We envision that defining AD as a biological construct will enable a more accurate characterization and understanding of the sequence of events that lead to cognitive impairment that is associated with AD, as well as the multifactorial etiology of dementia. This approach also will enable a more precise approach to interventional trials where specific pathways can be targeted in the disease process and in the appropriate people.",
+      "venue": "Alzheimer s & Dementia",
+      "citation_count": 10457,
+      "doi": "10.1016/j.jalz.2018.02.018",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1016/j.jalz.2018.02.018",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2289032953",
+      "title": "Does functional trait diversity predict above\u2010ground biomass and productivity of tropical forests? Testing three alternative hypotheses",
+      "authors": [
+        {
+          "name": "Bryan Finegan",
+          "affiliation": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie"
+        },
+        {
+          "name": "Marielos Pe\u00f1a\u2010Claros",
+          "affiliation": "Gabriel Ren\u00e9 Moreno Autonomous University"
+        },
+        {
+          "name": "Alexandre A. Oliveira",
+          "affiliation": "Universidade de S\u00e3o Paulo"
+        },
+        {
+          "name": "Nataly Ascarrunz",
+          "affiliation": "Gabriel Ren\u00e9 Moreno Autonomous University"
+        },
+        {
+          "name": "M. Syndonia Bret\u2010Harte",
+          "affiliation": "University of Alaska Fairbanks"
+        },
+        {
+          "name": "Geovana Carre\u00f1o\u2010Rocabado",
+          "affiliation": "Gabriel Ren\u00e9 Moreno Autonomous University"
+        },
+        {
+          "name": "Fernando Casanoves",
+          "affiliation": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie"
+        },
+        {
+          "name": "Sandra D\u0131\u0301az",
+          "affiliation": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas"
+        },
+        {
+          "name": "Pa\u00fal Eguiguren",
+          "affiliation": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie"
+        },
+        {
+          "name": "Fernando Fern\u00e1ndez\u2010M\u00e9ndez",
+          "affiliation": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie"
+        },
+        {
+          "name": "Juan Carlos Licona",
+          "affiliation": "Gabriel Ren\u00e9 Moreno Autonomous University"
+        },
+        {
+          "name": "Leda Lorenzo Montero",
+          "affiliation": "Universidade de S\u00e3o Paulo"
+        },
+        {
+          "name": "Beatriz Salgado\u2010Negret",
+          "affiliation": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie"
+        },
+        {
+          "name": "Marcel C. Vaz",
+          "affiliation": "Universidade de S\u00e3o Paulo"
+        },
+        {
+          "name": "Lourens Poorter",
+          "affiliation": "Gabriel Ren\u00e9 Moreno Autonomous University"
+        }
+      ],
+      "year": 2014,
+      "abstract": "Summary Tropical forests are globally important, but it is not clear whether biodiversity enhances carbon storage and sequestration in them. We tested this relationship focusing on components of functional trait biodiversity as predictors. Data are presented for three rain forests in Bolivia, Brazil and Costa Rica. Initial above\u2010ground biomass and biomass increments of survivors, recruits and survivors + recruits (total) were estimated for trees \u226510 cm d.b.h. in 62 and 21 1.0\u2010ha plots, respectively. We determined relationships of biomass increments to initial standing biomass ( AGB i ), biomass\u2010weighted community mean values ( CWM ) of eight functional traits and four functional trait variety indices (functional richness, functional evenness, functional diversity and functional dispersion). The forest continuum sampled ranged from \u2018slow\u2019 stands dominated by trees with tough tissues and high AGB i , to \u2018fast\u2019 stands dominated by trees with soft, nutrient\u2010rich leaves, lighter woods and lower AGB i . We tested whether AGB i and biomass increments were related to the CWM trait values of the dominant species in the system (the biomass ratio hypothesis), to the variety of functional trait values (the niche complementarity hypothesis), or in the case of biomass increments, simply to initial standing biomass (the green soup hypothesis). CWM s were reasonable bivariate predictors of AGB i and biomass increments, with CWM specific leaf area SLA , CWM leaf nitrogen content, CWM force to tear the leaf, CWM maximum adult height H max and CWM wood specific gravity the most important. AGB i was also a reasonable predictor of the three measures of biomass increment. In best\u2010fit multiple regression models, CWM H max was the most important predictor of initial standing biomass AGB i . Only leaf traits were selected in the best models for biomass increment; CWM SLA was the most important predictor, with the expected positive relationship. There were no relationships of functional variety indices to biomass increments, and AGB i was the only predictor for biomass increments from recruits. Synthesis . We found no support for the niche complementarity hypothesis and support for the green soup hypothesis only for biomass increments of recruits. We have strong support for the biomass ratio hypothesis. CWM H max is a strong driver of ecosystem biomass and carbon storage and CWM SLA , and other CWM leaf traits are especially important for biomass increments and carbon sequestration.",
+      "venue": "Journal of Ecology",
+      "citation_count": 410,
+      "doi": "10.1111/1365-2745.12346",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1111/1365-2745.12346",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2467144198",
+      "title": "From Theory-Inspired to Theory-Based Interventions: A Protocol for Developing and Testing a Methodology for Linking Behaviour Change Techniques to Theoretical Mechanisms of Action",
+      "authors": [
+        {
+          "name": "Susan Michie",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Rachel Carey",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Marie Johnston",
+          "affiliation": "University of Aberdeen"
+        },
+        {
+          "name": "Alexander Rothman",
+          "affiliation": "University of Minnesota"
+        },
+        {
+          "name": "Marijn de Bruin",
+          "affiliation": "University of Aberdeen"
+        },
+        {
+          "name": "Michael P. Kelly",
+          "affiliation": "University of Cambridge"
+        },
+        {
+          "name": "Lauren Connell",
+          "affiliation": "University College London"
+        }
+      ],
+      "year": 2016,
+      "abstract": "Background: Understanding links between behaviour change techniques (BCTs) and mechanisms of action (the processes through which they affect behaviour) helps inform the systematic development of behaviour change interventions. Purpose: This research aims to develop and test a methodology for linking BCTs to their mechanisms of action. Methods: Study 1 (published explicit links): Hypothesised links between 93 BCTs (from the 93-item BCT taxonomy, BCTTv1) and mechanisms of action will be identified from published interventions and their frequency, explicitness and precision documented. Study 2 (expert-agreed explicit links): Behaviour change experts will identify links between 61 BCTs and 26 mechanisms of action in a formal consensus study. Study 3 (integrated matrix of explicit links): Agreement between studies 1 and 2 will be evaluated and a new group of experts will discuss discrepancies. An integrated matrix of BCT-mechanism of action links, annotated to indicate strength of evidence, will be generated. Study 4 (published implicit links): To determine whether groups of co-occurring BCTs can be linked to theories, we will identify groups of BCTs that are used together from the study 1 literature. A consensus exercise will be used to rate strength of links between groups of BCT and theories. Conclusions: A formal methodology for linking BCTs to their hypothesised mechanisms of action can contribute to the development and evaluation of behaviour change interventions. This research is a step towards developing a behaviour change 'ontology', specifying relations between BCTs, mechanisms of action, modes of delivery, populations, settings and types of behaviour.",
+      "venue": "Annals of Behavioral Medicine",
+      "citation_count": 508,
+      "doi": "10.1007/s12160-016-9816-6",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1007/s12160-016-9816-6",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3197387260",
+      "title": "Aridity-driven shift in biodiversity\u2013soil multifunctionality relationships",
+      "authors": [
+        {
+          "name": "Weigang Hu",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Jinzhi Ran",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Longwei Dong",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Qiajun Du",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Mingfei Ji",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Shuran Yao",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Yuan Sun",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Chunmei Gong",
+          "affiliation": "Northwest A&F University"
+        },
+        {
+          "name": "Qingqing Hou",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Haiyang Gong",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Renfei Chen",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Jingli Lu",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Shubin Xie",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Zhiqiang Wang",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Heng Huang",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Xiaowei Li",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Junlan Xiong",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Rui Xia",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Maohong Wei",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Dongmin Zhao",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Yahui Zhang",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Jinhui Li",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Huixia Yang",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Xiaoting Wang",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Yan Deng",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Ying Sun",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Hailing Li",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Liang Zhang",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Qipeng Chu",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Xinwei Li",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Muhammad Aqeel",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Abdul Manan",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Muhammad Adnan Akram",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Xianghan Liu",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Rui Li",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Fan Li",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Chen Hou",
+          "affiliation": "Missouri University of Science and Technology"
+        },
+        {
+          "name": "Liu Jian-quan",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Jin He",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Lizhe An",
+          "affiliation": "Lanzhou University"
+        },
+        {
+          "name": "Richard D. Bardgett",
+          "affiliation": "University of Manchester"
+        },
+        {
+          "name": "Bernhard Schmid",
+          "affiliation": "University of Zurich"
+        },
+        {
+          "name": "Jianming Deng",
+          "affiliation": "Lanzhou University"
+        }
+      ],
+      "year": 2021,
+      "abstract": "Relationships between biodiversity and multiple ecosystem functions (that is, ecosystem multifunctionality) are context-dependent. Both plant and soil microbial diversity have been reported to regulate ecosystem multifunctionality, but how their relative importance varies along environmental gradients remains poorly understood. Here, we relate plant and microbial diversity to soil multifunctionality across 130 dryland sites along a 4,000 km aridity gradient in northern China. Our results show a strong positive association between plant species richness and soil multifunctionality in less arid regions, whereas microbial diversity, in particular of fungi, is positively associated with multifunctionality in more arid regions. This shift in the relationships between plant or microbial diversity and soil multifunctionality occur at an aridity level of \u223c0.8, the boundary between semiarid and arid climates, which is predicted to advance geographically \u223c28% by the end of the current century. Our study highlights that biodiversity loss of plants and soil microorganisms may have especially strong consequences under low and high aridity conditions, respectively, which calls for climate-specific biodiversity conservation strategies to mitigate the effects of aridification.",
+      "venue": "Nature Communications",
+      "citation_count": 612,
+      "doi": "10.1038/s41467-021-25641-0",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1038/s41467-021-25641-0",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2952020389",
+      "title": "Solving inverse problems using data-driven models",
+      "authors": [
+        {
+          "name": "Simon Arridge",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Peter Maa\u00df",
+          "affiliation": "University of Bremen"
+        },
+        {
+          "name": "Ozan \u00d6ktem",
+          "affiliation": "KTH Royal Institute of Technology"
+        },
+        {
+          "name": "Carola\u2010Bibiane Sch\u00f6nlieb",
+          "affiliation": "University of Cambridge"
+        }
+      ],
+      "year": 2019,
+      "abstract": "Recent research in inverse problems seeks to develop a mathematically coherent foundation for combining data-driven models, and in particular those based on deep learning, with domain-specific knowledge contained in physical\u2013analytical models. The focus is on solving ill-posed inverse problems that are at the core of many challenging applications in the natural sciences, medicine and life sciences, as well as in engineering and industrial applications. This survey paper aims to give an account of some of the main contributions in data-driven inverse problems.",
+      "venue": "Acta Numerica",
+      "citation_count": 673,
+      "doi": "10.1017/s0962492919000059",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1017/s0962492919000059",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3092224221",
+      "title": "Viscoelastic haemostatic assay augmented protocols for major trauma haemorrhage (ITACTIC): a randomized, controlled trial",
+      "authors": [
+        {
+          "name": "Kjersti Baksaas\u2010Aasen",
+          "affiliation": "Oslo University Hospital"
+        },
+        {
+          "name": "Lewis Gall",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "Jakob Stensballe",
+          "affiliation": "Copenhagen University Hospital"
+        },
+        {
+          "name": "Nicole P. Juffermans",
+          "affiliation": "Amsterdam University Medical Centers"
+        },
+        {
+          "name": "N Curry",
+          "affiliation": "Oxford University Hospitals NHS Trust"
+        },
+        {
+          "name": "Marc Maegele",
+          "affiliation": "Witten/Herdecke University"
+        },
+        {
+          "name": "Adam Brooks",
+          "affiliation": "Nottingham University Hospitals NHS Trust"
+        },
+        {
+          "name": "C. P. Rourke",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "Scarlett Gillespie",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "Jacqueline Murphy",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "Roberta Maroni",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "Paul Vulliamy",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "H Henriksen",
+          "affiliation": "Copenhagen University Hospital"
+        },
+        {
+          "name": "Kate Pedersen",
+          "affiliation": "Copenhagen University Hospital"
+        },
+        {
+          "name": "Knut Magne Kolstadbraaten",
+          "affiliation": "Oslo University Hospital"
+        },
+        {
+          "name": "Mathijs R. Wirtz",
+          "affiliation": "Amsterdam University Medical Centers"
+        },
+        {
+          "name": "Derek J. B. Kleinveld",
+          "affiliation": "Amsterdam University Medical Centers"
+        },
+        {
+          "name": "Nadine Sch\u00e4fer",
+          "affiliation": "Witten/Herdecke University"
+        },
+        {
+          "name": "Shalini Chinna",
+          "affiliation": "Nottingham University Hospitals NHS Trust"
+        },
+        {
+          "name": "Ross Davenport",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "P\u00e5l Aksel N\u00e6ss",
+          "affiliation": "Oslo University Hospital"
+        },
+        {
+          "name": "J. Carel Goslings",
+          "affiliation": "Amsterdam University Medical Centers"
+        },
+        {
+          "name": "Simon Eaglestone",
+          "affiliation": "Queen Mary University of London"
+        },
+        {
+          "name": "Simon Stanworth",
+          "affiliation": "NHS Blood and Transplant"
+        },
+        {
+          "name": "P\u00e4r I. Johansson",
+          "affiliation": "Copenhagen University Hospital"
+        },
+        {
+          "name": "Christine Gaarder",
+          "affiliation": "Oslo University Hospital"
+        },
+        {
+          "name": "Karim Brohi",
+          "affiliation": "Queen Mary University of London"
+        }
+      ],
+      "year": 2020,
+      "abstract": "PURPOSE: Contemporary trauma resuscitation prioritizes control of bleeding and uses major haemorrhage protocols (MHPs) to prevent and treat coagulopathy. We aimed to determine whether augmenting MHPs with Viscoelastic Haemostatic Assays (VHA) would improve outcomes compared to Conventional Coagulation Tests (CCTs). METHODS: This was a multi-centre, randomized controlled trial comparing outcomes in trauma patients who received empiric MHPs, augmented by either VHA or CCT-guided interventions. Primary outcome was the proportion of subjects who, at 24 h after injury, were alive and free of massive transfusion (10 or more red cell transfusions). Secondary outcomes included 28-day mortality. Pre-specified subgroups included patients with severe traumatic brain injury (TBI). RESULTS: Of 396 patients in the intention to treat analysis, 201 were allocated to VHA and 195 to CCT-guided therapy. At 24 h, there was no difference in the proportion of patients who were alive and free of massive transfusion (VHA: 67%, CCT: 64%, OR 1.15, 95% CI 0.76-1.73). 28-day mortality was not different overall (VHA: 25%, CCT: 28%, OR 0.84, 95% CI 0.54-1.31), nor were there differences in other secondary outcomes or serious adverse events. In pre-specified subgroups, there were no differences in primary outcomes. In the pre-specified subgroup of 74 patients with TBI, 64% were alive and free of massive transfusion at 24 h compared to 46% in the CCT arm (OR 2.12, 95% CI 0.84-5.34). CONCLUSION: There was no difference in overall outcomes between VHA- and CCT-augmented-major haemorrhage protocols.",
+      "venue": "Intensive Care Medicine",
+      "citation_count": 315,
+      "doi": "10.1007/s00134-020-06266-1",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1007/s00134-020-06266-1",
+      "source": "openalex",
+      "_bibtex_override": ""
+    }
+  ]
+}
