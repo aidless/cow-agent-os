@@ -1,0 +1,669 @@
+{
+  "query": "Adding robustness-aware objectives for test-driven science improves out-of-domain performance without major in-domain regression.",
+  "source": "openalex",
+  "limit": 15,
+  "timestamp": 1783733513.4123356,
+  "papers": [
+    {
+      "paper_id": "oalex-W2295598076",
+      "title": "XGBoost",
+      "authors": [
+        {
+          "name": "Tianqi Chen",
+          "affiliation": "University of Washington"
+        },
+        {
+          "name": "Carlos Guestrin",
+          "affiliation": "University of Washington"
+        }
+      ],
+      "year": 2016,
+      "abstract": "Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.",
+      "venue": "",
+      "citation_count": 49154,
+      "doi": "10.1145/2939672.2939785",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1145/2939672.2939785",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2963450292",
+      "title": "Data-Driven Distributionally Robust Optimization Using the Wasserstein Metric: Performance Guarantees and Tractable Reformulations",
+      "authors": [
+        {
+          "name": "Peyman Mohajerin Esfahani",
+          "affiliation": "Delft University of Technology"
+        },
+        {
+          "name": "Daniel K\u00fchn",
+          "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne"
+        }
+      ],
+      "year": 2017,
+      "abstract": "&lt;p&gt;We consider stochastic programs where the distribution of the uncertain parameters is only observable through a finite training dataset. Using the Wasserstein metric, we construct a ball in the space of (multivariate and non-discrete) probability distributions centered at the uniform distribution on the training samples, and we seek decisions that perform best in view of the worst-case distribution within this Wasserstein ball. The state-of-the-art methods for solving the resulting distributionally robust optimization problems rely on global optimization techniques, which quickly become computationally excruciating. In this paper we demonstrate that, under mild assumptions, the distributionally robust optimization problems over Wasserstein balls can in fact be reformulated as finite convex programs\u2014in many interesting cases even as tractable linear programs. Leveraging recent measure concentration results, we also show that their solutions enjoy powerful finite-sample performance guarantees. Our theoretical results are exemplified in mean-risk portfolio optimization as well as uncertainty quantification.&lt;/p&gt;",
+      "venue": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+      "citation_count": 1764,
+      "doi": "10.1007/s10107-017-1172-1",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1007/s10107-017-1172-1",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2000815209",
+      "title": "Jaguar: A high\u2010performance quantum chemistry software program with strengths in life and materials sciences",
+      "authors": [
+        {
+          "name": "Arteum D. Bochevarov",
+          "affiliation": "Schrodinger (United States)"
+        },
+        {
+          "name": "Edward Harder",
+          "affiliation": "Schrodinger (United States)"
+        },
+        {
+          "name": "Thomas F. Hughes",
+          "affiliation": "Schrodinger (United States)"
+        },
+        {
+          "name": "Jeremy R. Greenwood",
+          "affiliation": "Schrodinger (United States)"
+        },
+        {
+          "name": "Dale A. Braden",
+          "affiliation": "Schrodinger (United States)"
+        },
+        {
+          "name": "Dean M. Philipp",
+          "affiliation": "Schrodinger (United States)"
+        },
+        {
+          "name": "David Rinaldo",
+          "affiliation": ""
+        },
+        {
+          "name": "Mathew D. Halls",
+          "affiliation": "Schrodinger (United States)"
+        },
+        {
+          "name": "Jing Zhang",
+          "affiliation": "Columbia University"
+        },
+        {
+          "name": "Richard A. Friesner",
+          "affiliation": "Columbia University"
+        }
+      ],
+      "year": 2013,
+      "abstract": "Jaguar is an ab initio quantum chemical program that specializes in fast electronic structure predictions for molecular systems of medium and large size. Jaguar focuses on computational methods with reasonable computational scaling with the size of the system, such as density functional theory (DFT) and local second\u2010order M\u00f8ller\u2013Plesset perturbation theory. The favorable scaling of the methods and the high efficiency of the program make it possible to conduct routine computations involving several thousand molecular orbitals. This performance is achieved through a utilization of the pseudospectral approximation and several levels of parallelization. The speed advantages are beneficial for applying Jaguar in biomolecular computational modeling. Additionally, owing to its superior wave function guess for transition\u2010metal\u2010containing systems, Jaguar finds applications in inorganic and bioinorganic chemistry. The emphasis on larger systems and transition metal elements paves the way toward developing Jaguar for its use in materials science modeling. The article describes the historical and new features of Jaguar, such as improved parallelization of many modules, innovations in ab initio pKa prediction, and new semiempirical corrections for nondynamic correlation errors in DFT. Jaguar applications in drug discovery, materials science, force field parameterization, and other areas of computational research are reviewed. Timing benchmarks and other results obtained from the most recent Jaguar code are provided. The article concludes with a discussion of challenges and directions for future development of the program. \u00a9 2013 Wiley Periodicals, Inc.",
+      "venue": "International Journal of Quantum Chemistry",
+      "citation_count": 1796,
+      "doi": "10.1002/qua.24481",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1002/qua.24481",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2592929672",
+      "title": "A survey on deep learning in medical image analysis",
+      "authors": [
+        {
+          "name": "Geert Litjens",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "Thijs Kooi",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "Babak Ehteshami Bejnordi",
+          "affiliation": "Radboud University Medical Center"
+        },
+        {
+          "name": "Arnaud A. A. Setio",
+          "affiliation": "Radboud University Medical Center"
+        },
+        {
+          "name": "Francesco Ciompi",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "Mohsen Ghafoorian",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "Jeroen van der Laak",
+          "affiliation": "Radboud University Nijmegen"
+        },
+        {
+          "name": "Bram van Ginneken",
+          "affiliation": "Radboud University Medical Center"
+        },
+        {
+          "name": "Clara I. S\u00e1\u200enchez",
+          "affiliation": "Radboud University Medical Center"
+        }
+      ],
+      "year": 2017,
+      "abstract": "",
+      "venue": "Medical Image Analysis",
+      "citation_count": 14446,
+      "doi": "10.1016/j.media.2017.07.005",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1016/j.media.2017.07.005",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2972219719",
+      "title": "Data\u2010Driven Materials Science: Status, Challenges, and Perspectives",
+      "authors": [
+        {
+          "name": "Lauri Himanen",
+          "affiliation": "Aalto University"
+        },
+        {
+          "name": "Amber Geurts",
+          "affiliation": "Netherlands Organisation for Applied Scientific Research"
+        },
+        {
+          "name": "Adam Stuart Foster",
+          "affiliation": "Kanazawa University"
+        },
+        {
+          "name": "Patrick Rinke",
+          "affiliation": "Technical University of Munich"
+        }
+      ],
+      "year": 2019,
+      "abstract": "Data-driven science is heralded as a new paradigm in materials science. In this field, data is the new resource, and knowledge is extracted from materials datasets that are too big or complex for traditional human reasoning-typically with the intent to discover new or improved materials or materials phenomena. Multiple factors, including the open science movement, national funding, and progress in information technology, have fueled its development. Such related tools as materials databases, machine learning, and high-throughput methods are now established as parts of the materials research toolset. However, there are a variety of challenges that impede progress in data-driven materials science: data veracity, integration of experimental and computational data, data longevity, standardization, and the gap between industrial interests and academic efforts. In this perspective article, the historical development and current state of data-driven materials science, building from the early evolution of open science to the rapid expansion of materials data infrastructures are discussed. Key successes and challenges so far are also reviewed, providing a perspective on the future development of the field.",
+      "venue": "Advanced Science",
+      "citation_count": 670,
+      "doi": "10.1002/advs.201900808",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1002/advs.201900808",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2130089609",
+      "title": "Characterising performance of environmental models",
+      "authors": [
+        {
+          "name": "Neil Bennett",
+          "affiliation": "Australian National University"
+        },
+        {
+          "name": "Barry Croke",
+          "affiliation": "National Centre for Groundwater Research and Training"
+        },
+        {
+          "name": "Giorgio Guariso",
+          "affiliation": "Politecnico di Milano"
+        },
+        {
+          "name": "Joseph H. A. Guillaume",
+          "affiliation": "National Centre for Groundwater Research and Training"
+        },
+        {
+          "name": "Serena H. Hamilton",
+          "affiliation": "Australian National University"
+        },
+        {
+          "name": "Anthony J. Jakeman",
+          "affiliation": "National Centre for Groundwater Research and Training"
+        },
+        {
+          "name": "Stefano Marsili-Libelli",
+          "affiliation": "University of Florence"
+        },
+        {
+          "name": "Lachlan Newham",
+          "affiliation": "Australian National University"
+        },
+        {
+          "name": "J.P. Norton",
+          "affiliation": "Australian National University"
+        },
+        {
+          "name": "Charles Perrin",
+          "affiliation": ""
+        },
+        {
+          "name": "Suzanne A. Pierce",
+          "affiliation": "The University of Texas at Austin"
+        },
+        {
+          "name": "Barbara Robson",
+          "affiliation": "CSIRO Land and Water"
+        },
+        {
+          "name": "Ralf Seppelt",
+          "affiliation": "Helmholtz Centre for Environmental Research"
+        },
+        {
+          "name": "Alexey Voinov",
+          "affiliation": "University of Twente"
+        },
+        {
+          "name": "Brian D. Fath",
+          "affiliation": "International Institute for Applied Systems Analysis"
+        },
+        {
+          "name": "Vazken Andr\u00e9assian",
+          "affiliation": ""
+        }
+      ],
+      "year": 2012,
+      "abstract": "In order to use environmental models effectively for management and decision-making, it is vital to establish an appropriate level of confidence in their performance. This paper reviews techniques available across various fields for characterising the performance of environmental models with focus on numerical, graphical and qualitative methods. General classes of direct value comparison, coupling real and modelled values, preserving data patterns, indirect metrics based on parameter values, and data transformations are discussed. In practice environmental modelling requires the use and implementation of workflows that combine several methods, tailored to the model purpose and dependent upon the data and information available. A five-step procedure for performance evaluation of models is suggested, with the key elements including: (i) (re)assessment of the model's aim, scale and scope; (ii) characterisation of the data for calibration and testing; (iii) visual and other analysis to detect under- or non-modelled behaviour and to gain an overview of overall performance; (iv) selection of basic performance criteria; and (v) consideration of more advanced methods to handle problems such as systematic divergence between modelled and observed values.",
+      "venue": "Environmental Modelling & Software",
+      "citation_count": 1545,
+      "doi": "10.1016/j.envsoft.2012.09.011",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1016/j.envsoft.2012.09.011",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2981731882",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "authors": [
+        {
+          "name": "Alejandro Barredo Arrieta",
+          "affiliation": "Tecnalia"
+        },
+        {
+          "name": "Natalia D\u00edaz-Rodr\u00edguez",
+          "affiliation": "\u00c9cole Nationale Sup\u00e9rieure de Techniques Avanc\u00e9es"
+        },
+        {
+          "name": "Javier Del Ser",
+          "affiliation": "Tecnalia"
+        },
+        {
+          "name": "Adrien Bennetot",
+          "affiliation": "\u00c9cole Nationale Sup\u00e9rieure de Techniques Avanc\u00e9es"
+        },
+        {
+          "name": "Siham Tabik",
+          "affiliation": "Universidad de Granada"
+        },
+        {
+          "name": "Alberto Barbado",
+          "affiliation": "Telef\u00f3nica (Spain)"
+        },
+        {
+          "name": "Salvador Garc\u00eda",
+          "affiliation": "Universidad de Granada"
+        },
+        {
+          "name": "Sergio Gil-L\u00f3pez",
+          "affiliation": "Tecnalia"
+        },
+        {
+          "name": "Daniel Molina",
+          "affiliation": "Universidad de Granada"
+        },
+        {
+          "name": "Richard Benjamins",
+          "affiliation": "Telef\u00f3nica (Spain)"
+        },
+        {
+          "name": "Raja Chatila",
+          "affiliation": "Sorbonne Universit\u00e9"
+        },
+        {
+          "name": "Francisco Herrera",
+          "affiliation": "Universidad de Granada"
+        }
+      ],
+      "year": 2019,
+      "abstract": "",
+      "venue": "Information Fusion",
+      "citation_count": 9132,
+      "doi": "10.1016/j.inffus.2019.12.012",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2955639361",
+      "title": "Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-Shot Cross-Dataset Transfer",
+      "authors": [
+        {
+          "name": "Rene Ranftl",
+          "affiliation": "Intel (Germany)"
+        },
+        {
+          "name": "Katrin Lasinger",
+          "affiliation": ""
+        },
+        {
+          "name": "David Hafner",
+          "affiliation": "Intel (Germany)"
+        },
+        {
+          "name": "Konrad Schindler",
+          "affiliation": ""
+        },
+        {
+          "name": "Vladlen Koltun",
+          "affiliation": "Intel (United States)"
+        }
+      ],
+      "year": 2020,
+      "abstract": "The success of monocular depth estimation relies on large and diverse training sets. Due to the challenges associated with acquiring dense ground-truth depth across different environments at scale, a number of datasets with distinct characteristics and biases have emerged. We develop tools that enable mixing multiple datasets during training, even if their annotations are incompatible. In particular, we propose a robust training objective that is invariant to changes in depth range and scale, advocate the use of principled multi-objective learning to combine data from different sources, and highlight the importance of pretraining encoders on auxiliary tasks. Armed with these tools, we experiment with five diverse training datasets, including a new, massive data source: 3D films. To demonstrate the generalization power of our approach we use zero-shot cross-dataset transfer, i.e. we evaluate on datasets that were not seen during training. The experiments confirm that mixing data from complementary sources greatly improves monocular depth estimation. Our approach clearly outperforms competing methods across diverse datasets, setting a new state of the art for monocular depth estimation.",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "citation_count": 1398,
+      "doi": "10.1109/tpami.2020.3019967",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1109/tpami.2020.3019967",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3023042104",
+      "title": "QSAR without borders",
+      "authors": [
+        {
+          "name": "Eugene Muratov",
+          "affiliation": "University of North Carolina at Chapel Hill"
+        },
+        {
+          "name": "J\u00fcrgen Bajorath",
+          "affiliation": "University of Bonn"
+        },
+        {
+          "name": "Robert P. Sheridan",
+          "affiliation": "Merck & Co., Inc., Rahway, NJ, USA (United States)"
+        },
+        {
+          "name": "Igor V. Tetko",
+          "affiliation": "Helmholtz Zentrum M\u00fcnchen"
+        },
+        {
+          "name": "Dmitry Filimonov",
+          "affiliation": "Institute of Biomedical Chemistry"
+        },
+        {
+          "name": "Vladimir Poroikov",
+          "affiliation": "Institute of Biomedical Chemistry"
+        },
+        {
+          "name": "Tudor I. Oprea",
+          "affiliation": "University of New Mexico"
+        },
+        {
+          "name": "Igor I. Baskin",
+          "affiliation": "Lomonosov Moscow State University"
+        },
+        {
+          "name": "Alexandre Varnek",
+          "affiliation": "Universit\u00e9 de Strasbourg"
+        },
+        {
+          "name": "Adri\u00e1n E. Roitberg",
+          "affiliation": "University of Florida"
+        },
+        {
+          "name": "Olexandr Isayev",
+          "affiliation": "University of North Carolina at Chapel Hill"
+        },
+        {
+          "name": "Stefano Curtalolo",
+          "affiliation": "Duke University"
+        },
+        {
+          "name": "Denis Fourches",
+          "affiliation": "North Carolina State University"
+        },
+        {
+          "name": "Yoram Cohen",
+          "affiliation": "University of California, Los Angeles"
+        },
+        {
+          "name": "Al\u00e1n Aspuru\u2010Guzik",
+          "affiliation": "Toronto Public Health"
+        },
+        {
+          "name": "David A. Winkler",
+          "affiliation": "University of Nottingham"
+        },
+        {
+          "name": "Dimitris K. Agrafiotis",
+          "affiliation": "Novartis (Switzerland)"
+        },
+        {
+          "name": "Artem Cherkasov",
+          "affiliation": "University of British Columbia"
+        },
+        {
+          "name": "Alexander Tropsha",
+          "affiliation": "University of North Carolina at Chapel Hill"
+        }
+      ],
+      "year": 2020,
+      "abstract": "Prediction of chemical bioactivity and physical properties has been one of the most important applications of statistical and more recently, machine learning and artificial intelligence methods in chemical sciences. This field of research, broadly known as quantitative structure-activity relationships (QSAR) modeling, has developed many important algorithms and has found a broad range of applications in physical organic and medicinal chemistry in the past 55+ years. This Perspective summarizes recent technological advances in QSAR modeling but it also highlights the applicability of algorithms, modeling methods, and validation practices developed in QSAR to a wide range of research areas outside of traditional QSAR boundaries including synthesis planning, nanotechnology, materials science, biomaterials, and clinical informatics. As modern research methods generate rapidly increasing amounts of data, the knowledge of robust data-driven modelling methods professed within the QSAR field can become essential for scientists working both within and outside of chemical research. We hope that this contribution highlighting the generalizable components of QSAR modeling will serve to address this challenge.",
+      "venue": "Chemical Society Reviews",
+      "citation_count": 859,
+      "doi": "10.1039/d0cs00098a",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1039/d0cs00098a",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2982580298",
+      "title": "Key challenges for delivering clinical impact with artificial intelligence",
+      "authors": [
+        {
+          "name": "Christopher Kelly",
+          "affiliation": "Google (United Kingdom)"
+        },
+        {
+          "name": "Alan Karthikesalingam",
+          "affiliation": "Google (United Kingdom)"
+        },
+        {
+          "name": "Mustafa Suleyman",
+          "affiliation": "Google DeepMind (United Kingdom)"
+        },
+        {
+          "name": "Greg S. Corrado",
+          "affiliation": "Google (United States)"
+        },
+        {
+          "name": "Dominic King",
+          "affiliation": "Google (United Kingdom)"
+        }
+      ],
+      "year": 2019,
+      "abstract": "BACKGROUND: Artificial intelligence (AI) research in healthcare is accelerating rapidly, with potential applications being demonstrated across various domains of medicine. However, there are currently limited examples of such techniques being successfully deployed into clinical practice. This article explores the main challenges and limitations of AI in healthcare, and considers the steps required to translate these potentially transformative technologies from research to clinical practice. MAIN BODY: Key challenges for the translation of AI systems in healthcare include those intrinsic to the science of machine learning, logistical difficulties in implementation, and consideration of the barriers to adoption as well as of the necessary sociocultural or pathway changes. Robust peer-reviewed clinical evaluation as part of randomised controlled trials should be viewed as the gold standard for evidence generation, but conducting these in practice may not always be appropriate or feasible. Performance metrics should aim to capture real clinical applicability and be understandable to intended users. Regulation that balances the pace of innovation with the potential for harm, alongside thoughtful post-market surveillance, is required to ensure that patients are not exposed to dangerous interventions nor deprived of access to beneficial innovations. Mechanisms to enable direct comparisons of AI systems must be developed, including the use of independent, local and representative test sets. Developers of AI algorithms must be vigilant to potential dangers, including dataset shift, accidental fitting of confounders, unintended discriminatory bias, the challenges of generalisation to new populations, and the unintended negative consequences of new algorithms on health outcomes. CONCLUSION: The safe and timely translation of AI research into clinically validated and appropriately regulated systems that can benefit everyone is challenging. Robust clinical evaluation, using metrics that are intuitive to clinicians and ideally go beyond measures of technical accuracy to include quality of care and patient outcomes, is essential. Further work is required (1) to identify themes of algorithmic bias and unfairness while developing mitigations to address these, (2) to reduce brittleness and improve generalisability, and (3) to develop methods for improved interpretability of machine learning predictions. If these goals can be achieved, the benefits for patients are likely to be transformational.",
+      "venue": "BMC Medicine",
+      "citation_count": 2588,
+      "doi": "10.1186/s12916-019-1426-2",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1186/s12916-019-1426-2",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2512173100",
+      "title": "Geographic information systems and science",
+      "authors": [
+        {
+          "name": "Rocha, Jorge",
+          "affiliation": ""
+        },
+        {
+          "name": "Abrantes, Patr\u00edcia",
+          "affiliation": ""
+        }
+      ],
+      "year": 2011,
+      "abstract": "morphology, remote sensing, epidemiology, health geography, smart cities, and big data.",
+      "venue": "International Journal of Digital Earth",
+      "citation_count": 1696,
+      "doi": "10.1080/17538947.2011.582276",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1080/17538947.2011.582276",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2952020389",
+      "title": "Solving inverse problems using data-driven models",
+      "authors": [
+        {
+          "name": "Simon Arridge",
+          "affiliation": "University College London"
+        },
+        {
+          "name": "Peter Maa\u00df",
+          "affiliation": "University of Bremen"
+        },
+        {
+          "name": "Ozan \u00d6ktem",
+          "affiliation": "KTH Royal Institute of Technology"
+        },
+        {
+          "name": "Carola\u2010Bibiane Sch\u00f6nlieb",
+          "affiliation": "University of Cambridge"
+        }
+      ],
+      "year": 2019,
+      "abstract": "Recent research in inverse problems seeks to develop a mathematically coherent foundation for combining data-driven models, and in particular those based on deep learning, with domain-specific knowledge contained in physical\u2013analytical models. The focus is on solving ill-posed inverse problems that are at the core of many challenging applications in the natural sciences, medicine and life sciences, as well as in engineering and industrial applications. This survey paper aims to give an account of some of the main contributions in data-driven inverse problems.",
+      "venue": "Acta Numerica",
+      "citation_count": 673,
+      "doi": "10.1017/s0962492919000059",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1017/s0962492919000059",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W4386142022",
+      "title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+      "authors": [
+        {
+          "name": "Vikas Hassija",
+          "affiliation": "KIIT University"
+        },
+        {
+          "name": "Vinay Chamola",
+          "affiliation": "Birla Institute of Technology and Science, Pilani"
+        },
+        {
+          "name": "Atmesh Mahapatra",
+          "affiliation": "Birla Institute of Technology and Science, Pilani"
+        },
+        {
+          "name": "Abhinandan Singal",
+          "affiliation": "Jaypee Institute of Information Technology"
+        },
+        {
+          "name": "Divyansh Goel",
+          "affiliation": "Jaypee Institute of Information Technology"
+        },
+        {
+          "name": "Kaizhu Huang",
+          "affiliation": "Duke Kunshan University"
+        },
+        {
+          "name": "Simone Scardapane",
+          "affiliation": "Sapienza University of Rome"
+        },
+        {
+          "name": "Indro Spinelli",
+          "affiliation": "Istituto Nazionale di Fisica Nucleare, Sezione di Roma I"
+        },
+        {
+          "name": "Mufti Mahmud",
+          "affiliation": "Nottingham Trent University"
+        },
+        {
+          "name": "Amir Hussain",
+          "affiliation": "Edinburgh Napier University"
+        }
+      ],
+      "year": 2023,
+      "abstract": "Abstract Recent years have seen a tremendous growth in Artificial Intelligence (AI)-based methodological development in a broad range of domains. In this rapidly evolving field, large number of methods are being reported using machine learning (ML) and Deep Learning (DL) models. Majority of these models are inherently complex and lacks explanations of the decision making process causing these models to be termed as 'Black-Box'. One of the major bottlenecks to adopt such models in mission-critical application domains, such as banking, e-commerce, healthcare, and public services and safety, is the difficulty in interpreting them. Due to the rapid proleferation of these AI models, explaining their learning and decision making process are getting harder which require transparency and easy predictability. Aiming to collate the current state-of-the-art in interpreting the black-box models, this study provides a comprehensive analysis of the explainable AI (XAI) models. To reduce false negative and false positive outcomes of these back-box models, finding flaws in them is still difficult and inefficient. In this paper, the development of XAI is reviewed meticulously through careful selection and analysis of the current state-of-the-art of XAI research. It also provides a comprehensive and in-depth evaluation of the XAI frameworks and their efficacy to serve as a starting point of XAI for applied and theoretical researchers. Towards the end, it highlights emerging and critical issues pertaining to XAI research to showcase major, model-specific trends for better explanation, enhanced transparency, and improved prediction accuracy.",
+      "venue": "Cognitive Computation",
+      "citation_count": 1795,
+      "doi": "10.1007/s12559-023-10179-8",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1007/s12559-023-10179-8",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W3008626511",
+      "title": "A review of machine learning applications in wildfire science and management",
+      "authors": [
+        {
+          "name": "Piyush Jain",
+          "affiliation": "Canadian Forest Service"
+        },
+        {
+          "name": "Sean C.P. Coogan",
+          "affiliation": "University of Alberta"
+        },
+        {
+          "name": "Sriram Ganapathi Subramanian",
+          "affiliation": "University of Waterloo"
+        },
+        {
+          "name": "Mark Crowley",
+          "affiliation": "University of Waterloo"
+        },
+        {
+          "name": "Steve Taylor",
+          "affiliation": "Canadian Forest Service"
+        },
+        {
+          "name": "Mike D. Flannigan",
+          "affiliation": "University of Alberta"
+        }
+      ],
+      "year": 2020,
+      "abstract": "Artificial intelligence has been applied in wildfire science and management since the 1990s, with early applications including neural networks and expert systems. Since then, the field has rapidly progressed congruently with the wide adoption of machine learning (ML) methods in the environmental sciences. Here, we present a scoping review of ML applications in wildfire science and management. Our overall objective is to improve awareness of ML methods among wildfire researchers and managers, as well as illustrate the diverse and challenging range of problems in wildfire science available to ML data scientists. To that end, we first present an overview of popular ML approaches used in wildfire science to date and then review the use of ML in wildfire science as broadly categorized into six problem domains, including (i) fuels characterization, fire detection, and mapping; (ii) fire weather and climate change; (iii) fire occurrence, susceptibility, and risk; (iv) fire behavior prediction; (v) fire effects; and (vi) fire management. Furthermore, we discuss the advantages and limitations of various ML approaches relating to data size, computational requirements, generalizability, and interpretability, as well as identify opportunities for future advances in the science and management of wildfires within a data science context. In total, to the end of 2019, we identified 300 relevant publications in which the most frequently used ML methods across problem domains included random forests, MaxEnt, artificial neural networks, decision trees, support vector machines, and genetic algorithms. As such, there exists opportunities to apply more current ML methods \u2014 including deep learning and agent-based learning \u2014 in the wildfire sciences, especially in instances involving very large multivariate datasets. We must recognize, however, that despite the ability of ML models to learn on their own, expertise in wildfire science is necessary to ensure realistic modelling of fire processes across multiple scales, while the complexity of some ML methods such as deep learning requires a dedicated and sophisticated knowledge of their application. Finally, we stress that the wildfire research and management communities play an active role in providing relevant, high-quality, and freely available wildfire data for use by practitioners of ML methods.",
+      "venue": "Environmental Reviews",
+      "citation_count": 713,
+      "doi": "10.1139/er-2020-0019",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1139/er-2020-0019",
+      "source": "openalex",
+      "_bibtex_override": ""
+    },
+    {
+      "paper_id": "oalex-W2973119841",
+      "title": "Machine Learning for Fluid Mechanics",
+      "authors": [
+        {
+          "name": "Steven L. Brunton",
+          "affiliation": "University of Washington"
+        },
+        {
+          "name": "Bernd R. Noack",
+          "affiliation": "Centre National de la Recherche Scientifique"
+        },
+        {
+          "name": "Petros Koumoutsakos",
+          "affiliation": "ETH Zurich"
+        }
+      ],
+      "year": 2019,
+      "abstract": "The field of fluid mechanics is rapidly advancing, driven by unprecedented volumes of data from experiments, field measurements, and large-scale simulations at multiple spatiotemporal scales. Machine learning (ML) offers a wealth of techniques to extract information from data that can be translated into knowledge about the underlying fluid mechanics. Moreover, ML algorithms can augment domain knowledge and automate tasks related to flow control and optimization. This article presents an overview of past history, current developments, and emerging opportunities of ML for fluid mechanics. We outline fundamental ML methodologies and discuss their uses for understanding, modeling, optimizing, and controlling fluid flows. The strengths and limitations of these methods are addressed from the perspective of scientific inquiry that considers data as an inherent part of modeling, experiments, and simulations. ML provides a powerful information-processing framework that can augment, and possibly even transform, current lines of fluid mechanics research and industrial applications.",
+      "venue": "Annual Review of Fluid Mechanics",
+      "citation_count": 2659,
+      "doi": "10.1146/annurev-fluid-010719-060214",
+      "arxiv_id": "",
+      "url": "https://doi.org/10.1146/annurev-fluid-010719-060214",
+      "source": "openalex",
+      "_bibtex_override": ""
+    }
+  ]
+}
