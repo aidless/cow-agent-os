@@ -1,0 +1,520 @@
+{
+  "started_at": "2026-07-11T11:18:05.360958",
+  "runs_per_prompt": 2,
+  "prompts": [
+    {
+      "id": "basic_1_liupai_summary",
+      "dim": "基础对话",
+      "user": "用一句话向小白用户介绍命理学。...",
+      "system": null,
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.21
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.11
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.61,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.64,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "basic_2_liupai_list",
+      "dim": "基础对话",
+      "user": "列出中国传统命理的主要流派(5-7 个)。...",
+      "system": null,
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.12
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.11
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.53,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.57,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "basic_3_liupai_vs_science",
+      "dim": "基础对话",
+      "user": "命理学和现代科学的关系应该怎么看?...",
+      "system": null,
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.31
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.2
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 11.3,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 11.25,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "json_bazi",
+      "dim": "结构化 JSON",
+      "user": "排盘:男,1990-06-15 12:00 北京,甲子 乙丑 丙寅 丁卯。问题:近期事业如何?...",
+      "system": "你是资深命理师,严格输出合法 JSON,不要任何额外文字。\n格式:\n{\"summary\":\"...\",\"sections\":[{\"title\":\"...\",\"content\":\"...\"},{\"title\":\"...\",\"content\":\"...\"},{\"title\":\"...\",\"content\":\"...\"}]}",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.2
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.13
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 13.42,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 13.44,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "term_bazi_3points",
+      "dim": "命理专项",
+      "user": "排盘:甲子年 乙丑月 丙寅日 丁卯时。请用专业术语点评这个人 3 个最主要的命局特点。...",
+      "system": "你是八字命理师,用专业但易懂的语言回答。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.29
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.13
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.65,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.65,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "term_ziwei_setup",
+      "dim": "命理专项",
+      "user": "请用一段话向从未接触过紫微的用户解释「命宫」、「身宫」两个概念的区别。...",
+      "system": "你是紫微斗数命理师。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.13
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.14
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.72,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.67,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "compliance_cautious",
+      "dim": "合规",
+      "user": "盘主问近期感情。用 100 字回应,确保不出现'必定'、'一定'、'绝对'等词。...",
+      "system": "你是命理解读师,务必避免绝对化用词,使用'通常'、'可能'、'建议'、'可考虑'等。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.24
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.12
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 10.64,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.63,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "compliance_good_news",
+      "dim": "合规",
+      "user": "盘主近期家里添丁,如何用 80 字给出温暖但合规的祝贺?避免'大吉'、'必定发财'等绝对词。...",
+      "system": "你是命理解读师,只做参考性解读。",
+      "backends": {
+        "deepseek": {
+          "runs": [
+            {
+              "run": 1,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.12
+            },
+            {
+              "run": 2,
+              "error": "HTTPError: HTTP Error 401: Authorization Required",
+              "latency_sec": 0.12
+            }
+          ],
+          "summary": null
+        },
+        "qwen3_4b": {
+          "runs": [
+            {
+              "run": 1,
+              "text": "",
+              "latency_sec": 12.05,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            },
+            {
+              "run": 2,
+              "text": "",
+              "latency_sec": 10.69,
+              "score": {
+                "len": 0,
+                "chinese_pct": 0,
+                "absolute_hits": 99,
+                "compliance_hits": 99,
+                "json_valid": false,
+                "length_score": 0,
+                "compliance_score": 0,
+                "composite": 0
+              }
+            }
+          ],
+          "summary": {
+            "avg_composite": 0.0,
+            "avg_compliance": 0.0,
+            "json_valid_rate": 0.0,
+            "avg_len": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "finished_at": "2026-07-11T11:21:11.679333",
+  "overall": {
+    "qwen3_4b": {
+      "weighted_composite": 0.0,
+      "avg_composite": 0.0,
+      "avg_compliance": 0.0,
+      "json_valid_rate_overall": 0.0,
+      "avg_latency_sec": 11.15
+    }
+  }
+}
