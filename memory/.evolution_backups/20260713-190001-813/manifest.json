@@ -1,0 +1,46 @@
+[
+  {
+    "rel": "MEMORY.md",
+    "bak": "0.bak"
+  },
+  {
+    "rel": "memory\\2026-07-13.md",
+    "bak": "1.bak"
+  },
+  {
+    "rel": "AGENT.md",
+    "bak": "2.bak"
+  },
+  {
+    "rel": "skills\\arxiv-tracker\\SKILL.md",
+    "bak": "3.bak"
+  },
+  {
+    "rel": "skills\\cross-session-handoff\\SKILL.md",
+    "bak": "4.bak"
+  },
+  {
+    "rel": "skills\\experiment-tracker\\SKILL.md",
+    "bak": "5.bak"
+  },
+  {
+    "rel": "skills\\paper-changelog\\SKILL.md",
+    "bak": "6.bak"
+  },
+  {
+    "rel": "skills\\paper-review-toolkit\\SKILL.md",
+    "bak": "7.bak"
+  },
+  {
+    "rel": "skills\\pes2o-kb-maintenance\\SKILL.md",
+    "bak": "8.bak"
+  },
+  {
+    "rel": "skills\\rr-responder\\SKILL.md",
+    "bak": "9.bak"
+  },
+  {
+    "rel": "skills\\wechat-mp-validation\\SKILL.md",
+    "bak": "10.bak"
+  }
+]
