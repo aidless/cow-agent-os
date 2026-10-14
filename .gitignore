@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 USER.local.md
 .env
+
+fortune-web-v2/logs/
