@@ -3,3 +3,8 @@ gunicorn==21.2.0
 requests==2.31.0
 pyyaml==6.0.1
 python-alipay-sdk==3.4.0
+# CI runs `python -m pytest tests/...` right after `pip install -r requirements.txt`
+# and pytest was not among them, so the verify job died with
+# "No module named pytest" before running a single test. Local runs had it from the
+# system/venv, which is why this only ever showed up on GitHub Actions.
+pytest==8.3.4
