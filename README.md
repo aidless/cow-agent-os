@@ -8,26 +8,33 @@ and the rules that govern how agents work here. **Most of the file count is vend
 find which parts are the workspace and which are third-party material that came with it.
 
 > **Vendored content.** This repository contains a large amount of third-party
-> material. Only the files described in `AGENT.md` are the workspace itself; treat
-> everything under vendored paths as third-party and do not read those files as project
-> intent. `checksums.py` verifies the vendored trees.
+> material under `tools/` and `knowledge/`. Those trees are third-party and are not
+> the project's own intent; only `fortune-web-v2/`, `entries/`, `scheduler/`,
+> `skills/`, `installed/`, and the root `*.md` files are the workspace itself.
 
 ## Entry points
 
 | Path | Contents |
 |---|---|
-| [AGENT.md](AGENT.md) | what this workspace is and how to work in it |
+| [AGENT.md](AGENT.md) | who the workspace agent ("泰") is and how it operates |
 | [RULE.md](RULE.md) | the rules agents must follow |
 | [MEMORY.md](MEMORY.md) | the shared memory layer |
 | [WORKFLOW.md](WORKFLOW.md) | the multi-agent flow definition |
 | [USER.md](USER.md) | user-level configuration |
 | [AGENT_HISTORY.md](AGENT_HISTORY.md) | agent activity history |
-| `checksums.py` | integrity check for the vendored trees |
+| `fortune-web-v2/` | the workspace's own application (Flask) — the only part CI tests |
+| `memory/` | dated memory notes (`YYYY-MM-DD.md`) |
+| `entries/`, `scheduler/`, `skills/`, `installed/` | workspace data and skills |
+| `tools/`, `knowledge/` | vendored third-party trees — left untouched by CI |
 
 Benchmarks live in `benchmark_*.json` at the repository root; the date-stamped filenames
 are separate runs.
 
+The loose `*.txt` files at the root (`curl_test.txt`, `key_test.txt`, `ping.txt`,
+`p1_out.txt`, `p2_out.txt`, `runall_local.txt`, `step1_llm.txt`) are leftover scratch
+dumps from testing, not workspace material.
+
 ## License
 
-MIT for the workspace. Vendored material keeps its own license — see the upstream
-projects listed in `AGENT.md`.
+MIT for the workspace. Vendored material under `tools/` and `knowledge/` keeps its own
+license.
