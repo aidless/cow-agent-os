@@ -4,3 +4,7 @@ USER.local.md
 .env
 
 fortune-web-v2/logs/
+
+# SQLite runtime artifacts — ephemeral, must not be committed
+memory/long-term/*.db-wal
+memory/long-term/*.db-shm
