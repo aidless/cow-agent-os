@@ -27,12 +27,10 @@ find which parts are the workspace and which are third-party material that came 
 | `entries/`, `scheduler/`, `skills/`, `installed/` | workspace data and skills |
 | `tools/`, `knowledge/` | vendored third-party trees — left untouched by CI |
 
-Benchmarks live in `benchmark_*.json` at the repository root; the date-stamped filenames
-are separate runs.
-
-The loose `*.txt` files at the root (`curl_test.txt`, `key_test.txt`, `ping.txt`,
-`p1_out.txt`, `p2_out.txt`, `runall_local.txt`, `step1_llm.txt`) are leftover scratch
-dumps from testing, not workspace material.
+Benchmark runs (nine dated pairs, 2026-07-11) are kept in
+`benchmarks/`; the date-stamped filenames are separate runs.
+`fortune-web-v2/benchmark_llm.py` writes a new pair to the current
+directory when it runs.
 
 ## License
 

@@ -35,7 +35,7 @@ Step 4  ⬜ Flask/FastAPI 部署 + 微信支付 + 上线
 | `_diag_*.py` | 多个 | 临时诊断脚本(可清理)|
 | `_patch_*.py` | 多个 | 一次性 patch 脚本(可清理)|
 | `README.md` | ~80 | 用法 + 环境变量 |
-| `benchmark_*.json/md` | 各 ~30 KB | 对比测试报告 |
+| `benchmarks/benchmark_*.json/md` | 各 ~30 KB | 对比测试报告 |
 
 ## 架构
 

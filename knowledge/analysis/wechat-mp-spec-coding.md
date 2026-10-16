@@ -49,8 +49,8 @@ Layer 3 验证脚本      tests/* (结构化断言 + 集成测试)
 | `llm_backends.py` Protocol 抽象 | ✅ 类型即规格 |
 | `tests/test_llm_backends.py` 单元测试 | ✅ 行为即规格 |
 | `benchmark_llm.py` 跑 8 prompt × 2 backend | ✅ 业务 KPI |
-| `benchmark_report_*.md` Markdown 报告 | ✅ 给人看的 |
-| `benchmark_*.json` JSON 数据 | ✅ 机器可读 + 二次分析 |
+| `benchmarks/benchmark_report_*.md` Markdown 报告 | ✅ 给人看的 |
+| `benchmarks/benchmark_*.json` JSON 数据 | ✅ 机器可读 + 二次分析 |
 
 ### 业务接入(Step 3)的 spec coding 路径
 
