@@ -1,0 +1,6 @@
+# Dependency manifest pointer for aidless/cow-agent-os
+#
+# The runnable app lives in fortune-web-v2/ and keeps its manifest there.
+# This root file points at it so the entry point is discoverable.
+
+-r fortune-web-v2/requirements.txt
