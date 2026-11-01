@@ -14,49 +14,60 @@ find which parts are the workspace and which are third-party material that came 
 > the project's own intent; only `fortune-web-v2/`, `entries/`, `scheduler/`,
 > `skills/`, `installed/`, and the root `*.md` files are the workspace itself.
 
-## Quickstart
+## 这个项目解决什么问题 / 为什么重要
 
-The workspace's own runnable application is `fortune-web-v2/` (Flask). Everything
-under `tools/` and `knowledge/` is vendored third-party material (see the boundary
-note above and [tools/README.md](tools/README.md)) — nothing there is started or tested.
+Agent 系统的日常运行需要一个「OS 层」：身份与边界（`AGENT.md`）、行为规则（`RULE.md`）、
+共享记忆（`MEMORY.md`）、多 agent 流程（`WORKFLOW.md`）。cow-agent-os 把这四件事落成
+**一组可执行的规则文件** + 一个**真实可运行的应用**（`fortune-web-v2/`，Flask 命理咨询站，
+含用户系统、订阅、收藏、限流与合规）。它不是又一个 agent 框架，而是**一个长期运行的
+agent 工作区的治理与运行规范**——「谁是泰、泰能做什么、记忆如何沉淀、出错怎么办」。
+
+## 我用了什么方法
+
+- **规则即代码**：`AGENT.md`（身份/边界 V4）/ `RULE.md`（行为规则）/ `MEMORY.md`（记忆层）/
+  `WORKFLOW.md`（多 agent 流程）以版本化 Markdown 维护，`AGENT_HISTORY.md` 保留 v1.0 迁移史。
+- **真实应用做锚点**：`fortune-web-v2/` 是唯一 CI 测试的自家代码（Flask + SQLite + 多后端 LLM），
+  用真实 HTTP 流测试用户系统、订阅、锁屏、重置、收藏。
+- **基准对比**：`benchmark_llm.py` 跑 DeepSeek vs qwen3:4b 对比（`benchmarks/`，9 组 2026-07-11 实测）。
+
+## 结果如何
+
+- **测试基线（诚实）**：10 个测试文件中 **2 个绿**（`test_phase5_lockout.py` 6 passed /
+  `test_phase6_reset_flow.py` 8 passed），**8 个红**（原因已在 CI 注释逐条列出：`app.py` 的
+  `_validate_question()` 在 application context 外调 `jsonify()`、`llm_backends.py` 的
+  `OllamaQwenBackend`/`OllamaQwen3Backend` 改名未传播、共享 SQLite 状态互相干扰等）。
+  CI 只跑绿的两个（各自独立进程，避免共享 `readings.db` 干扰），其余**如实报告不隐藏**。
+- **基准结果**：`benchmarks/` 9 组报告显示 qwen3:4b 综合分从 0.0（401 认证失败）到 0.619 不等，
+  DeepSeek 在部分维度胜出——但这是 2026-07-11 的单日实测，**不是跨配置结论**。
+
+## 边界声明（证明什么 / 不证明什么）
+
+**证明（可复算）**：① `fortune-web-v2/tests/test_phase5_lockout.py` 与
+`test_phase6_reset_flow.py` 各自独立进程下全绿；② `benchmarks/` 的 9 组对比文件与
+`benchmark_llm.py` 的写入逻辑一致（`datetime.now().strftime('%Y%m%d_%H%M%S')` 命名）。
+**不证明**：① 应用整体测试通过——8/10 文件当前红，是**仓库内真实缺陷**，非环境问题
+（CI 注释逐条给了根因）；② 基准的「DeepSeek 胜」不是**稳定结论**——2026-07-11 单日、
+单模型、有限 prompt 集；③ 工作区规则（AGENT/RULE/MEMORY/WORKFLOW）**未做机器验证**，
+是文档性规范而非可证明的形式语义。
+
+## 复算（Reproduction）
 
 ```bash
-# 1. install the runnable app's dependencies
-pip install -r requirements.txt          # points at fortune-web-v2/requirements.txt
+cd cow-agent-os
+# 1) 跑绿的两个测试（各自独立进程，避免共享 readings.db 干扰）
+cd fortune-web-v2
+python -m pytest tests/test_phase5_lockout.py -q      # 6 passed
+python -m pytest tests/test_phase6_reset_flow.py -q   # 8 passed
 
-# 2. start the app (dev server, port 5000)
-python3 fortune-web-v2/app.py
-#   * Running on http://127.0.0.1:5000
-curl -s -o /dev/null -w "%{http_code}\n" http://127.0.0.1:5000/    # → 200 (verified 2026-11-10)
+# 2) 看 CI 如何如实报告 8 个红文件（含根因）
+sed -n '1,50p' .github/workflows/ci.yml               # 注释即证据
 
-# 3. run the CI-green test subset
-python3 -m pytest fortune-web-v2/tests/test_phase5_lockout.py -q   # → 6 passed
-python3 -m pytest fortune-web-v2/tests/test_phase6_reset_flow.py -q # → 8 passed
+# 3) 重算基准：读一份 json 的汇总（不重跑，避免耗 token）
+python3 -c "import json; d=json.load(open('benchmarks/benchmark_20260711_123129.json')); print(json.dumps(d, ensure_ascii=False)[:400])"
+
+# 4) 重新生成基准对（需真实 LLM 端点 + key）
+cd fortune-web-v2 && python benchmark_llm.py --runs 2
 ```
-
-## Results
-
-Real runs on 2026-11-10 (CPython 3.12, Flask 3.0.0):
-
-- `python3 fortune-web-v2/app.py` serves the workspace app; `GET /` returns HTTP 200.
-- CI test subset: `test_phase5_lockout.py` 6 passed, `test_phase6_reset_flow.py` 8
-  passed (each file in a separate process — see Limits).
-
-## Limits
-
-- **The full fortune-web-v2 pytest suite is not green.** 55 failed / 38 passed on
-  2026-11-10, all pre-existing repository defects, documented file-by-file in
-  [.github/workflows/ci.yml](.github/workflows/ci.yml) (e.g. `app.py:619`
-  `_validate_question()` calls `flask.jsonify()` outside an application context;
-  `test_llm_backends.py` imports `OllamaQwen3Backend` while `llm_backends.py:188`
-  defines `OllamaQwenBackend`). CI runs only the two green files so the gap stays
-  visible instead of being hidden behind `--ignore`.
-- The two green test files must run in separate processes: sharing one process hits
-  a shared-SQLite defect between them.
-- `app.py` is a Flask development server; production deploys use the Dockerfile /
-  docker-compose.yml in `fortune-web-v2/` (see its own README).
-- Vendored trees (`tools/`, `knowledge/`) are documented upstream pointers, not
-  working copies — fetch originals from their own sources.
 
 ## Entry points
 
