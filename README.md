@@ -42,6 +42,8 @@ agent 工作区的治理与运行规范**——「谁是泰、泰能做什么、
 
 ## 边界声明（证明什么 / 不证明什么）
 
+**Fail-closed 声明**：测试与基准**默认 fail-closed**——8 个当前红的测试文件**不被隐藏、不被当环境问题**，而是在 `.github/workflows/ci.yml` 注释逐条列出真实根因（如 `app.py` 的 `_validate_question()` 在 application context 外调 `jsonify()`、`llm_backends.py` 后端改名未传播、共享 SQLite 状态互相干扰）。CI 只跑绿的两个（各自独立进程避免共享 `readings.db` 干扰），其余**如实报告**。基准的「DeepSeek 胜」不写成稳定结论——明确标注为 2026-07-11 单日实测。缺陷不被掩盖、单日结论不被拔高，是本文档的 fail-closed 立场。
+
 **证明（可复算）**：① `fortune-web-v2/tests/test_phase5_lockout.py` 与
 `test_phase6_reset_flow.py` 各自独立进程下全绿；② `benchmarks/` 的 9 组对比文件与
 `benchmark_llm.py` 的写入逻辑一致（`datetime.now().strftime('%Y%m%d_%H%M%S')` 命名）。
