@@ -1,5 +1,7 @@
 # cow-agent-os
 
+[![CI](https://github.com/aidless/cow-agent-os/actions/workflows/ci.yml/badge.svg)](https://github.com/aidless/cow-agent-os/actions/workflows/ci.yml)
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 An agent operating-system workspace ("泰"): multi-agent flows, a shared memory layer,
