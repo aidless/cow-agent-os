@@ -106,7 +106,7 @@ _2026-07-11 沉淀。来源:F:\Research + research-changelog-2026-07-11.md。_
 
 ## 🔗 跨文档链接
 
-- [刘泽文 — 研究系统全图](../entities/liu-zewen-research.md)
+- [用户 — 研究系统全图](../entities/liu-zewen-research.md)
 - [论文审阅工具箱](../analysis/paper-review-toolkit.md)
 - [5 篇全量审计报告(7/11)](../analysis/paper-review-audit-2026-07-11.md)
 - [Agent OS 完整方案](../sources/agent-os-architecture-full-2026-07-11.md)
@@ -128,7 +128,7 @@ _2026-07-11 沉淀。来源:F:\Research + research-changelog-2026-07-11.md。_
 **PAPER6 显式 skip**:废稿 `main.tex.LLM_FABRICATED_DO_NOT_SUBMIT` 不抽,留决策占位(3 路径候选)。
 
 **关键发现**(草稿时挖掘):
-- **5 篇共享 EPC 框架**(Evaluator Preference Coupling γ / 策略熵 H / CV)是刘泽文研究主线的方法学骨架
+- **5 篇共享 EPC 框架**(Evaluator Preference Coupling γ / 策略熵 H / CV)是用户研究主线的方法学骨架
 - **PAPER1 ↔ PAPER2 ↔ PAPER3 互引**:三角(理论) → 双面统一 → 校准疲劳解混,形成 5 篇"梯子"
 - **PAPER4 是元方法论**:把 PAPER1-3 的"具体反转"抽象成"N-sensitivity"框架
 - **PAPER5 是工程落点**:从理论 → 架构选型,闭合整条主线

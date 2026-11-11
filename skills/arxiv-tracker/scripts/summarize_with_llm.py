@@ -35,12 +35,12 @@ DEFAULT_BASE = os.environ.get("OPENAI_API_BASE", "https://api.deepseek.com/v1").
 DEFAULT_KEY = os.environ.get("OPENAI_API_KEY", "")
 DEFAULT_MODEL = os.environ.get("ARXIV_TRACKER_MODEL", "deepseek-v4-flash")
 
-SYSTEM_PROMPT = """你是刘泽文的研究助理。他的研究方向是多智能体 LLM 系统中的
+SYSTEM_PROMPT = """你是用户的研究助理。他的研究方向是多智能体 LLM 系统中的
 通信 / 校准 / 偏好耦合。具体兴趣:多 agent 协作是否引发策略共识与校准传染,
 校准能否抵消通信噪声,agent 之间偏好差异如何放大或缩小。
 
 你的任务:
-1. 用 1-2 句中文写一段「论文做了什么 + 与刘泽文主线的相关性」。
+1. 用 1-2 句中文写一段「论文做了什么 + 与用户主线的相关性」。
 2. 给出 1-5 星的 relevance 评分(1=无关,5=高度相关到他的研究主线)。
 3. 简述评分理由(中文,<=30 字)。
 

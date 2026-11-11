@@ -309,7 +309,7 @@ kb_server.py (FastAPI on 8765)
 - **主 CHANGELOG**(4 轮会话改造记录):`E:\peS2o_kb_faiss\CHANGELOG_2026-07-09.md` (~5.5 KB)
 - **CI/CD 部署清单**:`E:\peS2o_kb_faiss\CICD_DEPLOYMENT_CHECKLIST.md` (~8 KB)
 - **远端 repo**(空,本地未 push):`https://github.com/aidless/obsidian`
-- **关联项目**:刘泽文 `F:\Research\PAPER{1..6}_CONSOLIDATED\refs.bib`(must-cite 输出目标)
+- **关联项目**:用户 `F:\Research\PAPER{1..6}_CONSOLIDATED\refs.bib`(must-cite 输出目标)
 - **原始语料**:`E:\peS2o_cs\peS2o-*.jsonl`(98.86 GB,不动)
 
 ---

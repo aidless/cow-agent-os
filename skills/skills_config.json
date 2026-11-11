@@ -22,7 +22,7 @@
     },
     "arxiv-tracker": {
         "name": "arxiv-tracker",
-        "description": "监控 arxiv 上与刘泽文研究主线(多 agent 协作 / 校准 / 偏好耦合)相关的\n新论文。每日/每周抓取 → LLM 中文摘要 + relevance 评分 → 写入 knowledge/\n下的 arxiv-watch 目录。\n",
+        "description": "监控 arxiv 上与用户研究主线(多 agent 协作 / 校准 / 偏好耦合)相关的\n新论文。每日/每周抓取 → LLM 中文摘要 + relevance 评分 → 写入 knowledge/\n下的 arxiv-watch 目录。\n",
         "source": "custom",
         "enabled": true,
         "category": "skill"

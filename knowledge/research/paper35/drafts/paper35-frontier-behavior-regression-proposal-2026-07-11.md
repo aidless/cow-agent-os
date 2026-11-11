@@ -4,7 +4,7 @@
 >
 > **Venue**:**USENIX Security 2026**(主目标) / **NDSS 2026**(备选)
 >
-> **Authors**: 泰(主笔)+ 刘泽文(EPC 框架方法论背书)
+> **Authors**: 泰(主笔)+ 用户(EPC 框架方法论背书)
 >
 > **Status**: Outline ready,start date = paper35-w1 RFC 启动后
 >
@@ -320,7 +320,7 @@ Month 3:
 | **TEMPLATE v0.5.0 plugin whitelist** | 5 reviewer 锁 whitelist(已在 paper_configs.py 实施) |
 | **ABRTS 数据集** | 在 `paper-review-toolkit/tests/` 扩展 |
 | **Defense 框架** | 借鉴 #27 CT-for-A2A + #32 Sigstore |
-| **EPC 框架**(刘泽文研究主线)| 提供 evaluation methodology 背书 |
+| **EPC 框架**(用户研究主线)| 提供 evaluation methodology 背书 |
 
 ## 🔗 跨文档链接
 

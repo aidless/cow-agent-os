@@ -1,6 +1,6 @@
 # 11 窗口全量进度报告 — 2026-07-11
 
-> **触发**:刘泽文"看看那些窗口都收工了,更新知识库"。
+> **触发**:用户"看看那些窗口都收工了,更新知识库"。
 > **方法**:扫每个 STATUS.md + 列出每个窗口的产物文件 + 评估收工度。
 > **结论**:**11 窗口里有 7 个被其他 session 大幅推进**。本报告记录所有实际收工情况。
 
@@ -62,7 +62,7 @@
 
 ## 🟢 w3 PAPER6 A4 Verifier Capture Resistance(替代方案)
 
-**决策**:刘泽文 14:15 拍 "开干" + "a"(TMLR 中位数打法),**把 PAPER6 重构为 IDEA-A4**。
+**决策**:用户 14:15 拍 "开干" + "a"(TMLR 中位数打法),**把 PAPER6 重构为 IDEA-A4**。
 
 **关键参数**:
 - Venue:**TMLR 主投 + NeurIPS J2C 申请**(双轨)
@@ -147,7 +147,7 @@
 - ⚠️ C9 显示 3 "figure no caption"(Bug D 残留,**paper 本身 6 张 figure 全有 caption**,已 PowerShell 反向验证)
 - 即 audit 报告有 bug,真实 PAPER5 距投稿"最近"
 
-**等**:刘泽文决定 RFC 6-12 周作战图选 A/B/C/D
+**等**:用户决定 RFC 6-12 周作战图选 A/B/C/D
 
 **产物**:15 文件(C10 patch + review log + mocks + diff)
 

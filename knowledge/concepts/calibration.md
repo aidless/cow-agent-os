@@ -1,6 +1,6 @@
 # Calibration — 校准方法在 LLM 中的应用
 
-_2026-07-11 沉淀。来源:刘泽文研究主线之一(5 篇 CONSOLIDATED 论文)。_
+_2026-07-11 沉淀。来源:用户研究主线之一(5 篇 CONSOLIDATED 论文)。_
 
 ---
 
@@ -115,7 +115,7 @@ PDP / Multi-Agent Trust / A2A Verified
 - **Platt (1999)** — Platt Scaling 原始论文
 - **Vovk et al. (2005)** — Conformal Prediction 理论
 - **Minderer et al. (2021)** — "Revisiting the Calibration of Modern Neural Networks"(LLM 校准)
-- **刘泽文 5 篇 CONSOLIDATED 论文** —— 在该领域有 5+ 论文沉淀
+- **用户 5 篇 CONSOLIDATED 论文** —— 在该领域有 5+ 论文沉淀
 
 ---
 

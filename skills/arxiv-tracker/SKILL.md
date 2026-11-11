@@ -3,7 +3,7 @@ name: arxiv-tracker
 version: 0.1.0
 status: live
 description: |
-  监控 arxiv 上与刘泽文研究主线(多 agent 协作 / 校准 / 偏好耦合)相关的
+  监控 arxiv 上与用户研究主线(多 agent 协作 / 校准 / 偏好耦合)相关的
   新论文。每日/每周抓取 → LLM 中文摘要 + relevance 评分 → 写入 knowledge/
   下的 arxiv-watch 目录。
 triggers:
@@ -78,7 +78,7 @@ python skills/arxiv-tracker/scripts/summarize_with_llm.py \
 
 **默认模型**:`deepseek-v4-flash`(`ARXIV_TRACKER_MODEL` 可改)。每篇添加三个字段:
 - `zh_summary`:1-2 句中文
-- `relevance`:1-5 星(relevance to 刘泽文的研究主线)
+- `relevance`:1-5 星(relevance to 用户的研究主线)
 - `relevance_reason`:≤30 字评分理由
 
 **并发**:默认 4 worker,总耗时 ≈ 4 seconds/paper × num_papers ÷ workers
@@ -141,11 +141,11 @@ python scripts/fetch_arxiv.py \
 
 ## 🆕 7/11 Self-Citation Filter(必读)
 
-**问题**:7/11 给刘泽文做 PAPER5 must-cite 推荐时,arxiv-tracker 抓回来的论文里有
+**问题**:7/11 给用户做 PAPER5 must-cite 推荐时,arxiv-tracker 抓回来的论文里有
 **他自己的 10 篇**(`liu_z_28` 主页可见),但 skill 没过滤,导致把 2606.20493 Contagion
 Networks 等自我引用当外部论文推荐,反复确认浪费工时。
 
-**修复**:任何为刘泽文做的 must-cite / related work / literature review 工作流,**第一步**
+**修复**:任何为用户做的 must-cite / related work / literature review 工作流,**第一步**
 就是 fetch 自我的 arxiv 主页 + ORCID,标记 self-authored 论文,后续过滤掉。
 
 ```bash
@@ -173,7 +173,7 @@ python skills/arxiv-tracker/scripts/ingest_to_vault.py \
 - `--exclude-arxiv-ids`:**完全过滤**,不写入 vault(默认用于 must-cite 推荐)
 - `--mark-self-cite`:**保留但加 `🤚 SELF-CITE` 标记**,写入 vault(用于 related work,作者要看见自己的论文位置)
 
-**刘泽文的 self-citation 锚点**(固化在 skill 里):
+**用户的 self-citation 锚点**(固化在 skill 里):
 | 字段 | 值 |
 |---|---|
 | arXiv author ID | `liu_z_28` |

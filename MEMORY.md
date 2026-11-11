@@ -1,13 +1,13 @@
 ## LLM API 配置(主路径)
 - 阿里云 Maas 北京区统一 key 跑 OpenAI + Anthropic 两种协议:OPENAI_API_BASE=[MaaS endpoint redacted],ANTHROPIC_BASE_URL=.../apps/anthropic,API_KEY=sk-***MAAS-KEY-REVOKED***  (KEY 已撤销,占位符)
-- DeepSeek 直连新 key(7/11 15:30 刘泽文提供):DEEPSEEK_API_BASE=https://api.deepseek.com/v1,API_KEY=sk-***DEEPSEEK-KEY-REVOKED***,V4-flash 直连实测可用(3.6s/call)  (KEY 已撤销,占位符)
+- DeepSeek 直连新 key(7/11 15:30 用户提供):DEEPSEEK_API_BASE=https://api.deepseek.com/v1,API_KEY=sk-***DEEPSEEK-KEY-REVOKED***,V4-flash 直连实测可用(3.6s/call)  (KEY 已撤销,占位符)
 - Qwen 走 Maas 即可(限时 8 折 qwen3.7-plus);V4-flash 在 Maas 403 配额耗尽,直连可绕过
 - V4-flash 默认是 thinking 模式,必须显式传 extra_body={"thinking": {"type": "disabled"}},否则 max_tokens 全被 reasoning 吃掉
 - PowerShell subprocess + Maas stdout 撞 GBK UnicodeDecodeError,跑前必设 $env:PYTHONIOENCODING = "utf-8"
 - 已验证模型:deepseek-v4-flash 直连(便宜首选)/ deepseek-v3 Maas 10s(fallback)/ qwen3.7-plus Maas 60-80s(可发表 Gamma)
 
 ## 用户档案
-- 刘泽文,两条主业:🔬 ML 研究(F:\Research\,5+1 篇 TMLR 论文)和 📱 微信小程序/独立站(泰玄小站)
+- 用户,两条主业:🔬 ML 研究(F:\Research\,5+1 篇 TMLR 论文)和 📱 微信小程序/独立站(泰玄小站)
 - 协作风格:先口头扫盘("看看这都有什么")再让 AI 行动,操作/写文件前会先确认范围
 - 本机环境:Windows + cmd.exe(不用 ls,用 dir /B | findstr /v "^$")
 - 完整项目地图:ML→knowledge/entities/liu-zewen-research.md;小程序→knowledge/entities/taixuan-miniprogram.md
@@ -37,7 +37,7 @@
 
 ## 工作流宪法(7/10 制定)
 - 3 条核心律令:① 契约先于实现(specs/ + protocol.md + INDEX.md)② 人机双产物(md + json 成对)③ 保留源+验证后清(7 天回滚)
-- 律令 0(优先级最高):刘泽文"先口头扫盘再行动"
+- 律令 0(优先级最高):用户"先口头扫盘再行动"
 - 3 个模式目录:A=specs/ 契约驱动(泰玄)/ B=protocol.md 假设驱动(ML)/ C=downloads/ 归档驱动
 - 4 处同步新规:任何 w* 窗口完工/状态变更,必同步 MEMORY.md + knowledge/index.md + knowledge/log.md + tmp/windows/DASHBOARD.md
 
@@ -45,14 +45,14 @@
 - Read Before Touch:任何文件操作前
 
 ## V8 T11.1 接力就绪(2026-07-13 22:10)
-- **接力包**: `tmp/v8-handoff-T11.1.md` 12.6 KB / 310 行(刘泽文 21:50 自写 + 8 处补丁,完整:DoD + 必读 + 工具栈 + 5 风险点 + 留痕 4 处 + 下游握手 + commit 约定)
+- **接力包**: `tmp/v8-handoff-T11.1.md` 12.6 KB / 310 行(用户 21:50 自写 + 8 处补丁,完整:DoD + 必读 + 工具栈 + 5 风险点 + 留痕 4 处 + 下游握手 + commit 约定)
 - **V8 L2 计划**: `knowledge/analysis/agent-os-v8-implementation-plan-2026-07-13.md` 13.7 KB(15 任务 / 10 周 / 4 篇论文候选)
 - **V8 L3 计划**: `knowledge/analysis/agent-os-v8-implementation-plan-l3-2026-07-13.md` 42.9 KB / 75 个半天(承袭 L2 骨架,加颗粒度:上午/下午动作 + commit 模板 + 单测门槛 + 兜底路径 + 接力节点 + 4 论文 data bundle)
-- **AGENT.md 改版提案**: `knowledge/analysis/agenta-boundary-change-proposal-2026-07-13.md` 6.95 KB(4 版本对照 v0/v1/v2/v3,等刘泽文勾选;推荐 v1)
+- **AGENT.md 改版提案**: `knowledge/analysis/agenta-boundary-change-proposal-2026-07-13.md` 6.95 KB(4 版本对照 v0/v1/v2/v3,等用户勾选;推荐 v1)
 - **DASHBOARD**: v22 入板主线 E · V8 T11.1 接力就绪(其他 ML session)
-- **🪤 待决**: 刘泽文 22:00 让"改 AGENT.md 全帮做"—— 提案已写,但**未执行**,等他勾版本
+- **🪤 待决**: 用户 22:00 让"改 AGENT.md 全帮做"—— 提案已写,但**未执行**,等他勾版本
 - **🗳️ 4 版本投票启动**(2026-07-13 22:45):v0(不动)/ v1(规划文档线放开,泰推荐) / v2(单点放行 T11.1) / v3(ML 线全开,泰反对)
-- **✅ 投票结果: V4 改版生效**(2026-07-13 23:00):刘泽文"C 全干 不要问了 你只是辅助我写论文而已"
+- **✅ 投票结果: V4 改版生效**(2026-07-13 23:00):用户"C 全干 不要问了 你只是辅助我写论文而已"
   - AGENT.md §职责边界 已改(留底:`knowledge/analysis/agenta-v4-proposal-2026-07-13.md`)
   - **新边界**:✅ 论文写作辅助(prompt/大纲/骨架/引文/格式/审稿) + ⚠️ 仍不写正文 / ⚠️ 仍不写实验代码
   - **paper-writing-agent 事实校正**:SKILL.md 标 v3.0,**是审稿工具不是写论文工具**(复现/统计/新颖/文风 4 角色 + 一票否决);写论文要用 intro-drafter / writing-chapters / writing-core

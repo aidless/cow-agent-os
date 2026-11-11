@@ -37,7 +37,7 @@
 - [ ] 重算 Bonferroni family K(cross-model K 从 6 → ?)
 - [ ] 报告 significance tests + bootstrap CI
 - **预算**:**~$200-300 DeepSeek/Qwen API**(~0.5/cell avg)
-- **Owner**:Liu Zewen(Qwen API key)
+- **Owner**:用户(Qwen API key)
 
 **C1 · Crossover reframe**(parallel 1 周):
 - [ ] §3.2 / §4.1-4.3 重写 crossover 为 "suggestive trend, requires replication"
@@ -73,7 +73,7 @@
 - [ ] 加到 Table 3
 - [ ] 重审 "two bias types" claim
 - **预算**:**~$50**
-- **Owner**:Liu Zewen
+- **Owner**:用户
 
 **M4 · Statistical protocol section 补全**(2-3 天):
 - [ ] 写 `\section{Statistical Protocol}` `\label{sec:stat-protocol}`(现 §\ref 引用但 section 缺)
@@ -111,12 +111,12 @@
 - [ ] Summarization frequency ∈ {1, 3, 5}(论文已用 1):90 cell
 - [ ] TF-IDF vs dense embedding ablation(可能 +1 周):~90 cell
 - **预算**:**~$250**
-- **Owner**:Liu Zewen
+- **Owner**:用户
 
 ### Week 9 · M6(prior work direct comparison)+ M7(cost analysis)
 
 **M6 · Bertalanić et al. 2026 baseline**(3-5 天):
-- [ ] 找原文(Liu Zewen 提供 PDF)
+- [ ] 找原文(用户 提供 PDF)
 - [ ] 用 paper 的 mock mode 复现 Bertalanić 的 append+summarization baseline
 - [ ] 加 Table "Our architectures vs prior append+summarization baseline"
 - [ ] Discussion:新架构是否真的 improve
@@ -160,7 +160,7 @@
 
 ## 💰 总预算估算
 
-| Phase | 周数 | API 预算 | 人力(Liu Zewen) |
+| Phase | 周数 | API 预算 | 人力(用户) |
 |---|---|---|---|
 | Critical only | 6 周 | ~$250 | 6 周 半职 |
 | + Major 5 项 | 9 周 | +$500 = $750 | 9 周 半职 |
@@ -251,7 +251,7 @@ _最后更新:2026-07-11 14:55 · Draft v1 · 6-12 周作战图,待用户 commit
 ## ⚠️ RFC 启动前 3 个必做 check
 
 1. **🪤 Bug D verify 残留**:C9 "figure caption" 是 w1/w6 已确认的 verify tool bug,**新做 figure 时也要走 verify,会同样被误报** → 开工前先确认 w6 是否修了 regex(w6 v4 报告 "已修" 7/11 14:35,但**没现场跑 PAPER5 验证** — 必须手动跑一次)
-2. **🪤 RFC 推荐的 Qwen API 预算 $200-300**:7/11 15:05 **刘泽文提供阿里云 Maas 统一 key**(`[MaaS endpoint redacted]`,OpenAI 兼容协议,一个 key 跑 DeepSeek/Qwen/GPT) → Qwen 不再需要单独 key,**D 选项 Phase 2 现在可以跑完整 2 model**。详见 [MEMORY.md § LLM API 路径](../../MEMORY.md)
+2. **🪤 RFC 推荐的 Qwen API 预算 $200-300**:7/11 15:05 **用户提供阿里云 Maas 统一 key**(`[MaaS endpoint redacted]`,OpenAI 兼容协议,一个 key 跑 DeepSeek/Qwen/GPT) → Qwen 不再需要单独 key,**D 选项 Phase 2 现在可以跑完整 2 model**。详见 [MEMORY.md § LLM API 路径](../../MEMORY.md)
 3. **🪤 n=14 replication 数据 p_adj<0.01 预期失败**:RFC 自爆的 risk,**写 §3.2 时务必用 "we expect to see" 而非 "we found"**(M 阶段措辞)
 
 ## 🔗 与 w5 反哺接口(M2 hyperparameter sensitivity 完成后)
@@ -268,7 +268,7 @@ _最后更新:2026-07-11 14:55 · Draft v1 · 6-12 周作战图,待用户 commit
 
 脚本路径:`tmp/_paper5_d_option_mock_vs_live.py`
 
-**做了什么**(7/11 15:00 单轮跑通,**等刘泽文勾 RFC 后再跑真实验**):
+**做了什么**(7/11 15:00 单轮跑通,**等用户勾 RFC 后再跑真实验**):
 
 - ✅ 验证 w10 5 核心脚本可读(`kb_search.py` / `kb_health.py` / `fetch_specific.py` / `batch_must_cite.py` / `dedup_and_reindex.py`)
 - ✅ 确认 KB 当前健康(`HEALTHY [STRICT]`,541,712 vectors / 0.29h fresh)
@@ -280,7 +280,7 @@ _最后更新:2026-07-11 14:55 · Draft v1 · 6-12 周作战图,待用户 commit
 
 6. **跨窗口撞车要写在 RFC 里**,不是会话讨论完就忘 — RFC 是 source of truth,讨论是 ephemeral
 7. **w10 must-cite 脚本 = D 选项 ready-made**:7/11 14:10 别人 session 已经铺好,我重新发明轮子就浪费 2-3 天
-8. **Qwen API key 在 MEMORY.md 是空白**:这条不补,RFC 开工就停 2-3 天等刘泽文回答
+8. **Qwen API key 在 MEMORY.md 是空白**:这条不补,RFC 开工就停 2-3 天等用户回答
 
 ---
 

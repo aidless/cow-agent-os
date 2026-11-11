@@ -6,7 +6,7 @@ _本 README 是知识库的"使用手册" + "快速导航"。_
 
 ## 🎯 这是什么?
 
-刘泽文的**结构化长期知识库**(`knowledge/`),通过 `MEMORY.md` + `memory/*.md` 实现跨 session 连续性。
+用户的**结构化长期知识库**(`knowledge/`),通过 `MEMORY.md` + `memory/*.md` 实现跨 session 连续性。
 
 **核心理念**:
 - **每次对话都可能失忆**,但文件不会
@@ -88,7 +88,7 @@ knowledge/
 ### 👤 个人 & 项目全图
 | 文档 | 用途 |
 |---|---|
-| [刘泽文 — 研究系统全图](./entities/liu-zewen-research.md) | F:\Research 70 个子目录 + 5+1 篇 CONSOLIDATED 状态 |
+| [用户 — 研究系统全图](./entities/liu-zewen-research.md) | F:\Research 70 个子目录 + 5+1 篇 CONSOLIDATED 状态 |
 | [泰玄小站 — 微信小程序](./entities/taixuan-miniprogram.md) | v1.x 历史快照(v2.0 完工报告在 analysis/) |
 | [fortune-web-v2](./entities/fortune-web-v2.md) | v2.0 后端仓(已全完) |
 | [peS2o KB](./entities/pes2o-kb-faiss.md) | 论文知识库 |
@@ -220,5 +220,5 @@ knowledge/
 ---
 
 _最后更新:2026-07-13 20:55_
-_作者:泰(刘泽文的长期搭档)_
+_作者:泰(用户的长期搭档)_
 _体检报告:`tmp/knowledge_audit_2026-07-13.md`_

@@ -8,7 +8,7 @@ _本文件是 index.md 的历史归档段(不是完整目录索引)_
 
 ## 🆕 今日速览(2026-07-12 13:55 · v9 C9 caption bug 修复 + 5 篇 4 HIGH 全 0)
 
-**w6 Bug C9-caption 修复落地**(本轮核心,刘泽文 "D" = 三件一起):
+**w6 Bug C9-caption 修复落地**(本轮核心,用户 "D" = 三件一起):
 
 | 文档 | 用途 | 大小 | 状态 |
 |---|---|---|---|
@@ -39,7 +39,7 @@ _本文件是 index.md 的历史归档段(不是完整目录索引)_
 
 **窗口边界**:
 - ✅ PAPER5 HIGH 全清(本轮真贡献)
-- ❌ MED/LOW 28M / 12L 跨 5 篇 ~4h(等刘泽文决定)
+- ❌ MED/LOW 28M / 12L 跨 5 篇 ~4h(等用户决定)
 - ❌ w13 OPEN PROBLEM(待你立项 / 暂存 / 终止)
 - ❌ w14 V2 锐化 剩 4 个 problem
 
@@ -47,7 +47,7 @@ _本文件是 index.md 的历史归档段(不是完整目录索引)_
 
 ## 🆕 今日速览(2026-07-12 14:30 · PAPER5 R2 阶段 1)
 
-**PAPER5 R2 流程启动**(本轮:刘泽文 "三件全做" + 1D/2A/3 阶段):
+**PAPER5 R2 流程启动**(本轮:用户 "三件全做" + 1D/2A/3 阶段):
 
 | 文档 | 用途 | 大小 | 状态 |
 |---|---|---|---|
@@ -103,7 +103,7 @@ _本文件是 index.md 的历史归档段(不是完整目录索引)_
 
 ## 🆕 今日速览(2026-07-12 15:15 · PAPER5 R2 阶段 3 + arxiv)
 
-**PAPER5 R2 阶段 3 脚本 + arxiv checklist 完工**(本轮:刘泽文 先 arxiv 后 TMLR + 开始 A = SVD-64 + judge):
+**PAPER5 R2 阶段 3 脚本 + arxiv checklist 完工**(本轮:用户 先 arxiv 后 TMLR + 开始 A = SVD-64 + judge):
 
 | 文档 | 用途 | 大小 | 状态 |
 |---|---|---|---|
@@ -134,7 +134,7 @@ _本文件是 index.md 的历史归档段(不是完整目录索引)_
 
 ## 🆕 今日速览(2026-07-12 18:50 · PAPER5 A 阶段 paper-fill)
 
-**PAPER5 SVD-64 + judge 真数据填进 paper**(本轮:刘泽文 "A" + 真数字嵌入):
+**PAPER5 SVD-64 + judge 真数据填进 paper**(本轮:用户 "A" + 真数字嵌入):
 
 | 文档 | 用途 | 大小 | 状态 |
 |---|---|---|---|
@@ -287,11 +287,11 @@ _本文件是 index.md 的历史归档段(不是完整目录索引)_
 - **结构性解释**:**capture 在统计上 ≡ honest-but-wrong verifier**,任何用 deviation 检测 capture 的方法都会同时排除真 honest 少数错,净效果 = 0
 - **paper 性质**:**Empirical Study / Negative Result**(从原 A4 主推 CRV 在 W2 demo 暴露算法 bug 后转型)
 
-**W3 边界**(刘泽文锁定):
+**W3 边界**(用户锁定):
 - ✅ W1(骨架 / 算法 / 真实化 Related Work)
 - ✅ W2(crv.py + attacks.py + 7 methods + benchmark)
 - ✅ W3(§7 Broader Impact + §8 Ethics + Appendix 全实写 + verify C8/C10-C12)
-- ❌ W4-W8(超边界,留给刘泽文决定)
+- ❌ W4-W8(超边界,留给用户决定)
 
 **TMLR 适配性**:acceptance criteria 原文"technical correctness over subjective significance" + "We explicitly avoid these terms (significant, impactful, novel)" → **negative result + 结构性解释** 正中 TMLR 偏好
 

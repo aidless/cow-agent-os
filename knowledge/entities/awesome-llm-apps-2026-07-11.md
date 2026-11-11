@@ -355,7 +355,7 @@ project_name/
 
 ---
 
-## 🎁 对刘泽文研究/小程序主线的复用价值
+## 🎁 对用户研究/小程序主线的复用价值
 
 ### 对 arxiv-tracker / rr-responder 研究主线
 - **⭐⭐⭐ `project-graveyard` 的 SKILL.md + causes-of-death.md** —— 是 **agent skill spec** 的范本,值得改造成 `paper-graveyard` 复用同样的结构(finished-but-never-shipped / rewrite_spiral / scope_explosion 三类映射到 paper 上完全成立)

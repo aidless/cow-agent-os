@@ -1,6 +1,6 @@
 # Agent OS Critical 11 漏洞 Triage 报告
 
-_2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critical 漏洞**做 paper / patch / defer 三分决策,与刘泽文研究主线对齐。_
+_2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critical 漏洞**做 paper / patch / defer 三分决策,与用户研究主线对齐。_
 
 ---
 
@@ -15,7 +15,7 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 | 🟡 **Paper+Patch 并行** | 学术贡献 + 工程贡献双重价值 | 两个都成立 |
 | ⏸️ **Defer** | 暂缓,等 V1.0 之前再处理 | 工程太贵 / 当前研究主线不匹配 |
 
-## 🔬 研究主线匹配(刘泽文核心方向)
+## 🔬 研究主线匹配(用户核心方向)
 
 | 主线 | 描述 | 已有论文 |
 |---|---|---|
@@ -67,7 +67,7 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 
 ## 🥇 Top 5 优先级(与主线最匹配 + 顶会命中率最高)
 
-按「刘泽文研究主线匹配度 + 顶会命中率 + 工作量」综合排序:
+按「用户研究主线匹配度 + 顶会命中率 + 工作量」综合排序:
 
 ### 🥇 #35 Frontier Model 对齐退化
 - **核心贡献**:Agent Behavior Regression Test Suite(500+ scenarios)
@@ -75,7 +75,7 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 - **Venue**:**USENIX Security / NDSS**(顶会)
 - **工作量**:1 月 patch(行为测试集)+ 2 月 paper
 - **总时间**:3 月
-- **为什么最优先**:Anthropic Sleeper Agents(2024)后,顶会高度关注,**刘泽文 EPC 框架可作为方法论背书**
+- **为什么最优先**:Anthropic Sleeper Agents(2024)后,顶会高度关注,**用户 EPC 框架可作为方法论背书**
 
 ### 🥈 #27 Agent Registry 中间人
 - **核心贡献**:Certificate Transparency for A2A Registry(Sigsum/Trillian 应用)
@@ -146,7 +146,7 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 
 ---
 
-## 🎯 给刘泽文的推荐行动(30 min 决策 + 立即启动)
+## 🎯 给用户的推荐行动(30 min 决策 + 立即启动)
 
 ### 决策 A: 写哪 1 篇做 5 月 deadline?
 
@@ -159,7 +159,7 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 > **强烈推荐**:#35 Frontier 对齐退化
 > - 1 月 patch + 2 月 paper = 3 月可投递 NeurIPS
 > - USENIX Security 顶会命中率高
-> - 与刘泽文 EPC 框架完美对齐
+> - 与用户 EPC 框架完美对齐
 
 ### 决策 C: 启动 patch 必须的 1 项?
 
@@ -192,7 +192,7 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 | Patch 工程 | 3 月 × 3 = 9 人月 |
 | **总投入** | **24 人月**(2 人年) |
 
-刘泽文现实:**1 人** + Agent OS 助手(我)
+用户现实:**1 人** + Agent OS 助手(我)
 **实际可承担**:1-2 篇 paper / 年(走质量路线)
 
 ### 推荐:1 paper / 6 月
@@ -212,7 +212,7 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 | 11 个 Critical 漏洞全部 triage | ✅ 100% |
 | 每个 triage 有 paper/patch/defer 决策 | ✅ |
 | 每个 triage 有论文方向 + venue | ✅ |
-| Top 5 排序与刘泽文主线对齐 | ✅ |
+| Top 5 排序与用户主线对齐 | ✅ |
 | 推荐启动顺序 + 资源估算 | ✅ |
 
 ### 完成度:**5/5 DoD**
@@ -225,14 +225,14 @@ _2026-07-11 第四轮红队后的决策环节。对 R3+R4 累计 **11 个 Critic
 - [R4 红队报告](./agent-os-red-team-r4-2026-07-11.md)
 - [研究 idea 池(35 个)](./research-ideas-from-agent-os-2026-07-11.md)
 - [Agent OS Reference Architecture](../sources/agent-os-architecture-full-2026-07-11.md)
-- [刘泽文研究系统全图](../entities/liu-zewen-research.md)
+- [用户研究系统全图](../entities/liu-zewen-research.md)
 - [PAPER5 实体](../research/paper5.md)
 
 ---
 
 ## 🪤 反思
 
-### 本 triage 给刘泽文的核心 insight
+### 本 triage 给用户的核心 insight
 
 1. **Critical 11 = 学术金矿**:11 个全部可发 paper,**研究主线 100% 可对接**
 2. **不必赶写**:Top 5 选 1 篇,**3 月可投递 NeurIPS**,无需紧急
@@ -248,4 +248,4 @@ R3+R4 High = 15 个(#29 #30 #31 #34 #36 #38 #39 #41 #42 + #43 #45 #46 #50 #52 #5
 
 ---
 
-_完成时间:2026-07-11 15:00 · 作者:泰(刘泽文指定)_
+_完成时间:2026-07-11 15:00 · 作者:泰(用户指定)_

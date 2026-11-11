@@ -104,4 +104,4 @@ JS 段 fetch 改 streamReading,边收边渲染。
 - `CHANGELOG.md` - 版本日志
 - `LICENSE` - MIT
 
-_作者:刘泽文 · 2026-07-12 v1.1 上线_
+_作者:用户 · 2026-07-12 v1.1 上线_

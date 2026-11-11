@@ -1,6 +1,6 @@
 # Multi-Agent Collaboration — 多 Agent 协作框架
 
-_2026-07-11 沉淀。来源:Agent OS V1→V7 完整方案 + 刘泽文研究主线之一。_
+_2026-07-11 沉淀。来源:Agent OS V1→V7 完整方案 + 用户研究主线之一。_
 
 ---
 

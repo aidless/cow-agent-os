@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-review_paper.py - Unified CLI for the Liu Zewen paper review toolkit.
+review_paper.py - Unified CLI for the 用户 paper review toolkit.
 
 Wraps the three core tools into one entry point:
 
@@ -96,7 +96,7 @@ COST_ESTIMATES = {
 
 BANNER = """
 +---------------------------------------------------------------+
-|  review_paper.py - Liu Zewen paper review toolkit wrapper     |
+|  review_paper.py - 用户 paper review toolkit wrapper     |
 +---------------------------------------------------------------+
 """
 
@@ -615,7 +615,7 @@ def _print_cost(mode: str) -> None:
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="review_paper",
-        description="Unified CLI for the Liu Zewen paper review toolkit.",
+        description="Unified CLI for the 用户 paper review toolkit.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Examples:\n"

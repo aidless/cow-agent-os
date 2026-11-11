@@ -81,13 +81,13 @@ Appendix A.1-A.4(per_attack.py 详细 + extended_methods.py)✅ W3 完成
 | **verify_p6.py** | **14777 bytes**,12 check 框架(11 实装,1 stub C9 figure)|
 | **paper 性质** | **Empirical Study / Negative Result**(从原 A4 主推 CRV 转型)|
 | **Venue** | TMLR(中位数打法对齐)+ 备选 NeurIPS J2C 申请 |
-| **边界** | 刘泽文锁定 **W3 only**,W4-W8 不在泰的当前范围 |
+| **边界** | 用户锁定 **W3 only**,W4-W8 不在泰的当前范围 |
 
 ### 与 genesis-master 关系澄清(仍有效)
 
-> 刘泽文 **第 6 篇独立投稿 TMLR 是 [`genesis-master/`](../entities/genesis-master.md)**,已 v1.0 投稿(2026-07-09)。
+> 用户 **第 6 篇独立投稿 TMLR 是 [`genesis-master/`](../entities/genesis-master.md)**,已 v1.0 投稿(2026-07-09)。
 > 本 `PAPER6_CONSOLIDATED/` 是 **7/9 新起的独立 stub**,与 genesis-master 平行但不同目录。
-> 详见 [刘泽文 — 研究系统全图](../entities/liu-zewen-research.md)。
+> 详见 [用户 — 研究系统全图](../entities/liu-zewen-research.md)。
 
 ---
 
@@ -100,12 +100,12 @@ Appendix A.1-A.4(per_attack.py 详细 + extended_methods.py)✅ W3 完成
 | 14:02 | 选 A(从零写新主题) | 3 候选:A4 verifier capture / B1 PDP-CAL / B3 DWPG |
 | 14:15 | TMLR 中位数打法 + Q1-Q4 默认 | N=7,f=2;3 attacks;5 baselines;3 datasets;venue TMLR+J2C |
 | 14:20 | W1 上半场 6 文件 | main.tex 骨架 + tmlr.sty + math_commands.tex + refs.bib seed + protocol.md + verify_p6.py |
-| 14:25 | W1.5 ABC(刘泽文批)| verify C1-C3 实装抓出 documentclass 真 bug;3 篇真实 arxiv cite(Blind Curator 2607.07436 等);漏洞 #11 字面命中 |
+| 14:25 | W1.5 ABC(用户批)| verify C1-C3 实装抓出 documentclass 真 bug;3 篇真实 arxiv cite(Blind Curator 2607.07436 等);漏洞 #11 字面命中 |
 | 15:00 | W1 下半场 | Threat model 形式化(Def 1.1-1.4 + Thm 1)+ CRV 算法(Def 2.1-2.2 + Alg 1 + Thm 2)+ Background 4 段 |
 | 15:30 | W2:算法 + 3 attacks | crv.py / attacks.py / demo.py..demo4.py |
 | 15:50 | 🔴 **X+Z+P1 转型** | **撤 CRV 主方法 → 写诚实 benchmark study** |
 | 16:00 | v6:7 methods benchmark | extended_methods.py + benchmark.py;**negative result:所有方法 ≤ majority**;标题 / Abstract / Intro / §4 / §5 / §6 / §9 全改 |
-| 17:00 | 刘泽文: "你只负责 W3" | 边界锁定 |
+| 17:00 | 用户: "你只负责 W3" | 边界锁定 |
 | 17:42 | **W3 完工** | §7 Broader Impact + §8 Ethics + Appendix A.1-A.4 + verify C8/C10-C12 + per_attack.py 修真 | 
 
 ---

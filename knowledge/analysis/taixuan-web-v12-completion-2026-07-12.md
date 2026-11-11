@@ -158,4 +158,4 @@ taixuan-web/
 └── LICENSE                   # MIT
 ```
 
-_作者:刘泽文 · 2026-07-12 v1.2 完工,本地 GitHub commit `5405cee`_
+_作者:用户 · 2026-07-12 v1.2 完工,本地 GitHub commit `5405cee`_

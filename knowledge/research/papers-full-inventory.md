@@ -2,7 +2,7 @@
 
 > **Source**: 2026-07-12 19:30 实地扫描 `F:\Research\` + `F:\TMLR\` + 读取 Obsidian vault 7 个索引文件
 > **配套**: [本地目录盘点(analysis)](../analysis/papers-local-inventory-2026-07-12.md) — 本地路径全清单
-> **触发**: 刘泽文 7/12 "连接到 obsidian 知识库 给出我的详细科研路线"
+> **触发**: 用户 7/12 "连接到 obsidian 知识库 给出我的详细科研路线"
 
 ---
 
@@ -226,5 +226,5 @@ Communication (#52)
 
 - [5 月 Deadline 研究论文总览](./index.md) — 6 篇 CONSOLIDATED 专题
 - [本地论文目录盘点(analysis)](../analysis/papers-local-inventory-2026-07-12.md) — 39 个顶层目录全清单
-- [刘泽文 — 研究系统全图](../entities/liu-zewen-research.md) — 研究系统总图
+- [用户 — 研究系统全图](../entities/liu-zewen-research.md) — 研究系统总图
 - [PAPER1 Entity](./paper1.md) / [PAPER2](./paper2.md) / [PAPER3](./paper3.md) / [PAPER4](./paper4.md) / [PAPER5](./paper5.md) / [PAPER6](./paper6.md) / [PAPER35](./paper35.md)

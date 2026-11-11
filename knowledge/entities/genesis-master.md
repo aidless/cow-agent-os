@@ -4,7 +4,7 @@
 
 ## 🎯 一句话定位
 
-**Genesis Master** 是刘泽文 **第 6 篇论文的提交材料** ——
+**Genesis Master** 是用户 **第 6 篇论文的提交材料** ——
 "一个能自己创造 AI Agent、调度它们协作、让它们反思进化的元级 AI 编排系统"。
 **4 层反馈循环 + 动态 Agent 生成 + 学术可复现 + 可插拔 LLM**。
 
@@ -73,7 +73,7 @@
 - v2.0 paper(整合 v8-v9 + 真实 LLM 数据)
 - A2A 通信更复杂模式(辩论、市场、共识)
 - Web UI 任务树可视化
-- LLM-as-judge 偏差校准 ← **与刘泽文 PAPER1-3 校准主线直接相关**
+- LLM-as-judge 偏差校准 ← **与用户 PAPER1-3 校准主线直接相关**
 - 跨域模板迁移
 - 在线学习(持续进化)
 - 多用户/多租户
@@ -123,7 +123,7 @@ genesis-master/
 └── reproduce.sh
 ```
 
-## 🎯 与刘泽文研究主线的对接
+## 🎯 与用户研究主线的对接
 
 | 维度 | 接续点 |
 |---|---|
@@ -171,7 +171,7 @@ python -m pytest tests/ -v  # 195 passed
 - [Multi-Agent 协作框架](../concepts/multi-agent-collaboration.md)
 - [A2A Protocol](../concepts/a2a.md)
 - [Trust 体系](../concepts/trust.md)
-- [刘泽文 — 研究系统全图](./liu-zewen-research.md)
+- [用户 — 研究系统全图](./liu-zewen-research.md)
 
 ---
 

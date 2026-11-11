@@ -1,6 +1,6 @@
 # P0-1 Protected Scaffolding — 实现报告
 
-> **触发**: 2026-07-11 23:10, 刘泽文 "按你的建议来" → 执行 B 方案 (抄 3 个 P0 到现有 skill)
+> **触发**: 2026-07-11 23:10, 用户 "按你的建议来" → 执行 B 方案 (抄 3 个 P0 到现有 skill)
 > **依据**: `knowledge/analysis/deepagents-vs-hermes-agent-2026-07-11.md` §10 表 P0-1
 > **节奏**: 第一段 (~2h) 已完成 — P0-1 + 归档; P0-2 / P0-3 留明天
 

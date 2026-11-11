@@ -132,7 +132,7 @@
 **演化轨迹**: - **过渡目录**:`FLAGSHIP`、`CONSOLIDATED_PAPER5`
 > Source: 2026-07-10 用户口述 + 实地扫描 F:\Research 根目录 + 读取 🏠_科研总览.md / 🖥️_项目总览.md / PAPER5_FINAL_REPORT.md
 | **P1** | `papers-we-love` 找 PAPER5 相关讨论(校准 TMLR 投稿前找社区反馈) | 30 分钟 |
-- [论文审阅工具箱 — 刘泽文的能力全景](analysis/paper-review-toolkit.md) — 3 工具 + 1 统一 wrapper(`review_paper.py`)+ 12 种审阅方式 + 3 个已修上游 bug + PAPER5 端到端验证
+- [论文审阅工具箱 — 用户的能力全景](analysis/paper-review-toolkit.md) — 3 工具 + 1 统一 wrapper(`review_paper.py`)+ 12 种审阅方式 + 3 个已修上游 bug + PAPER5 端到端验证
 
 ## 🟡 🟡 needs-audit (1 篇)
 

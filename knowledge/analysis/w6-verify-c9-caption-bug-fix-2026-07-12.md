@@ -1,7 +1,7 @@
 # ✅ w6 Bug C9-caption 修复落地(2026-07-12,泰)
 
 > **作者**:泰
-> **触发**:刘泽文 "三件一起" — (A) PAPER5 修 3 figure caption (B) 同步 DASHBOARD v9 (C) 7/11 w13 OPEN PROBLEM 暂存确认
+> **触发**:用户 "三件一起" — (A) PAPER5 修 3 figure caption (B) 同步 DASHBOARD v9 (C) 7/11 w13 OPEN PROBLEM 暂存确认
 > **真结果**:**修 verify 脚本,而不是修 paper——4 HIGH 全 0**(0 paper 改动)
 
 ---

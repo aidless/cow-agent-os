@@ -81,7 +81,7 @@ Select-String -Path $f.FullName -Pattern ([regex]::Escape($name)) -SimpleMatch
 ## 🔗 跨文档链接
 
 - [genesis-master entity](./genesis-master.md) — 本次新建
-- [刘泽文 — 研究系统全图](../entities/liu-zewen-research.md) — 主入口
+- [用户 — 研究系统全图](../entities/liu-zewen-research.md) — 主入口
 - [Tools 2026-07-10](../entities/tools-2026-07-10.md) — 与 40 项目速览对照
 - [5 篇 PAPER audit](../analysis/paper-review-audit-2026-07-11.md)
 

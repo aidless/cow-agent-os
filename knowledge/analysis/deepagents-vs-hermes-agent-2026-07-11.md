@@ -1,6 +1,6 @@
 # LangChain Deep Agents v0.6.12 vs. hermes-agent — 架构对比
 
-> **触发**: 2026-07-11 22:34, 刘泽文发来 `tmp/web_f61a6454.zip` (LangChain Deep Agents v0.6.12, 20.9 MB / 1208 文件) — "学习这个 Deep Agents, 看看跟我们的对比"。
+> **触发**: 2026-07-11 22:34, 用户发来 `tmp/web_f61a6454.zip` (LangChain Deep Agents v0.6.12, 20.9 MB / 1208 文件) — "学习这个 Deep Agents, 看看跟我们的对比"。
 >
 > **方法**: 解压到 `tmp/_inspect/deepagents-0.6.12/` (43.9 MB), 只读扫描 4 个核心模块 (graph / middleware / backends / profiles) + evals 目录, 不装、不跑。
 >
@@ -331,7 +331,7 @@ class HarnessProfile:
 
 ---
 
-## 13. 落地决策 (待刘泽文点头)
+## 13. 落地决策 (待用户点头)
 
 ### 选项 A — 只读不抄 (最保守)
 - ✅ 已读懂架构
@@ -363,7 +363,7 @@ class HarnessProfile:
 
 ---
 
-## 15. 待回答的问题 (留给刘泽文)
+## 15. 待回答的问题 (留给用户)
 
 1. **是否要全量升级 hermes-agent 的 middleware stack?** (建议先抄 3 个 P0)
 2. **`BackendProtocol` 抽象是否要在 `paper-review-toolkit` 实现?** (我的建议: 实现, ~2h)

@@ -2,7 +2,7 @@
 
 > **Source**: 2026-07-12 19:30 实地扫描
 > **方法**: `paper-changelog/scripts/scan_facts.py` + 自写 `scan_recursive_tex.py`(递归扫描所有 `\documentclass` 的 `.tex` 文件 + 抽 `\title{}`)
-> **触发**: 刘泽文 7/12 19:24 "找出我写过的所有论文 F:\Research F:\TMLR 给出本地目录" + "连接到 obsidian 知识库 给出我的详细科研路线"
+> **触发**: 用户 7/12 19:24 "找出我写过的所有论文 F:\Research F:\TMLR 给出本地目录" + "连接到 obsidian 知识库 给出我的详细科研路线"
 
 ---
 
@@ -152,6 +152,6 @@ F:\Research\_submission_package\PAPER5      → PAPER5 投稿包
 ## 🔗 关联知识页面
 
 - [5 月 Deadline 研究论文总览](../research/index.md) — 6 篇 CONSOLIDATED 论文专题
-- [刘泽文 — 研究系统全图](../entities/liu-zewen-research.md) — 研究系统总图
+- [用户 — 研究系统全图](../entities/liu-zewen-research.md) — 研究系统总图
 - [PAPER5 Improvement RFC](./paper5-improvement-rfc-2026-07-11.md) — 5 月 deadline 主推
 - [Paper #35 Proposal](./paper35-frontier-behavior-regression-proposal-2026-07-11.md) — 新立项

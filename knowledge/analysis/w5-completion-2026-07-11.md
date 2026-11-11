@@ -1,6 +1,6 @@
 # ✅ w5 paper-review-toolkit 动态化 — 完工报告(2026-07-11)
 
-> 触发:刘泽文"你负责 w5-paper-review-dynamic/STATUS.md"
+> 触发:用户"你负责 w5-paper-review-dynamic/STATUS.md"
 > 用时:2026-07-11 13:35-15:45(泰,~2h)
 > 路径:B2 → IDEA-B3 (Dynamic Worker Pool paper)
 

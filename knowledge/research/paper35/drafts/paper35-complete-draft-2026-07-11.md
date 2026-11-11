@@ -460,7 +460,7 @@ We hope ABRTS contributes to a future in which **multi-agent AI systems are at l
 |---|---|
 | **Title** | Agent Behavior Regression: Detecting Frontier Model Misalignment in Multi-Agent Systems Through Scenario-Based Differential Testing |
 | **Venue** | USENIX Security 2026 |
-| **Authors** | 泰(主笔)+ 刘泽文(EPC 框架方法论背书) |
+| **Authors** | 泰(主笔)+ 用户(EPC 框架方法论背书) |
 | **Total words** | 14,355 字(含 abstract 247 + §1-9 共 14,108 + Appendix B 1,200) |
 | **Sections** | 9 + Abstract + Appendix B |
 | **Subsections** | ~32 |

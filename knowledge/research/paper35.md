@@ -169,13 +169,13 @@ BDS(m, x) = (1/3) × Σ_{(i,j) pairs} KL(P_v_i || P_v_j)
 
 | 日期 | 任务 | 责任人 |
 |---|---|---|
-| **7/12** | 刘泽文检视 5 个 scenario samples | 刘泽文 |
+| **7/12** | 用户检视 5 个 scenario samples | 用户 |
 | **7/15-7/18** | 跑 4 远程 + 2 本地模型(6,480 calls) | 泰 |
 | **7/22** | BDS + bootstrap drift 检测 | 泰 |
 | **7/25** | Multi-agent amplification cells | 泰 |
 | **8/05-8/20** | 写 Tables 2-4 + Figures 2-5 + Results/Discussion | 泰 |
 | **9/05** | Internal review via rr-responder + 模拟 reviewer | 泰 |
-| **9/15** | **TMLR submission** | 刘泽文 + 泰 |
+| **9/15** | **TMLR submission** | 用户 + 泰 |
 
 ---
 
@@ -196,4 +196,4 @@ BDS(m, x) = (1/3) × Σ_{(i,j) pairs} KL(P_v_i || P_v_j)
 
 ---
 
-_创建:2026-07-11 15:10 · 作者:泰(刘泽文指定)_
+_创建:2026-07-11 15:10 · 作者:泰(用户指定)_

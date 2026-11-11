@@ -78,7 +78,7 @@ _2026-07-11 16:05 沉淀。基于 `agent-os-critical-11-triage-2026-07-11.md`(9.
 > **强烈推荐**:**#35 Frontier 对齐退化**
 > - 1 月 patch(行为测试集)+ 2 月 paper = 3 月可投递 NeurIPS
 > - USENIX Security 顶会命中率高
-> - 与刘泽文 EPC 框架完美对齐
+> - 与用户 EPC 框架完美对齐
 
 ### 决策 C:启动 patch 必须的 1 项?
 
@@ -121,7 +121,7 @@ Sections:
   7. Conclusion
 
 工作量:1 月 patch + 2 月 paper = 3 月
-负责人: 泰(写 paper 草稿)+ 刘泽文(提供 EPC 框架方法论)
+负责人: 泰(写 paper 草稿)+ 用户(提供 EPC 框架方法论)
 ```
 
 ### RFC-B: #27 CT-for-A2A paper outline
