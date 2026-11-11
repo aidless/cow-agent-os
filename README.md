@@ -1,5 +1,7 @@
 # cow-agent-os
 
+> **English TL;DR**: An agent-workspace "OS" layer (identity, rules, shared memory, multi-agent flow) anchored by one real Flask application. Only 2 of 10 test files are green; the other 8 stay red with their root causes documented in CI. Nine committed 2026-07-11 benchmark JSONs can be re-read offline, but they are single-day observations, not cross-configuration conclusions.
+
 [![CI](https://github.com/aidless/cow-agent-os/actions/workflows/ci.yml/badge.svg)](https://github.com/aidless/cow-agent-os/actions/workflows/ci.yml)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -95,3 +97,45 @@ directory when it runs.
 
 MIT for the workspace. Vendored material under `tools/` and `knowledge/` keeps its own
 license.
+
+## U1 results table (recomputed 2026-11-11)
+
+The nine committed benchmark reports were parsed offline and their `overall`
+summaries recomputed. `—` means the report has no summary for that backend in
+that run (it is not a zero). Column `runs/p` is `runs_per_prompt`.
+
+| Benchmark file | runs/p | prompts | DeepSeek weighted composite | qwen3:4b weighted composite | qwen3:4b avg latency (s) | Source (path:line) |
+|---|---|---|---|---|---|---|
+| `benchmark_20260711_110519.json` | 2 | 8 | — | 0.0 | 7.57 | `benchmarks/benchmark_20260711_110519.json:511` |
+| `benchmark_20260711_111805.json` | 2 | 8 | — | 0.0 | 11.15 | `benchmarks/benchmark_20260711_111805.json:511` |
+| `benchmark_20260711_112407.json` | 2 | 8 | 0.547 | 0.0 | 10.93 | `benchmarks/benchmark_20260711_112407.json:711` |
+| `benchmark_20260711_112923.json` | 2 | 8 | — | 0.0 | 10.92 | `benchmarks/benchmark_20260711_112923.json:511` |
+| `benchmark_20260711_113320.json` | 1 | 8 | — | 0.0 | 10.92 | `benchmarks/benchmark_20260711_113320.json:351` |
+| `benchmark_20260711_113458.json` | 1 | 8 | — | 0.0 | 11.07 | `benchmarks/benchmark_20260711_113458.json:351` |
+| `benchmark_20260711_113711.json` | 2 | 8 | 0.531 | 0.0 | 10.83 | `benchmarks/benchmark_20260711_113711.json:711` |
+| `benchmark_20260711_123129.json` | 2 | 8 | 0.545 | 0.619 | 59.12 | `benchmarks/benchmark_20260711_123129.json:711` |
+| `benchmark_20260711_125745.json` | 2 | 8 | 0.696 | 0.597 | 64.72 | `benchmarks/benchmark_20260711_125745.json:711` |
+
+Recompute command actually executed for this pass:
+
+```bash
+python3 -c "import json,glob,os; fs=sorted(glob.glob('benchmarks/benchmark_*.json')); \
+print(len(fs),'benchmark files'); [print(os.path.basename(p), json.load(open(p))['overall']) for p in fs]"
+# 9 benchmark files  (full per-file values are in the table above)
+```
+
+Known-failure inventory (unchanged by this pass — the test suite itself is not
+modified here):
+
+| Item | Count | Source |
+|---|---|---|
+| Test files under `fortune-web-v2/tests/` | 10 | live `glob test_*.py` |
+| Green test files | 2 | `test_phase5_lockout.py`, `test_phase6_reset_flow.py` (see Reproduction above) |
+| Red test files | 8 | root causes listed in `.github/workflows/ci.yml` comments |
+| Test files named in CI comments (includes the 2 green ones) | 10 | `.github/workflows/ci.yml` |
+
+The benchmark numbers are a single-day (2026-07-11) measurement, not a stable
+ranking: several runs have no DeepSeek summary at all, and qwen3:4b composites
+range from 0.0 to 0.619.
+
+<!-- figure: pending real measurement -->
