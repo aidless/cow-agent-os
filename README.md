@@ -138,4 +138,8 @@ The benchmark numbers are a single-day (2026-07-11) measurement, not a stable
 ranking: several runs have no DeepSeek summary at all, and qwen3:4b composites
 range from 0.0 to 0.619.
 
+**NOT YET MEASURED in this pass**: the 8 red test files were not repaired and no fresh
+benchmark run was made, so the 0.0 → 0.619 qwen3:4b spread remains a single-day
+(2026-07-11) observation rather than a stable ranking.
+
 <!-- figure: pending real measurement -->
