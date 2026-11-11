@@ -381,7 +381,7 @@ _本文件是 index.md 的历史归档段(不是完整目录索引)_
 |---|---|---|
 | **`cross-session-handoff`** 🆕 | 新建 | 11 兄弟窗口撞车检查 + 接力公告机制(从 w9 撞车 check 工作中沉淀) |
 | **`paper-review-toolkit`** | v0.3.0 → **v0.4.0** | + Bug F(C2 regex `\\subsection` 兼容性 + verify-after-patch 强 gate)+ Bug G(audit ≠ verify 实测) |
-| **`arxiv-tracker`** | 修补 | + "Self-Citation Filter"(过滤 4 个身份锚点:`liu_z_28` / ORCID `0009-0003-2981-9888` / `liuzewen@qlnu.edu.cn` / 主页 URL) |
+| **`arxiv-tracker`** | 修补 | + "Self-Citation Filter"(过滤 4 个身份锚点:`liu_z_28` / ORCID `0009-0003-2981-9888` / `用户名@qlnu.edu.cn` / 主页 URL) |
 | **`wechat-mp-validation`** | v2.0.0 → **v2.1.0** | + bat 根检测(`if not exist "app.json" cd /d "%~dp0"`)+ 3 个新 scanner(cost/permission/permissions-validate) |
 
 **关键洞察**:self-evolve 不再是"记 MEMORY"而是"修 skill source"——按 `memory/evolution/2026-07-11.md` 14:25 段的新规:**根因在 skill 里的就改 skill,不在 MEMORY 里反复记 symptom**。

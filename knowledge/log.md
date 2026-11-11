@@ -283,7 +283,7 @@
 
   - ORCID: `0009-0003-2981-9888`
 
-  - 邮箱: `liuzewen@qlnu.edu.cn`
+  - 邮箱: `用户名@qlnu.edu.cn`
 
   - 主页 URL
 

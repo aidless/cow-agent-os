@@ -251,7 +251,7 @@ _最后更新:2026-07-11 14:55 · Draft v1 · 6-12 周作战图,待用户 commit
 ## ⚠️ RFC 启动前 3 个必做 check
 
 1. **🪤 Bug D verify 残留**:C9 "figure caption" 是 w1/w6 已确认的 verify tool bug,**新做 figure 时也要走 verify,会同样被误报** → 开工前先确认 w6 是否修了 regex(w6 v4 报告 "已修" 7/11 14:35,但**没现场跑 PAPER5 验证** — 必须手动跑一次)
-2. **🪤 RFC 推荐的 Qwen API 预算 $200-300**:7/11 15:05 **刘泽文提供阿里云 Maas 统一 key**(`llm-akwkztp3nreb7edz.cn-beijing.maas.aliyuncs.com`,OpenAI 兼容协议,一个 key 跑 DeepSeek/Qwen/GPT) → Qwen 不再需要单独 key,**D 选项 Phase 2 现在可以跑完整 2 model**。详见 [MEMORY.md § LLM API 路径](../../MEMORY.md)
+2. **🪤 RFC 推荐的 Qwen API 预算 $200-300**:7/11 15:05 **刘泽文提供阿里云 Maas 统一 key**(`[MaaS endpoint redacted]`,OpenAI 兼容协议,一个 key 跑 DeepSeek/Qwen/GPT) → Qwen 不再需要单独 key,**D 选项 Phase 2 现在可以跑完整 2 model**。详见 [MEMORY.md § LLM API 路径](../../MEMORY.md)
 3. **🪤 n=14 replication 数据 p_adj<0.01 预期失败**:RFC 自爆的 risk,**写 §3.2 时务必用 "we expect to see" 而非 "we found"**(M 阶段措辞)
 
 ## 🔗 与 w5 反哺接口(M2 hyperparameter sensitivity 完成后)

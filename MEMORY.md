@@ -1,5 +1,5 @@
 ## LLM API 配置(主路径)
-- 阿里云 Maas 北京区统一 key 跑 OpenAI + Anthropic 两种协议:OPENAI_API_BASE=https://llm-akwkztp3nreb7edz.cn-beijing.maas.aliyuncs.com/compatible-mode/v1,ANTHROPIC_BASE_URL=.../apps/anthropic,API_KEY=sk-***MAAS-KEY-REVOKED***  (KEY 已撤销,占位符)
+- 阿里云 Maas 北京区统一 key 跑 OpenAI + Anthropic 两种协议:OPENAI_API_BASE=[MaaS endpoint redacted],ANTHROPIC_BASE_URL=.../apps/anthropic,API_KEY=sk-***MAAS-KEY-REVOKED***  (KEY 已撤销,占位符)
 - DeepSeek 直连新 key(7/11 15:30 刘泽文提供):DEEPSEEK_API_BASE=https://api.deepseek.com/v1,API_KEY=sk-***DEEPSEEK-KEY-REVOKED***,V4-flash 直连实测可用(3.6s/call)  (KEY 已撤销,占位符)
 - Qwen 走 Maas 即可(限时 8 折 qwen3.7-plus);V4-flash 在 Maas 403 配额耗尽,直连可绕过
 - V4-flash 默认是 thinking 模式,必须显式传 extra_body={"thinking": {"type": "disabled"}},否则 max_tokens 全被 reasoning 吃掉

@@ -12,7 +12,7 @@
 
 | 项 | 值 |
 |---|---|
-| Endpoint | `https://llm-akwkztp3nreb7edz.cn-beijing.maas.aliyuncs.com/compatible-mode/v1` |
+| Endpoint | `[MaaS endpoint redacted]` |
 | Model | **`qwen-plus`**(不用 `qwen3.7-plus`,因后者有 reasoning_content 字段 cost ×3) |
 | API key | `sk-***MAAS-KEY-REVOKED***` (redacted, was aliyun Maas) |
 | Cells | 6(3 arch × 2 bias type)|

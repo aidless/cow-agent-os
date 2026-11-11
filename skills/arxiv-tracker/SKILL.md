@@ -158,8 +158,8 @@ curl -s "https://pub.orcid.org/v3.0/0009-0003-2981-9888/works" \
   -H "Accept: application/json" | jq '.["activities-summary"]...'
 
 # Step 0(c): Google Scholar(可选,同名作者去重)
-# 警告:Scholar 上同名 "Zewen Liu" 可能多于 1 个,人工核对 ORCID + 邮箱
-#        liuzewen@qlnu.edu.cn 才算 self
+# 警告:Scholar 上同名 "用户" 可能多于 1 个,人工核对 ORCID + 邮箱
+#        用户名@qlnu.edu.cn 才算 self
 
 # Step 1-3: 正常抓 + 摘要 + 入 vault,但 ingest 阶段过滤 self-authored
 python skills/arxiv-tracker/scripts/ingest_to_vault.py \
@@ -178,7 +178,7 @@ python skills/arxiv-tracker/scripts/ingest_to_vault.py \
 |---|---|
 | arXiv author ID | `liu_z_28` |
 | ORCID | `0009-0003-2981-9888` |
-| Email 锚 | `liuzewen@qlnu.edu.cn`(用于同名作者消歧) |
+| Email 锚 | `用户名@qlnu.edu.cn`(用于同名作者消歧) |
 | 默认主页 | https://arxiv.org/a/liu_z_28 |
 
 **未来扩展**:如果要把这个 skill 推广到其他用户,把 `liu_z_28` / ORCID / email 抽到
