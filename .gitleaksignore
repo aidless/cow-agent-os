@@ -1,0 +1,4 @@
+# Known false positives: vendored test fixtures / evidence JSON (gitleaks generic-api-key, github-pat)
+893fab8a1cacad35322556c92467ed186704d353:tools/ECC/ECC-main/tests/hooks/governance-capture.test.js:github-pat:54
+95dbdcd6c802ebe0085148c19c874e40ce9378db:tools/ECC/ECC-main/tests/lib/mcp-inventory.test.js:openai-style-key:88
+dedf4b42e7e9ad6966edf89cdb6ddc459363d9d3:tools/ECC/ECC-main/tests/hooks/pre-bash-commit-quality.test.js:github-pat:215
