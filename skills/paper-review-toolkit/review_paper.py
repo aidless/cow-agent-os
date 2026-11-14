@@ -70,7 +70,7 @@ import subprocess
 import sys
 import time
 from pathlib import Path
-from typing import Iterable, Optional
+from typing import Optional
 
 # ---------------------------------------------------------------------------
 # Tool locations
@@ -409,7 +409,7 @@ def _run_pwa_subcommand(sub: str, paper: Path, sink: Path) -> int:
             module = __import__(mod_name)
         except Exception as e:
             print(f"  [X ] {sub} import failed: {type(e).__name__}: {e}")
-            print(f"        (paper-writing-agent core may have missing deps)")
+            print("        (paper-writing-agent core may have missing deps)")
             return 1
         cls = getattr(module, cls_name)
         instance = cls()

@@ -679,7 +679,7 @@ def check_login_lockout(client_ip: str) -> tuple:
         # Calculate remaining lockout time
         remaining = LOCKOUT_WINDOW_SEC
         if row["last_attempt"]:
-            from datetime import datetime, timedelta
+            from datetime import datetime
             last = datetime.strptime(row["last_attempt"][:19], "%Y-%m-%d %H:%M:%S")
             elapsed = (datetime.now() - last).total_seconds()
             remaining = max(0, int(LOCKOUT_WINDOW_SEC - elapsed))

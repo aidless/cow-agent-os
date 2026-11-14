@@ -18,7 +18,7 @@ def render_paper_changelog(records: list[dict], paper_dir: str, today: str) -> s
     lines = []
     lines.append(f"# 📝 {paper_dir} — .bak_* 演化痕迹({today})")
     lines.append("")
-    lines.append(f"> 自动生成 from `experiment-tracker` skill(7/11 重定位:git log → `.bak_*` 文件级 backup)。")
+    lines.append("> 自动生成 from `experiment-tracker` skill(7/11 重定位:git log → `.bak_*` 文件级 backup)。")
     lines.append(f"> 共 **{len(records)}** 个 backup,覆盖 **{records[0]['mtime']}** → **{records[-1]['mtime']}**")
     lines.append("")
 

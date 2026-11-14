@@ -8,7 +8,6 @@ import argparse
 import json
 import re
 import subprocess
-import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -81,7 +80,7 @@ def main():
     lines = []
     lines.append(f"# 📊 Experiment-Tracker — `.bak_*` Dashboard ({datetime.now().strftime('%Y-%m-%d')})")
     lines.append("")
-    lines.append(f"> 自动生成 from `experiment-tracker` skill(7/11 重定位)。")
+    lines.append("> 自动生成 from `experiment-tracker` skill(7/11 重定位)。")
     lines.append(f"> 扫描了 **{len(paper_dirs)}** 个 paper_dir,其中 **{len(summary)}** 个有 `.bak_*` 文件,共 **{total_baks}** 个 backup。")
     lines.append("")
     lines.append("| Paper | .bak_ 数 | 时间范围 | 首 bak 字数 | 当前 main.tex | 净增 |")

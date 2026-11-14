@@ -69,7 +69,7 @@ def main():
         sys.exit(1)
 
     print(f"\n{'=' * 60}")
-    print(f"✅ paper-changelog orchestrator done")
+    print("✅ paper-changelog orchestrator done")
     print(f"{'=' * 60}")
 
 

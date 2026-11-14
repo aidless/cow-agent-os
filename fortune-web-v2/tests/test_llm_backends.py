@@ -16,7 +16,6 @@ test_llm_backends.py · pytest 套件
 from __future__ import annotations
 import os
 import json
-import time
 import pytest
 import sys
 
@@ -165,7 +164,6 @@ class TestRouter:
 
 def test_demo_full_flow(ollama_backend):
     """完整流程 demo:模拟泰玄小站 8 派命理解读"""
-    from datetime import datetime
 
     # 模拟一个排盘请求
     liupai = "bazi"  # 八字

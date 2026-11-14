@@ -13,7 +13,6 @@ Security:
     - app_private_key.pem must NEVER be committed to git
     - Already in .gitignore via *.pem pattern (verify before commit)
 """
-import os
 from pathlib import Path
 
 try:

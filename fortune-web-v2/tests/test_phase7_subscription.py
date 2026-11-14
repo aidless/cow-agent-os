@@ -217,7 +217,6 @@ def test_cancel_without_active_sub():
 
 def test_mock_confirm_in_real_mode():
     """mock_confirm endpoint rejects in real Stripe mode."""
-    import importlib
     # Reimport stripe_mock with fake key
     stripe_mock.STRIPE_API_KEY = "sk_test_fake"
     stripe_mock.USE_REAL_STRIPE = True

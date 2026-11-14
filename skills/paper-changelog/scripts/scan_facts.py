@@ -22,7 +22,6 @@ scan_facts.py — 扫描 F:\\Research\\ 下所有论文目录,提取 facts(确�
 """
 import argparse
 import json
-import os
 import re
 from pathlib import Path
 from typing import Iterator

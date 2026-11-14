@@ -52,7 +52,7 @@ def test_app_boots_and_routes():
     assert "/api/v2/liupai/<name>/reading" in rules
     assert "/api/v2/history" in rules
     assert "/" in rules
-    print(f"PASS: 22+ routes registered, all v2.0 tables created")
+    print("PASS: 22+ routes registered, all v2.0 tables created")
 
 
 def test_register_login_me_flow():

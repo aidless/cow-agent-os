@@ -23,8 +23,6 @@ import app as app_module  # noqa: E402
 # Easier: set the readings.db path BEFORE app import via env var the app uses
 # App uses BASE_DIR / "logs" / "readings.db"
 # We'll patch by replacing get_db to use our db_path
-import os as _os
-from pathlib import Path
 
 TEST_READINGS_DB = db_path
 
@@ -37,7 +35,6 @@ def patched_get_db():
 
 app_module.get_db = patched_get_db
 # Also force init in app to use our DB
-import app as _app_init_module
 # Create readings table manually with v2.0 schema
 _conn = patched_get_db()
 _conn.executescript("""

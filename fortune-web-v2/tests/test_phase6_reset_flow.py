@@ -83,7 +83,7 @@ def test_request_reset_for_existing_user():
     assert "reset_url" in data
     assert "token=" in data["reset_url"]
     assert data["expires_in_sec"] == 3600
-    print(f"PASS: forgot returns reset_url for existing user")
+    print("PASS: forgot returns reset_url for existing user")
 
 
 def test_request_reset_for_nonexistent_user():

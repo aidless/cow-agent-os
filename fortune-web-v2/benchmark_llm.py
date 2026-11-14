@@ -16,7 +16,7 @@ import sys
 import json
 import time
 import argparse
-from typing import Dict, List, Any
+from typing import Dict, Any
 from datetime import datetime
 
 # 让 llm_backends 可导入
@@ -204,7 +204,7 @@ def run_benchmark(runs_per_prompt: int = 3, use_deepseek: bool = True) -> Dict[s
             print(f"  deepseek: model={backends['deepseek'].model}, base={backends['deepseek'].api_base[:40]}")
         except Exception as e:
             print(f"  deepseek: [FAIL] 初始化失败 {e}")
-            print(f"  (DeepSeek 调用会跳过)")
+            print("  (DeepSeek 调用会跳过)")
 
     try:
         backends["qwen3_4b"] = OllamaQwen3Backend()
@@ -325,7 +325,7 @@ def run_benchmark(runs_per_prompt: int = 3, use_deepseek: bool = True) -> Dict[s
 def render_markdown_report(results: Dict) -> str:
     """生成可读 Markdown 报告"""
     lines = []
-    lines.append(f"# DeepSeek vs qwen3:4b 对比测试报告\n")
+    lines.append("# DeepSeek vs qwen3:4b 对比测试报告\n")
     lines.append(f"- 开始时间:`{results['started_at']}`")
     lines.append(f"- 结束时间:`{results['finished_at']}`")
     lines.append(f"- 每个 prompt 跑 {results['runs_per_prompt']} 次\n")

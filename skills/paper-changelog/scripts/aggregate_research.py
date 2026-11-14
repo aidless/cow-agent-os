@@ -15,7 +15,6 @@ import argparse
 import json
 import re
 from pathlib import Path
-from typing import Optional
 
 
 ENTITY_FILE = Path("knowledge/entities/liu-zewen-research.md")
@@ -148,7 +147,7 @@ def detect_narrative_facts_conflict(facts: dict, narrative: dict) -> str | None:
 
     # 矛盾规则 3:状态 stub-only 但 narrative 说「可提交」
     if "stub-only" in status and any(re.search(k, traj, re.I) for k in ["audit-ready", "可提交", "已 submit", "verify_p.* PASS"]):
-        return f"⚠️ 状态为 stub-only 但 narrative 提「可提交/audit-ready」"
+        return "⚠️ 状态为 stub-only 但 narrative 提「可提交/audit-ready」"
 
     return None
 
@@ -229,7 +228,7 @@ def main():
 
     s = result["summary"]
     print(f"[aggregate] Total: {s['total_papers']} / consolidated: {s['consolidated_count']}")
-    print(f"[aggregate] Status breakdown:")
+    print("[aggregate] Status breakdown:")
     for status, papers in s["by_status"].items():
         print(f"  {status}: {len(papers)} papers")
         for p in papers[:5]:

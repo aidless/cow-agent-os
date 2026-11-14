@@ -30,10 +30,8 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 import sys
 from collections import defaultdict, Counter
-from datetime import datetime
 from typing import Any
 
 # Type → CHANGELOG section name

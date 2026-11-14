@@ -183,7 +183,6 @@ def test_lockout_cleared_after_success():
 def test_lockout_per_ip_not_global():
     """Lockout is per-IP; new request context (different IP) bypasses."""
     _clear_attempts()
-    from flask import request
     client = app_module.app.test_client()
 
     # Trigger lockout from IP A by registering + failing 3 times

@@ -15,9 +15,7 @@ import json
 import os
 import sqlite3
 import time
-from collections import defaultdict
 from datetime import datetime, timedelta
-from functools import wraps
 
 # Daily salt (rotated) for IP hashing
 _SALT_FILE = os.path.join(os.path.dirname(__file__), "logs", ".analytics_salt")

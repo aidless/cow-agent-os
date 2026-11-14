@@ -2,7 +2,6 @@
 """test_app.py · app.py 关键函数单元测试"""
 import sys
 import unittest
-from unittest.mock import patch, MagicMock
 
 # 把项目根加到 path
 sys.path.insert(0, r'C:\Users\Administrator\cow\fortune-web-v2')

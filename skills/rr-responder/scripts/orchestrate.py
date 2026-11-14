@@ -51,7 +51,7 @@ def check_env() -> tuple[bool, str]:
         deepseek_key = os.environ.get("DEEPSEEK_API_KEY", "")
         if deepseek_key:
             os.environ["OPENAI_API_KEY"] = deepseek_key
-            return True, f"Using DEEPSEEK_API_KEY as fallback for OPENAI_API_KEY"
+            return True, "Using DEEPSEEK_API_KEY as fallback for OPENAI_API_KEY"
         return False, "OPENAI_API_KEY is missing. Set with: set \"OPENAI_API_KEY=sk-...\""
     return True, "OK"
 
@@ -80,7 +80,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0 if is_ok else 1
     if not is_ok:
         print(f"[orchestrate] ⚠️ {msg}", file=sys.stderr)
-        print(f"[orchestrate] Pipeline will run but LLM calls will fallback to stub mode.",
+        print("[orchestrate] Pipeline will run but LLM calls will fallback to stub mode.",
               file=sys.stderr)
 
     stamp = dt.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -131,7 +131,7 @@ def main(argv: list[str] | None = None) -> int:
     if run(cmd4) != 0:
         return 1
 
-    print(f"\n[orchestrate] ✅ all stages complete", file=sys.stderr)
+    print("\n[orchestrate] ✅ all stages complete", file=sys.stderr)
     print(f"[orchestrate] intermediates in: {work_dir}", file=sys.stderr)
     print(f"[orchestrate] final output: {out_md}", file=sys.stderr)
     return 0
