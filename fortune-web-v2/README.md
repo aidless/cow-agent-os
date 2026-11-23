@@ -1,3 +1,5 @@
+> The gated offline result for this repository is the root `README.md`, recomputed by `make check`. Sentences below this banner are not part of that check.
+
 # 泰玄小站 · Taixuan Web
 
 > Flask + DeepSeek 写的传统文化解读网站。八派合参(八字、紫微、奇门、六爻、梅花、塔罗、西方占星、吠陀占星),LLM 实时生成解读。

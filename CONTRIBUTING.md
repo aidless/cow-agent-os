@@ -13,11 +13,11 @@ pip install -r requirements.txt   # if present
 ## Verifying your change
 
 ```bash
-python3 checksums.py
+pip install -r requirements.txt
+make check
 ```
 
-If the repository has a `Makefile`, `make check` or the closest equivalent runs the same
-checks as CI. Please run it before opening a pull request.
+`make check` is what CI runs. Please run it before opening a pull request.
 
 ## Pull requests
 

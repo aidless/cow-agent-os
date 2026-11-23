@@ -1,145 +1,128 @@
+An agent workspace still needs an identity, rules, shared memory, and a flow, plus one application that can be tested without a live model.
+cow-agent-os keeps that identity and those rules in Markdown (`AGENT.md`, `RULE.md`, `MEMORY.md`, `WORKFLOW.md`) and anchors them with the Flask app in `fortune-web-v2/`.
+Those rules are documents. This repository does not machine-check them.
+
 # cow-agent-os
 
-> **English TL;DR**: An agent-workspace "OS" layer (identity, rules, shared memory, multi-agent flow) anchored by one real Flask application. Only 2 of 10 test files are green; the other 8 stay red with their root causes documented in CI. Nine committed 2026-07-11 benchmark JSONs can be re-read offline, but they are single-day observations, not cross-configuration conclusions.
+Result. In separate processes, 2 of 10 test files under `fortune-web-v2/tests/` are clean: `tests/test_phase5_lockout.py` (6 passed, 0 failed), `tests/test_phase6_reset_flow.py` (8 passed, 0 failed). `make check` re-reads 9 files `benchmarks/benchmark_*.json`; every `started_at` date is 2026-07-11. qwen3:4b `overall.weighted_composite` in those files spans 0.0 to 0.619. HEAD tracks 337 files. The Flask healthz version is 1.2.0, the same token as the first heading in `fortune-web-v2/CHANGELOG.md`.
 
-[![CI](https://github.com/aidless/cow-agent-os/actions/workflows/ci.yml/badge.svg)](https://github.com/aidless/cow-agent-os/actions/workflows/ci.yml)
+Limits. 8 test files are not clean. Their passed, failed, and error counts are in the table below and are not a repair. Those clean files, run together in one process, record 11 passed and 3 failed (signals: HTTP 429). Separate processes are the run this result calls clean. 7 files have qwen weighted composite 0.0 because every qwen run in that file has `score.len` 0 and no qwen error field. That zero is empty text, not an authentication failure. No qwen run in these JSON files has an error field. The only DeepSeek error string in these files is `HTTPError: HTTP Error 401: Authorization Required`. It appears in 5 files. 5 of those files omit DeepSeek from `overall`. DeepSeek `weighted_composite` is present in 4 files and spans 0.531 to 0.696. Of the 4 files that record both weighted composites, DeepSeek is higher in 3, qwen3:4b is higher in 1, and none are ties. That is not a ranking. `runs_per_prompt` values in the files: 1, 2. Prompt counts: 8. The workspace rules are documents and are not executed. This check does not call a model, does not run `benchmark_llm.py`, and does not walk git history.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+## Withdrawn
 
-An agent operating-system workspace ("泰"): multi-agent flows, a shared memory layer,
-and the rules that govern how agents work here. **Most of the file count is vendored**
-— read [AGENT.md](AGENT.md), [RULE.md](RULE.md), and [MEMORY.md](MEMORY.md) first to
-find which parts are the workspace and which are third-party material that came with it.
+Withdrawn: the qwen composite at the bottom of the range is an HTTP 401. The 401 string above is a DeepSeek error. qwen rows with that bottom score are empty text.
+Withdrawn: the current checkout is mostly vendored third-party code under `tools/` and `knowledge/`. `knowledge/` is workspace notes. `tools/` does not contain the old project trees. Those trees remain in git history; this check does not measure pack size and does not rewrite history.
+Withdrawn: one `runs_per_prompt` for every benchmark file. The values are listed above.
+Withdrawn: a stable DeepSeek win. The per-file comparison counts are above.
+Withdrawn: the two clean test files stay clean when they share a process. The one-process row is in the test table.
 
-> **Vendored content.** This repository contains a large amount of third-party
-> material under `tools/` and `knowledge/`. Those trees are third-party and are not
-> the project's own intent; only `fortune-web-v2/`, `entries/`, `scheduler/`,
-> `skills/`, `installed/`, and the root `*.md` files are the workspace itself.
+## Tests
 
-## 这个项目解决什么问题 / 为什么重要
+Each file runs in its own process. The last row runs the two clean files in one process. Signals are substrings of that pytest output, not a full causal taxonomy.
 
-Agent 系统的日常运行需要一个「OS 层」：身份与边界（`AGENT.md`）、行为规则（`RULE.md`）、
-共享记忆（`MEMORY.md`）、多 agent 流程（`WORKFLOW.md`）。cow-agent-os 把这四件事落成
-**一组可执行的规则文件** + 一个**真实可运行的应用**（`fortune-web-v2/`，Flask 命理咨询站，
-含用户系统、订阅、收藏、限流与合规）。它不是又一个 agent 框架，而是**一个长期运行的
-agent 工作区的治理与运行规范**——「谁是泰、泰能做什么、记忆如何沉淀、出错怎么办」。
+| File | Passed | Failed | Errors | Signals in this run |
+|---|---:|---:|---:|---|
+| `tests/test_app.py` | 3 | 16 | 0 | application context; missing OllamaQwen3Backend |
+| `tests/test_auth_favorites_routes.py` | 5 | 11 | 0 | missing login_attempts; access_token; password policy |
+| `tests/test_llm_backends.py` | 0 | 0 | 1 | missing OllamaQwen3Backend |
+| `tests/test_phase2_e2e.py` | 3 | 1 | 0 | password policy; status 400 vs 200 |
+| `tests/test_phase3_user_aware.py` | 4 | 3 | 0 | access_token; status 400 vs 200 |
+| `tests/test_phase4_favorite_flow.py` | 2 | 4 | 0 | access_token; status 400 vs 200 |
+| `tests/test_phase5_lockout.py` | 6 | 0 | 0 | — |
+| `tests/test_phase6_reset_flow.py` | 8 | 0 | 0 | — |
+| `tests/test_phase7_subscription.py` | 5 | 3 | 0 | IndexError; status 200 vs 400 |
+| `tests/test_user_system.py` | 15 | 4 | 0 | password policy |
+| `tests/test_phase5_lockout.py` + `tests/test_phase6_reset_flow.py` in one process | 11 | 3 | 0 | HTTP 429 |
 
-## 我用了什么方法
+Source facts this check also requires, independent of the counts:
 
-- **规则即代码**：`AGENT.md`（身份/边界 V4）/ `RULE.md`（行为规则）/ `MEMORY.md`（记忆层）/
-  `WORKFLOW.md`（多 agent 流程）以版本化 Markdown 维护，`AGENT_HISTORY.md` 保留 v1.0 迁移史。
-- **真实应用做锚点**：`fortune-web-v2/` 是唯一 CI 测试的自家代码（Flask + SQLite + 多后端 LLM），
-  用真实 HTTP 流测试用户系统、订阅、锁屏、重置、收藏。
-- **基准对比**：`benchmark_llm.py` 跑 DeepSeek vs qwen3:4b 对比（`benchmarks/`，9 组 2026-07-11 实测）。
+- `llm_backends.py` defines `OllamaQwenBackend` and does not define `OllamaQwen3Backend`.
+- `benchmark_llm.py` and `tests/test_llm_backends.py` name `OllamaQwen3Backend`.
+- `_validate_question` in `app.py` calls `jsonify`.
+- `app.py` sets `DB_PATH` from `readings.db`. The one-process failures above are reported from their pytest signals, not attributed to that path by this check.
 
-## 结果如何
+## Benchmark JSON files
 
-- **测试基线（诚实）**：10 个测试文件中 **2 个绿**（`test_phase5_lockout.py` 6 passed /
-  `test_phase6_reset_flow.py` 8 passed），**8 个红**（原因已在 CI 注释逐条列出：`app.py` 的
-  `_validate_question()` 在 application context 外调 `jsonify()`、`llm_backends.py` 的
-  `OllamaQwenBackend`/`OllamaQwen3Backend` 改名未传播、共享 SQLite 状态互相干扰等）。
-  CI 只跑绿的两个（各自独立进程，避免共享 `readings.db` 干扰），其余**如实报告不隐藏**。
-- **基准结果**：`benchmarks/` 9 组报告显示 qwen3:4b 综合分从 0.0（401 认证失败）到 0.619 不等，
-  DeepSeek 在部分维度胜出——但这是 2026-07-11 的单日实测，**不是跨配置结论**。
+Values are the strings stored in each file's `overall` object. `—` means that backend has no `overall` entry. `make check` does not re-score the model output.
 
-## 边界声明（证明什么 / 不证明什么）
+| File | Date | runs/prompt | Prompts | DeepSeek weighted | qwen3:4b weighted | qwen latency (s) | qwen runs | qwen runs with len 0 | DeepSeek error runs |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| `benchmark_20260711_110519.json` | 2026-07-11 | 2 | 8 | — | 0.0 | 7.57 | 16 | 16 | 16 |
+| `benchmark_20260711_111805.json` | 2026-07-11 | 2 | 8 | — | 0.0 | 11.15 | 16 | 16 | 16 |
+| `benchmark_20260711_112407.json` | 2026-07-11 | 2 | 8 | 0.547 | 0.0 | 10.93 | 16 | 16 | 0 |
+| `benchmark_20260711_112923.json` | 2026-07-11 | 2 | 8 | — | 0.0 | 10.92 | 16 | 16 | 16 |
+| `benchmark_20260711_113320.json` | 2026-07-11 | 1 | 8 | — | 0.0 | 10.92 | 8 | 8 | 8 |
+| `benchmark_20260711_113458.json` | 2026-07-11 | 1 | 8 | — | 0.0 | 11.07 | 8 | 8 | 8 |
+| `benchmark_20260711_113711.json` | 2026-07-11 | 2 | 8 | 0.531 | 0.0 | 10.83 | 16 | 16 | 0 |
+| `benchmark_20260711_123129.json` | 2026-07-11 | 2 | 8 | 0.545 | 0.619 | 59.12 | 16 | 0 | 0 |
+| `benchmark_20260711_125745.json` | 2026-07-11 | 2 | 8 | 0.696 | 0.597 | 64.72 | 16 | 0 | 0 |
 
-**Fail-closed 声明**：测试与基准**默认 fail-closed**——8 个当前红的测试文件**不被隐藏、不被当环境问题**，而是在 `.github/workflows/ci.yml` 注释逐条列出真实根因（如 `app.py` 的 `_validate_question()` 在 application context 外调 `jsonify()`、`llm_backends.py` 后端改名未传播、共享 SQLite 状态互相干扰）。CI 只跑绿的两个（各自独立进程避免共享 `readings.db` 干扰），其余**如实报告**。基准的「DeepSeek 胜」不写成稳定结论——明确标注为 2026-07-11 单日实测。缺陷不被掩盖、单日结论不被拔高，是本文档的 fail-closed 立场。
+## Tracked files
 
-**证明（可复算）**：① `fortune-web-v2/tests/test_phase5_lockout.py` 与
-`test_phase6_reset_flow.py` 各自独立进程下全绿；② `benchmarks/` 的 9 组对比文件与
-`benchmark_llm.py` 的写入逻辑一致（`datetime.now().strftime('%Y%m%d_%H%M%S')` 命名）。
-**不证明**：① 应用整体测试通过——8/10 文件当前红，是**仓库内真实缺陷**，非环境问题
-（CI 注释逐条给了根因）；② 基准的「DeepSeek 胜」不是**稳定结论**——2026-07-11 单日、
-单模型、有限 prompt 集；③ 工作区规则（AGENT/RULE/MEMORY/WORKFLOW）**未做机器验证**，
-是文档性规范而非可证明的形式语义。
+Counted with `git ls-files` at HEAD. Largest top-level path: `knowledge` (113 files). The check fails if a new top-level path has no label in `scripts/check_claims.py`.
 
-## 复算（Reproduction）
+| Path | Files | What it is |
+|---|---:|---|
+| `.editorconfig` | 1 | Editor defaults. |
+| `.gitattributes` | 1 | Git attributes. |
+| `.github` | 12 | Workflows and templates. |
+| `.gitignore` | 1 | Ignore rules. |
+| `.gitleaks.toml` | 1 | Secret-scan rules used by the separate gitleaks workflow. |
+| `.gitleaksignore` | 1 | Secret-scan ignore list. |
+| `.pre-commit-config.yaml` | 1 | Optional pre-commit config. |
+| `AGENT.md` | 1 | Workspace identity document. Not machine-checked. |
+| `AGENT_HISTORY.md` | 1 | Identity history. |
+| `CHANGELOG.md` | 1 | Repository changelog. |
+| `CODE_OF_CONDUCT.md` | 1 | Code of conduct. |
+| `CONTRIBUTING.md` | 1 | Contributor guide. |
+| `FAILURE_MODES.md` | 1 | What the check does not prove. |
+| `LICENSE` | 1 | MIT license for this workspace. |
+| `MEMORY.md` | 1 | Workspace memory document. Not machine-checked. |
+| `Makefile` | 1 | Runs make check. |
+| `PREREG.md` | 1 | Questions. Measured numbers sit only in the gated block. |
+| `README.md` | 1 | Gated results, rendered by scripts/check_claims.py. |
+| `RULE.md` | 1 | Workspace rules document. Not machine-checked. |
+| `SECURITY.md` | 1 | Security contact. |
+| `SUPPORT.md` | 1 | Support notes. |
+| `USER.md` | 1 | User-level notes. |
+| `WORKFLOW.md` | 1 | Workspace flow document. Not machine-checked. |
+| `benchmarks` | 18 | Committed benchmark artifacts. The check reads the JSON files only. |
+| `entries` | 1 | A single file, not a directory. |
+| `fortune-web-v2` | 93 | Flask application under test. |
+| `installed` | 8 | Install records. |
+| `knowledge` | 113 | Workspace notes, not a third-party code tree. Non-markdown tracked paths: `knowledge/concepts/arxiv-watch/.ingested-2026-07-10`. |
+| `memory` | 17 | Dated memory notes. |
+| `requirements.txt` | 1 | Points at fortune-web-v2/requirements.txt. |
+| `scheduler` | 1 | Workspace scheduler data. |
+| `scripts` | 1 | Offline check that renders the root README. |
+| `skills` | 43 | Workspace skills. |
+| `tools` | 7 | Pointer README plus historical license copies. Project trees are not in HEAD. |
 
-```bash
-cd cow-agent-os
-# 1) 跑绿的两个测试（各自独立进程，避免共享 readings.db 干扰）
-cd fortune-web-v2
-python -m pytest tests/test_phase5_lockout.py -q      # 6 passed
-python -m pytest tests/test_phase6_reset_flow.py -q   # 8 passed
+## Licenses
 
-# 2) 看 CI 如何如实报告 8 个红文件（含根因）
-sed -n '1,50p' .github/workflows/ci.yml               # 注释即证据
+Workspace license: `LICENSE` and `fortune-web-v2/LICENSE` both start with `MIT License`. Copies of the removed trees' own `LICENSE` files are under `tools/licenses/`, taken from commit `9a7c090ed90c692dc3f15b837c42f718715906b0` (parent of `98ef4fabbf9a993e08badc9ad6e31493fc579a93`, which dropped the trees). This check hashes those copies and reads their headings. It does not resolve the commit and it does not fetch upstream. Upstream URLs stay in `tools/README.md`; this check only requires those URL strings to remain there.
 
-# 3) 重算基准：读一份 json 的汇总（不重跑，避免耗 token）
-python3 -c "import json; d=json.load(open('benchmarks/benchmark_20260711_123129.json')); print(json.dumps(d, ensure_ascii=False)[:400])"
+| Copy | Historical path | Heading read from the copy | Copyright line in the copy | sha256 |
+|---|---|---|---|---|
+| `tools/licenses/AionUi.LICENSE` | `tools/AionUi/AionUi-main/LICENSE` | Apache License 2.0 | — | `a515d5a76da6c082f0d3d33a597bf82e32ecdac8841ed1783ac081ebd6d62ebf` |
+| `tools/licenses/AutoResearchClaw.LICENSE` | `tools/AutoResearchClaw-main/AutoResearchClaw-main/LICENSE` | MIT License | Copyright (c) 2026 Aiming Lab | `4242d33ac3c0a44060197a8d4c5e1c923c613c9aadd873001dcc73389161ac99` |
+| `tools/licenses/Awesome-Hacking.LICENSE` | `tools/Awesome-Hacking/Awesome-Hacking-master/LICENSE` | CC0 1.0 Universal | — | `36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673` |
+| `tools/licenses/ECC.LICENSE` | `tools/ECC/ECC-main/LICENSE` | MIT License | Copyright (c) 2026 Affaan Mustafa | `326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2` |
+| `tools/licenses/TrendRadar.LICENSE` | `tools/TrendRadar-master/TrendRadar-master/LICENSE` | GNU GPL v3 | Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/> | `3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986` |
 
-# 4) 重新生成基准对（需真实 LLM 端点 + key）
-cd fortune-web-v2 && python benchmark_llm.py --runs 2
-```
-
-## Entry points
-
-| Path | Contents |
-|---|---|
-| [AGENT.md](AGENT.md) | who the workspace agent ("泰") is and how it operates |
-| [RULE.md](RULE.md) | the rules agents must follow |
-| [MEMORY.md](MEMORY.md) | the shared memory layer |
-| [WORKFLOW.md](WORKFLOW.md) | the multi-agent flow definition |
-| [USER.md](USER.md) | user-level configuration |
-| [AGENT_HISTORY.md](AGENT_HISTORY.md) | agent activity history |
-| `fortune-web-v2/` | the workspace's own application (Flask) — the only part CI tests |
-| `memory/` | dated memory notes (`YYYY-MM-DD.md`) |
-| `entries/`, `scheduler/`, `skills/`, `installed/` | workspace data and skills |
-| `tools/`, `knowledge/` | vendored third-party trees — left untouched by CI |
-
-Benchmark runs (nine dated pairs, 2026-07-11) are kept in
-`benchmarks/`; the date-stamped filenames are separate runs.
-`fortune-web-v2/benchmark_llm.py` writes a new pair to the current
-directory when it runs.
-
-## License
-
-MIT for the workspace. Vendored material under `tools/` and `knowledge/` keeps its own
-license.
-
-## U1 results table (recomputed 2026-11-11)
-
-The nine committed benchmark reports were parsed offline and their `overall`
-summaries recomputed. `—` means the report has no summary for that backend in
-that run (it is not a zero). Column `runs/p` is `runs_per_prompt`.
-
-| Benchmark file | runs/p | prompts | DeepSeek weighted composite | qwen3:4b weighted composite | qwen3:4b avg latency (s) | Source (path:line) |
-|---|---|---|---|---|---|---|
-| `benchmark_20260711_110519.json` | 2 | 8 | — | 0.0 | 7.57 | `benchmarks/benchmark_20260711_110519.json:511` |
-| `benchmark_20260711_111805.json` | 2 | 8 | — | 0.0 | 11.15 | `benchmarks/benchmark_20260711_111805.json:511` |
-| `benchmark_20260711_112407.json` | 2 | 8 | 0.547 | 0.0 | 10.93 | `benchmarks/benchmark_20260711_112407.json:711` |
-| `benchmark_20260711_112923.json` | 2 | 8 | — | 0.0 | 10.92 | `benchmarks/benchmark_20260711_112923.json:511` |
-| `benchmark_20260711_113320.json` | 1 | 8 | — | 0.0 | 10.92 | `benchmarks/benchmark_20260711_113320.json:351` |
-| `benchmark_20260711_113458.json` | 1 | 8 | — | 0.0 | 11.07 | `benchmarks/benchmark_20260711_113458.json:351` |
-| `benchmark_20260711_113711.json` | 2 | 8 | 0.531 | 0.0 | 10.83 | `benchmarks/benchmark_20260711_113711.json:711` |
-| `benchmark_20260711_123129.json` | 2 | 8 | 0.545 | 0.619 | 59.12 | `benchmarks/benchmark_20260711_123129.json:711` |
-| `benchmark_20260711_125745.json` | 2 | 8 | 0.696 | 0.597 | 64.72 | `benchmarks/benchmark_20260711_125745.json:711` |
-
-Recompute command actually executed for this pass:
+## How to recompute
 
 ```bash
-python3 -c "import json,glob,os; fs=sorted(glob.glob('benchmarks/benchmark_*.json')); \
-print(len(fs),'benchmark files'); [print(os.path.basename(p), json.load(open(p))['overall']) for p in fs]"
-# 9 benchmark files  (full per-file values are in the table above)
+pip install -r requirements.txt
+make check
 ```
 
-Known-failure inventory (unchanged by this pass — the test suite itself is not
-modified here):
+No API key and no live model host. CI runs the same command on Python 3.12 (`.github/workflows/ci.yml` and `.github/workflows/pr-checks.yml`). The check byte-compiles `fortune-web-v2/app.py` and `fortune-web-v2/auth_routes.py`, scans tracked files for an `sk-` token of 20 or more alphanumeric characters, and compares this README to a fresh render. A shallow clone is enough. Git history is not an input.
 
-| Item | Count | Source |
-|---|---|---|
-| Test files under `fortune-web-v2/tests/` | 10 | live `glob test_*.py` |
-| Green test files | 2 | `test_phase5_lockout.py`, `test_phase6_reset_flow.py` (see Reproduction above) |
-| Red test files | 8 | root causes listed in `.github/workflows/ci.yml` comments |
-| Test files named in CI comments (includes the 2 green ones) | 10 | `.github/workflows/ci.yml` |
+## Proposed GitHub About
 
-The benchmark numbers are a single-day (2026-07-11) measurement, not a stable
-ranking: several runs have no DeepSeek summary at all, and qwen3:4b composites
-range from 0.0 to 0.619.
+Agent workspace (泰): identity, rules, shared memory, and the Flask app fortune-web-v2/. HEAD is 337 tracked files and is not a vendored code dump; former tools/ trees are absent (license copies only). Offline check: 2 of 10 test files clean in their own process; 9 benchmark JSON files dated 2026-07-11.
 
-**NOT YET MEASURED in this pass**: the 8 red test files were not repaired and no fresh
-benchmark run was made, so the 0.0 → 0.619 qwen3:4b spread remains a single-day
-(2026-07-11) observation rather than a stable ranking.
+GitHub About is not stored in git. The line above is the text this repository asks for. `make check` regenerates it with the counts.
 
-<!-- figure: pending real measurement -->
+This file is the output of `scripts/check_claims.py`. Change the script, then run `make check`.

@@ -1,28 +1,9 @@
 # CI for cow-agent-os
 #
-# This repository is mostly vendored. The workspace's own application is
-# fortune-web-v2/, and that is the only part with a test suite, so that is what CI
-# touches; the vendored trees under tools/ and knowledge/ are left alone.
-#
-# Scope note, verified by running each file separately on 2026-10-05. The suite is
-# NOT green as a whole, and the failures are pre-existing defects in the repository,
-# not environment or configuration problems:
-#   tests/test_app.py              16 failed, 3 passed
-#     app.py:619/623/629 _validate_question() calls flask.jsonify(), which requires
-#     an application context; the tests never build one, so they raise
-#     "RuntimeError: Working outside of application context."
-#   tests/test_auth_favorites_routes.py  11 failed, 5 passed
-#   tests/test_phase7_subscription.py      3 failed, 5 passed  (IndexError, 200 != 400)
-#   tests/test_phase2_e2e.py               1 failed, 3 passed
-#   tests/test_phase3_user_aware.py        3 failed, 4 passed
-#   tests/test_phase4_favorite_flow.py     4 failed, 2 passed
-#   tests/test_user_system.py              4 failed, 15 passed
-#   tests/test_llm_backends.py  collection error: imports OllamaQwen3Backend, but
-#     llm_backends.py:188 defines OllamaQwenBackend (same unpropagated rename as
-#     taixuan-web)
-# Only tests/test_phase5_lockout.py (6 passed) and tests/test_phase6_reset_flow.py
-# (8 passed) are green today; they are the subset CI runs. Everything else is
-# reported so the gap stays visible instead of being hidden behind an --ignore.
+# make check reruns every fortune-web-v2 test file and rereads the committed
+# benchmark JSON. Counts live in README.md, which the check renders. They are
+# not copied into this file. Failing tests stay visible because the README must
+# match the run, including files that fail.
 name: CI
 
 on:
@@ -43,44 +24,13 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: fortune-web-v2/requirements.txt
+          cache-dependency-path: requirements.txt
       - name: Install application dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r fortune-web-v2/requirements.txt
-      - name: Run the test files that currently pass, each in its own process
-        # app.py:161 sets DB_PATH = LOG_DIR/"readings.db" with no per-test override,
-        # so tests in one pytest process share one SQLite file and interfere: run
-        # together, test_phase5_lockout and test_phase6_reset_flow fail 3 of 14; in
-        # separate processes both are green. Isolating them is the honest way to run
-        # them, not a way to hide the shared-state defect.
-        shell: bash
-        run: |
-          set -euo pipefail
-          cd fortune-web-v2
-          for f in tests/test_phase5_lockout.py tests/test_phase6_reset_flow.py; do
-            echo "== $f"
-            python -m pytest -q "$f"
-          done
-
-      - name: Byte-compile the application
-        working-directory: fortune-web-v2
-        run: python -m compileall -q app.py auth_routes.py
-
-      - name: Report the failing test files
-        shell: bash
-        run: |
-          echo "::warning::these test files fail on this tree and are not run:"
-          for f in tests/test_app.py tests/test_auth_favorites_routes.py \
-                   tests/test_phase7_subscription.py tests/test_phase2_e2e.py \
-                   tests/test_phase3_user_aware.py tests/test_phase4_favorite_flow.py \
-                   tests/test_user_system.py tests/test_llm_backends.py; do
-            [ -f "fortune-web-v2/$f" ] && echo "::warning::  $f"
-          done
-          echo "::warning::app.py:619 _validate_question() calls jsonify() outside an"
-          echo "::warning::application context; llm_backends.py defines OllamaQwenBackend"
-          echo "::warning::but the tests import OllamaQwen3Backend."
-          echo "OK (advisory only)"
+          pip install -r requirements.txt
+      - name: Recompute the README figures
+        run: make check
 
   mutation-control:
     # A suite that cannot fail is decoration. Break something real and require a
@@ -92,7 +42,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: fortune-web-v2/requirements.txt
+          cache-dependency-path: requirements.txt
       - name: Install application dependencies
         run: |
           python -m pip install --upgrade pip
