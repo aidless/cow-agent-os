@@ -8,6 +8,7 @@ Nothing here calls a model or reads git history.
 
 from __future__ import annotations
 
+import difflib
 import hashlib
 import json
 import os
@@ -199,7 +200,10 @@ def run_pytest(args: list[str]) -> tuple[dict[str, int], str, int]:
         text=True,
         capture_output=True,
         check=False,
-        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+        # Pytest truncates the failure summary when CI is unset, which drops
+        # assertion lines such as "400 == 200". GitHub Actions sets CI.
+        # Force it so the signal list is the same on a laptop and in CI.
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1", "CI": "true"},
     )
     text = proc.stdout + "\n" + proc.stderr
     counts = parse_summary(text)
@@ -871,8 +875,23 @@ def main() -> None:
         LICENSES_README.write_text(licenses_doc, encoding="utf-8")
         print("wrote README.md, PREREG.md gated block, tools/licenses/README.md")
         return
-    if README_PATH.read_text(encoding="utf-8") != readme:
-        die("README.md drifted from a fresh render. Run: python3 scripts/check_claims.py --write")
+    current = README_PATH.read_text(encoding="utf-8")
+    if current != readme:
+        diff = "\n".join(
+            difflib.unified_diff(
+                current.splitlines(),
+                readme.splitlines(),
+                fromfile="README.md",
+                tofile="fresh render",
+                lineterm="",
+                n=1,
+            )
+        )
+        die(
+            "README.md drifted from a fresh render. "
+            "Run: python3 scripts/check_claims.py --write\n"
+            + diff[:4000]
+        )
     if PREREG_PATH.read_text(encoding="utf-8") != prereg:
         die("PREREG.md gated block drifted.")
     if LICENSES_README.read_text(encoding="utf-8") != licenses_doc:

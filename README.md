@@ -25,7 +25,7 @@ Each file runs in its own process. The last row runs the two clean files in one 
 | `tests/test_app.py` | 3 | 16 | 0 | application context; missing OllamaQwen3Backend |
 | `tests/test_auth_favorites_routes.py` | 5 | 11 | 0 | missing login_attempts; access_token; password policy |
 | `tests/test_llm_backends.py` | 0 | 0 | 1 | missing OllamaQwen3Backend |
-| `tests/test_phase2_e2e.py` | 3 | 1 | 0 | password policy |
+| `tests/test_phase2_e2e.py` | 3 | 1 | 0 | password policy; status 400 vs 200 |
 | `tests/test_phase3_user_aware.py` | 4 | 3 | 0 | access_token; status 400 vs 200 |
 | `tests/test_phase4_favorite_flow.py` | 2 | 4 | 0 | access_token; status 400 vs 200 |
 | `tests/test_phase5_lockout.py` | 6 | 0 | 0 | — |
