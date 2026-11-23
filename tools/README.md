@@ -22,3 +22,8 @@ Upstream names above were read from each tree's own metadata (`Cargo.toml`,
 `README.md`) or from the project's public sources, not inferred from the folder name.
 For `ECC`, some of its own documentation also writes the repository as
 `affaan-m/everything-claude-code`.
+
+Byte copies of the `LICENSE` files from those removed trees are in
+`tools/licenses/`. `make check` regenerates `tools/licenses/README.md` from
+those bytes. The copies are a record of one historical commit, not a fetch of
+current upstream, and not a restoration of the projects.
